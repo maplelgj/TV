@@ -27,7 +27,7 @@ TVBS,http://50.7.61.148:30080/Entry/tvbs
 
 
 
-香港頻道
+香港頻道,#genre#
 凤凰中文超清,http://223.110.235.3/ott.js.chinamobile.com/PLTV/3/224/3221228057/index.m3u8
 凤凰资讯超清,http://223.110.235.13/ott.js.chinamobile.com/PLTV/3/224/3221228098/index.m3u8
 凤凰香港超清,http://223.110.236.2/ott.js.chinamobile.com/PLTV/3/224/3221228060/index.m3u8
@@ -66,7 +66,7 @@ HKC有线新闻台,https://www.navchina.cf/IPTV/icable.php?id=37
 
 
 
-体育频道
+体育频道,#genre#
 咪咕体育直播1,http://39.134.65.162/PLTV/88888888/224/3221225611/index.m3u8
 咪咕体育直播2,https://play.zkshuye.cn/live/streamcnhd4048.m3u8
 精品体育,http://39.134.66.66/PLTV/88888888/224/3221225526/index.m3u8
@@ -87,7 +87,7 @@ HKC有线新闻台,https://www.navchina.cf/IPTV/icable.php?id=37
 
 
 
-央视高清
+央视高清,#genre#
 CCTV1,http://39.135.129.167/hwottcdn.ln.chinamobile.com/PLTV/-/224/3221225977/index.m3u8
 CCTV1,http://39.135.129.167/hwottcdn.ln.chinamobile.com/PLTV/-/224/3221226190/index.m3u8
 CCTV1,http://39.135.129.167/hwottcdn.ln.chinamobile.com/PLTV/-/224/3221226675/index.m3u8
@@ -130,7 +130,7 @@ CCTV17,http://39.135.129.165/hwottcdn.ln.chinamobile.com/PLTV/-/224/3221226841/i
 CCTV17,http://39.135.129.164/PLTV/88888888/224/3221226594/1.m3u8
 
 
-卫视高清
+卫视高清,#genre#
 东方卫视,http://39.135.129.167/hwottcdn.ln.chinamobile.com/PLTV/-/224/3221225976/index.m3u8
 东方卫视,http://39.135.129.167/hwottcdn.ln.chinamobile.com/PLTV/-/224/3221226187/index.m3u8
 东方卫视,http://39.135.129.167/hwottcdn.ln.chinamobile.com/PLTV/-/224/3221226733/index.m3u8
@@ -200,7 +200,7 @@ CCTV17,http://39.135.129.164/PLTV/88888888/224/3221226594/1.m3u8
 
 
 
-海外频道
+海外频道,#genre#
 CNA,http://d2e1asnsl7br7b.cloudfront.net/7782e205e72f43aeb4a48ec97f66ebbe/index_4.m3u8
 CNN,http://93.190.139.35:8278/streams/d/cnn_antik/playlist.m3u8
 BBCNEWS,http://93.190.139.35:8278/streams/d/bbcworldnews_antik/playlist.m3u8
@@ -209,7 +209,7 @@ BBC3,http://93.190.139.35:8278/streams/d/bbc2_antik/playlist.m3u8
 BBCWorldNews,http://103.199.161.254/Content/bbcworld/Live/Channel(BBCworld)/index.m3u8
 SKYnews,https://skynews2-plutolive-vo.akamaized.net/cdhlsskynewsamericas/1013/05.m3u8
 
-电影频道
+电影频道,#genre#
 斗鱼4K,http://148.70.143.24/cms/yslb/yunshitv/wangyouzhibo/douyu.php?tvplay=9249162
 斗鱼4K,http://epg.112114.xyz/douyu/9249162
 斗鱼4K,http://080880qazwsx.ve5.aihost10.top/dy.php?id=9249162
@@ -226,7 +226,7 @@ CHC高清电影,http://60.255.49.202/live/lnwsCHC-HDH265_4000.m3u8
 
 
 
-TVB埋堆
+TVB埋堆,#genre#
 埋堆堆01,http://121.12.115.162/txdirect.hls.huya.com/src/1199561226091-1199561226091-5434639045542019072-2399122575638-10057-A-0-1.m3u8
 埋堆堆02,http://121.12.115.162/txdirect.hls.huya.com/src/1199561276763-1199561276763-5434856680124841984-2399122676982-10057-A-0-1.m3u8
 埋堆堆03,http://121.12.115.162/txdirect.hls.huya.com/src/1199561219773-1199561219773-5434611909938642944-2399122563002-10057-A-0-1.m3u8
@@ -290,7 +290,7 @@ TVB埋堆
 埋堆堆67,http://121.12.115.162/txdirect.hls.huya.com/src/1199561181026-1199561181026-5434445492840824832-2399122485508-10057-A-0-1.m3u8
 埋堆堆68,http://121.12.115.162/txdirect.hls.huya.com/src/1199561158071-1199561158071-5434346901866545152-2399122439598-10057-A-0-1.m3u8
 
-NEWTV
+NEWTV,#genre#
 NewTV潮妈辣婆,http://117.148.179.43/PLTV/88888888/224/3221229725/index.m3u8
 NewTV潮妈辣婆,http://117.148.179.16/PLTV/88888888/224/3221229031/index.m3u8
 NewTV动作电影,http://117.148.179.15/PLTV/88888888/224/3221229034/index.m3u8
@@ -332,7 +332,7 @@ NewTV热播精选,http://117.148.179.37/PLTV/88888888/224/3221229654/index.m3u8
 
 
 
-IHOT
+IHOT,#genre#
 IHOT爱猎奇,http://117.148.179.50/hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221230097/index.m3u8
 IHOT爱娱乐,http://117.148.179.50/hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221230077/index.m3u8
 IHOT爱幼教,http://117.148.179.50/hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221230086/index.m3u8
