@@ -4,7 +4,6 @@
 TVBS新闻,http://50.7.61.148:30080/Entry/tvbsnews
 TVBS新闻,http://seb.sason.top/sc/tvbsxw_fhd.m3u8
 三立新闻,https://www.chaojidianshi.net/nzbtv/ldlive.php?id=twslxw
-
 东森新闻,http://50.7.61.147:30080/Entry/etnews
 东森新闻,http://seb.sason.top/sc/dsxw_fhd.m3u8
 东森财经新闻,http://seb.sason.top/sc/dscjxw_fhd.m3u8
@@ -85,7 +84,17 @@ HKC有线新闻台,https://www.navchina.cf/IPTV/icable.php?id=37
 篮球,http://stream1.jlntv.cn/lqpd//live.m3u8
 足球,http://nmglive.imfc.cn/5n1r1c/182396.m3u8
 
-
+财经频道,#genre#
+点掌财经,http://cclive.aniu.tv/live/anzb.m3u8
+点掌财经,http://cclive2.aniu.tv/live/anzb.m3u8
+耀才财经台,http://202.69.67.66:443/webcast/bshdlive-pc/playlist.m3u8
+HKC有线财经资讯台,https://api.leonardpark.dev/live/icable/108
+第一财经,http://39.134.39.37/PLTV/88888888/224/3221226172/index.m3u8
+第一财经,http://183.207.255.190/live/program/live/dycjhd/4000000/mnf.m3u8
+第一财经,http://39.134.39.38/PLTV/88888888/224/3221226172/index.m3u8
+HKC有线财经资讯台,https://www.navchina.cf/IPTV/icable.php?id=38
+无线财经,https://cdn-cn.hkdtmb.com/hls/85/index.m3u8
+无线财经,http://185.207.176.189:8080/channels/tv-85/playlist.m3u8#https://cdn.hkdtmb.com/hls/85/index.m3u8
 
 央视高清,#genre#
 CCTV1,http://39.135.129.167/hwottcdn.ln.chinamobile.com/PLTV/-/224/3221225977/index.m3u8
