@@ -108,7 +108,7 @@ CCTV17,http://39.135.129.164/PLTV/88888888/224/3221226594/1.m3u8
 
 台湾頻道,#genre#
 寰宇新闻台,http://58.99.33.16:1935/liveedge17/live_163_3.stream/chunklist.m3u8
-寰宇新聞台,http://gtv.happytv.com.tw/live/jdZ5v00nV19sYXY4/playlist.m3u8
+寰宇新聞2台,http://gtv.happytv.com.tw/live/jdZ5v00nV19sYXY4/playlist.m3u8
 东森新闻台,http://seb.sason.top/sc/dsxw_fhd.m3u8
 东森财经新闻,http://seb.sason.top/sc/dscjxw_fhd.m3u8
 壹新闻,http://stream.nexttv.com.tw/n001/hd/live.m3u8
