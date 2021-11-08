@@ -120,12 +120,11 @@ CCTV发现之旅,http://httpdvb.slave.homed.hrtn.net/playurl?playtype=live&proto
 寰宇新闻台,http://58.99.33.16:1935/liveedge17/live_163_3.stream/chunklist.m3u8
 寰宇新闻台,http://43.128.9.168/jjtv.php?id=35
 寰宇新闻台,http://hstv:hstv2021@tw.hstv.pro/litv/litvts.php?id=litv-longturn14
-寰宇新闻台,http://ms003.happytv.com.tw/live/fkFeyYT8fwboq8Db/index.m3u8
-寰宇新聞台,http://ltv.happytv.com.tw/live/cYbnf0A30p9lFWdO/playlist.m3u8.
+寰宇新闻台,http://ms003.happytv.com.tw/live/fkFeyYT8fwboq8Db/index.m3u8.
 寰宇新聞2台,http://hstv:hstv2021@tw.hstv.pro/litv/litvts.php?id=litv-longturn15
 寰宇新聞2台,http://gtv.happytv.com.tw/live/jdZ5v00nV19sYXY4/playlist.m3u8
-东森新闻台,http://43.128.9.168/jjtv.php?id=38
 东森新闻台,http://50.7.61.147:30080/Entry/etnews
+东森新闻台,http://43.128.9.168/jjtv.php?id=38
 东森新闻台,http://seb.sason.top/sc/dsxw_fhd.m3u8
 东森财经新闻,http://43.128.9.168/jjtv.php?id=39
 东森财经新闻,http://seb.sason.top/sc/dscjxw_fhd.m3u8
