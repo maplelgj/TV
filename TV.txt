@@ -177,9 +177,9 @@ TLC,http://50.7.61.147:30080/Entry/tlc
 翡翠台,https://cdn-cn.hkdtmb.com/hls/81b/index.m3u8
 明珠台,https://cdn-cn.hkdtmb.com/hls/84/index.m3u8
 明珠台,https://cdn-cn.hkdtmb.com/hls/84b/index.m3u8
-明珠台,http://185.207.176.189:8080/channels/tv-84/playlist.m3u8#https://cdn.hkdtmb.com/hls/84/index.m3u8
+明珠台,http://185.207.176.189:8080/channels/tv-84/playlist.m3u8
 无线新闻,https://cdn-cn.hkdtmb.com/hls/83/index.m3u8
-无线新闻,http://185.207.176.189:8080/channels/tv-83/playlist.m3u8#https://cdn.hkdtmb.com/hls/83/index.m3u8
+无线新闻,http://185.207.176.189:8080/channels/tv-83/playlist.m3u8
 无线新闻,http://190.2.133.47:8278/streams/d/Inews/playlist.m3u8
 无线新闻,http://www.chahaoquan.com/wz/epg/tvb.php?id=1
 HKC有线新闻台,https://api.leonardpark.dev/live/icable/109
@@ -196,7 +196,8 @@ HKC有线财经资讯台,https://api.leonardpark.dev/live/icable/108
 第一财经,http://39.134.39.38/PLTV/88888888/224/3221226172/index.m3u8
 HKC有线财经资讯台,https://www.navchina.cf/IPTV/icable.php?id=38
 无线财经,https://cdn-cn.hkdtmb.com/hls/85/index.m3u8
-无线财经,http://185.207.176.189:8080/channels/tv-85/playlist.m3u8#https://cdn.hkdtmb.com/hls/85/index.m3u8
+无线财经,http://185.207.176.189:8080/channels/tv-85/playlist.m3u8
+无线财经,https://cdn.hkdtmb.com/hls/85/index.m3u8
 
 体育频道,#genre#
 咪咕体育直播1,http://39.134.65.162/PLTV/88888888/224/3221225611/index.m3u8
