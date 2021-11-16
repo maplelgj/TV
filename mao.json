@@ -1,5 +1,5 @@
 {
-  "spider": "https://cdn.jsdelivr.net/gh/maplelgj/CatVodTVSpider@master/blob/master/jar/custom_spider.jar",
+"spider": "https://cdn.jsdelivr.net/gh/catvod/CatVodTVSpider@master/blob/master/jar/custom_spider.jar?raw=true;md5;c6ed6bc8285f0aca90e7cb3abf7f9caa",
   "sites": [ 
       {
     "key": "csp_Enlienli",
