@@ -1,4 +1,9 @@
-
+//个人包
+//"spider" : "https://gitee.com/CCSHCoder/APP/raw/master/custom_spider.jar",
+//"spider":"https://gitee.com/wkyilisha/mao/raw/master/custom_spider.jar",
+//"spider":"https://gitee.com/maplelgj/CatVodTVSpider/raw/master/jar/custom_spider.jar",
+//官方包
+"spider" : "https://gitee.com/CCSHCoder/CatVodTVSpider/raw/master/jar/custom_spider.jar",
 {"sites": [ 
   {
     "key": "csp_Auete",
@@ -581,7 +586,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 0,
-      "ext": "https://cdn.jsdelivr.net/gh/lite-cucumber/CatVodTVSpider@master/xpath/egg.json"
+      "ext": "https://cdn.jsdelivr.net/gh/maplelgj/TV@master/xpath/egg.json"
     },
     {
       "key": "csp_yysdali",
@@ -1472,7 +1477,7 @@
 {"name": "解析53","type": 1,"url": "https://api.m3u8.tv:5678/home/api?type=ys&uid=1494542&key=ijmqvwxABEHILMOT48&url="},
 {"name": "解析54","type": 1,"url": "https://api.m3u8.tv:5678/home/api?type=ys&uid=1095368&key=cdgjpsuDFLNRTUVY03&url="}],
 "flags": ["youku","qq","iqiyi","qiyi","letv","sohu","tudou","pptv","mgtv","wasu","bilibili"],
-"spider":"https://gitee.com/wkyilisha/mao/raw/master/custom_spider.jar;md5;71324bbe69b3a59348ceae5e9b9e0a28",
+
 
 
 "ijk": [
