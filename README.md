@@ -1,4 +1,6 @@
- https://raw.iqiq.io/maplelgj/TV/master/m.json
+ https://raw.iqiq.io/maplelgj/TV/master/m.json`  
+ 
+ https://raw.fastgit.org/maplelgj/TV/master/VV`  
 
 
 
@@ -18,7 +20,7 @@ Github 增强 - 高速下载https://greasyfork.org/zh-CN/scripts/412245
 `https://raw.fastgit.org/liu673cn/box/main/m.json`  
 韩国  
 `https://ghproxy.com/https://raw.githubusercontent.com/liu673cn/box/main/m.json`  
-`https://ghproxy.net/https://raw.githubusercontent.com/liu673cn/box/main/m.json`  
+`https://ghproxy.net/https://raw.githubusercontent.com/liu673cn/box/main/m.jsonc 
 
 `https://gcore.jsdelivr.net/gh/liu673cn/box@main/m.json`  
 `https://raw.githubusercontents.com/liu673cn/box/main/m.json`  
