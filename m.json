@@ -42,6 +42,7 @@
 {"key":"csp_xpath_555","name":"555影视(XPath)","type":3,"api":"csp_XPath","searchable":1,"quickSearch":1,"filterable":1,"ext":"https://raw.iqiq.io/maplelgj/TV/master/XP/555.json"},
 {"key":"csp_xpath_naifeiorg","name":"奈飞中文(XPath)","type":3,"api":"csp_XPathMacFilter","searchable":1,"quickSearch":1,"filterable":1,"ext":"https://raw.iqiq.io/maplelgj/TV/master/XP/naifeiorg.json"},
 {"key": "csp_xpath_88kanqiu","name": "dj看球","type": 3,"api": "csp_XPath","searchable": 1,"quickSearch": 1,"filterable": 0,"ext": "https://raw.iqiq.io/maplelgj/TV/master/XP/dj看球.json"},
+{"key": "csp_xpath_88kanqiu","name": "dj看球","type": 3,"api": "csp_XPath","searchable": 1,"quickSearch": 1,"filterable": 0,"ext": "https://raw.iqiq.io/maplelgj/TV/master/XP/17看球.json"},
 {"key": "csp_xpath_88kanqiu","name": "球赛直播","type": 3,"api": "csp_XPath","searchable": 1,"quickSearch": 1,"filterable": 0,"ext": "https://raw.iqiq.io/maplelgj/TV/master/XP/88kanqiu.json"}
 
  
