@@ -5,8 +5,8 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: BWG-VMESS, server: ilikecash666.xyz, port: 23455, type: vmess, uuid: b28782a6-0009-4a54-95f5-ad3bba0c3185, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /9d2667425c05386/, headers: {Host: ilikecash666.xyz}}}
- - {name: heihei006009.tk, server: heihei006009.tk, port: 343, type: vmess, uuid: 7ed04ef6-0f03-42f1-a609-b21a0b3a3181, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /47d5ff16f/, headers: {Host: heihei006009.tk}}}
+  - {name: 🇪🇸 BWG-VMESS, server: ilikecash666.xyz, port: 23455, type: vmess, uuid: b28782a6-0009-4a54-95f5-ad3bba0c3185, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /9d2667425c05386/, headers: {Host: ilikecash666.xyz}}}
+  - {name: heihei006009.tk, server: heihei006009.tk, port: 343, type: vmess, uuid: 7ed04ef6-0f03-42f1-a609-b21a0b3a3181, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /47d5ff16f/, headers: {Host: heihei006009.tk}}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
