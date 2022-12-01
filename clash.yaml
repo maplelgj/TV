@@ -31,24 +31,19 @@ proxy-groups:
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
-      - 🎯 全球直连
       - 🚀 节点选择
-      - 🇪🇸 BWG-VMESS
-      - heihei006009.tk
+      - 🎯 全球直连
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇪🇸 BWG-VMESS
-      - heihei006009.tk
   - name: 📢 谷歌FCM
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
       - 🇪🇸 BWG-VMESS
-      - heihei006009.tk
   - name: 🎯 全球直连
     type: select
     proxies:
