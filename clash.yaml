@@ -17,11 +17,6 @@ proxy-groups:
     type: select
     proxies:
       - DIRECT
-  - name: 🌏 国内媒体
-    type: select
-    proxies:
-      - 🎯 国内流量
-      - ✈️ 节点选择
   - name: 🚀 国外流量
     type: select
     proxies:
