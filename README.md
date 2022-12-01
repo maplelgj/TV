@@ -4,6 +4,7 @@
  
  `https://raw.iqiq.io/maplelgj/TV/main/VV`  
 
+ `https://raw.iqiq.io/maplelgj/TV/main/clash.yaml`  
 
 
 
