@@ -5,6 +5,9 @@
  `https://raw.iqiq.io/maplelgj/TV/main/VV`  
 
  `https://raw.iqiq.io/maplelgj/TV/main/clash.yaml`  
+ 
+ `https://raw.iqiq.io/maplelgj/TV/main/clash.ini`  
+
 
 CLASH订阅转换地址
 https://acl4ssr.netlify.app/
