@@ -1890,12 +1890,14 @@ rules:
  - DOMAIN-SUFFIX,ibytedtos.com,🚀 国外流量
  - DOMAIN-SUFFIX,ipstatp.com,🚀 国外流量
  - DOMAIN-SUFFIX,muscdn.com,🚀 国外流量
+ - DOMAIN-SUFFIX,dandanzan10.top,🚀 国外流量
  - DOMAIN-SUFFIX,musical.ly,🚀 国外流量
  - DOMAIN-SUFFIX,tik-tokapi.com,🚀 国外流量
  - DOMAIN-SUFFIX,tiktok.com,🚀 国外流量
  - DOMAIN-SUFFIX,tiktokcdn.com,🚀 国外流量
  - DOMAIN-SUFFIX,tiktokv.com,🚀 国外流量
  - DOMAIN-KEYWORD,ttvnw,🚀 国外流量
+ - DOMAIN-KEYWORD,tinder,🚀 国外流量
  - DOMAIN-SUFFIX,ext-twitch.tv,🚀 国外流量
  - DOMAIN-SUFFIX,jtvnw.net,🚀 国外流量
  - DOMAIN-SUFFIX,ttvnw.net,🚀 国外流量
