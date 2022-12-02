@@ -14,6 +14,11 @@ https://acl4ssr.netlify.app/
 
 https://acl4ssr-sub.github.io/
 
+acl4ssr仓库地址
+https://github.com/ACL4SSR/ACL4SSR/tree/master
+
+
+
 ### 给英文不好的朋友
 GitHub 中文化插件 https://greasyfork.org/zh-CN/scripts/435208  
 Github 增强 - 高速下载https://greasyfork.org/zh-CN/scripts/412245  
