@@ -12,11 +12,6 @@ proxy-groups:
     type: select
     proxies:
       - DIRECT
-  - name: 📹 YouTube
-    type: select
-    proxies:
-      - 🇪🇸 BWG-VMESS
-      - heihei006009.tk
   - name: 🎶 TikTok
     type: select
     proxies:
@@ -55,12 +50,6 @@ proxy-groups:
     proxies:
       - 🇪🇸 BWG-VMESS
       - heihei006009.tk
-  - name: 🐟 漏网之鱼
-    type: select
-    proxies:
-      - DIRECT
-      - 🇪🇸 BWG-VMESS
-      - heihei006009.tk
   - name: 🍃 应用净化
     type: select
     proxies:
@@ -71,6 +60,12 @@ proxy-groups:
     proxies:
       - REJECT
       - DIRECT
+  - name: 🐟 漏网之鱼
+    type: select
+    proxies:
+      - DIRECT
+      - 🇪🇸 BWG-VMESS
+      - heihei006009.tk
 rules:
  - DOMAIN-SUFFIX,13th.tech,🎯 国内流量
  - DOMAIN-SUFFIX,423down.com,🎯 国内流量
