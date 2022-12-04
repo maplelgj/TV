@@ -14,6 +14,10 @@ https://acl4ssr.netlify.app/
 
 https://acl4ssr-sub.github.io/
 
+
+Clash仓库下载地址
+https://github.com/Fndroid/clash_for_windows_pkg/releases
+
 acl4ssr仓库地址 
 https://github.com/ACL4SSR/ACL4SSR/tree/master
 
