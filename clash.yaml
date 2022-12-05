@@ -11,10 +11,8 @@ external-controller: :9090
 
 # 服务器节点订阅
 proxy-providers:
-  clash: # Provider 名称
-    type: http # http在线获取  file加载本地文件
     url:  https://raw.iqiq.io/maplelgj/TV/main/clash.yaml # 机场给你的clash订阅链接
-    interval: 86400
+  
     
 proxy-groups:
   - name: 🎯 国内流量
@@ -77,63 +75,63 @@ rule-providers:
   🎯 国内流量:
     type: http
     behavior: classical
-    path: ./ChinaMax
-    url: https://raw.iqiq.io/blackmatrix7/ios_rule_script/master/rule/Clash/ChinaMax/ChinaMax_Classical.yaml
+    path: ./rule/ChinaMax.yaml
+    url: https://raw.iqiq.io/blackmatrix7/ios_rule_script/master/rule/Clash/ChinaMax/ChinaMax.yaml
     interval: 86400
     
   🛑 广告拦截:
     type: http
     behavior: classical
-    path: ./Advertising
-    url: https://raw.iqiq.io/blackmatrix7/ios_rule_script/master/rule/Clash/Advertising/Advertising_Classical.yaml
+    path: ./rule/Advertising.yaml
+    url: https://raw.iqiq.io/blackmatrix7/ios_rule_script/master/rule/Clash/Advertising/Advertising.yaml
     interval: 86400
     
     🍎 苹果服务:
     type: http
     behavior: classical
-    path: ./Apple
+    path: ./rule/Apple.yaml
     url: https://raw.iqiq.io/blackmatrix7/ios_rule_script/master/rule/Clash/Apple/Apple.yaml
     interval: 86400
     
     📢 谷歌服务:
     type: http
     behavior: classical
-    path: ./Google
+    path: ./rule/Google.yaml
     url: https://raw.iqiq.io/blackmatrix7/ios_rule_script/master/rule/Clash/Google/Google.yaml
     interval: 86400
     
     Ⓜ️ 微软服务:
     type: http
     behavior: classical
-    path: ./Microsoft
+    path: ./rule/Microsoft.yaml
     url: https://raw.iqiq.io/blackmatrix7/ios_rule_script/master/rule/Clash/Microsoft/Microsoft.yaml
     interval: 86400
     
    🎶 TikTok:
     type: http
     behavior: classical
-    path: ./TikTok
+    path: ./rule/TikTok.yaml
     url: https://raw.iqiq.io/blackmatrix7/ios_rule_script/master/rule/Clash/TikTok/TikTok.yaml
     interval: 86400   
     
    📲 Telegram:
     type: http
     behavior: classical
-    path: ./Telegram
+    path: ./rule/Telegram.yaml
     url: https://raw.iqiq.io/blackmatrix7/ios_rule_script/master/rule/Clash/Telegram/Telegram.yaml
     interval: 86400  
     
   🌍 国外媒体:
     type: http
     behavior: classical
-    path: ./GlobalMedia
+    path: ./rule/GlobalMedia.yaml
     url: https://raw.iqiq.io/blackmatrix7/ios_rule_script/master/rule/Clash/GlobalMedia/GlobalMedia.yaml
     interval: 86400 
     
   🚀 国外流量:
     type: http
     behavior: classical
-    path: ./ProxyLite
+    path: ./rule/ProxyLite.yaml
     url: https://raw.iqiq.io/blackmatrix7/ios_rule_script/master/rule/Clash/ProxyLite/ProxyLite.yaml
     interval: 86400 
     
@@ -142,6 +140,17 @@ rule-providers:
  - DOMAIN-KEYWORD,tinder,🚀 国外流量
  - DOMAIN-KEYWORD,dandanzan10,🚀 国外流量
  - DOMAIN-SUFFIX,dandanzan10.top,🚀 国外流量
+ - RULE-SET,ChinaMax, 🎯 国内流量
+ - RULE-SET,Advertising,🛑 广告拦截
+ - RULE-SET,Apple,🍎 苹果服务
+ - RULE-SET,Google,📢 谷歌服务
+ - RULE-SET,Microsoft,Ⓜ️ 微软服务
+ - RULE-SET,TikTok,🎶 TikTok
+ - RULE-SET,Telegram,📲 Telegram
+ - RULE-SET,GlobalMedia,🌍 国外媒体
+ - RULE-SET,ProxyLite,🚀 国外流量
  - GEOIP,CN,🎯 国内流量
  - MATCH,🐟 漏网之鱼
+ 
+
     
