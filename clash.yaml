@@ -10,13 +10,16 @@ external-controller: :9090
 # 如其他软件导入报错, 请自行补全, 参照此示例 https://docs.metacubex.one/example/ex1
 
 # 服务器节点订阅
-proxy-providers:
-    节点选择: # Provider 名称
-    type: http
-    url:  https://raw.iqiq.io/maplelgj/TV/main/VV # 机场给你的clash订阅链接
-    path: ./proxy_provider/jiedian.yaml # 保存在本地文件的名字，可以随便取
-  
+#proxy-providers:
+  #  节点: # Provider 名称
+  # type: http
+  #  url:  https://raw.iqiq.io/maplelgj/TV/main/VV # 机场给你的clash订阅链接
+  #  path: ./proxy_provider/jiedian.yaml # 保存在本地文件的名字，可以随便取
     
+proxies:
+  - {name: BWG-VMESS, server: 679888.xyz, port: 56788, type: vmess, uuid: b92dfaee-7b1a-4c36-a737-f69f1e67a6ce, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /1edd91/, headers: {Host: 679888.xyz}}}
+  - {name: Racknerd-Vmess, server: heihei006009.tk, port: 343, type: vmess, uuid: 7ed04ef6-0f03-42f1-a609-b21a0b3a3181, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /47d5ff16f/, headers: {Host: heihei006009.tk}}}
+ 
 proxy-groups:
   - name: 🎯 国内流量
     type: select
@@ -25,34 +28,41 @@ proxy-groups:
   - name: 🎶 TikTok
     type: select
     proxies:
-      - 节点选择
+      - BWG-VMESS
+      - Racknerd-Vmess
   - name: 📲 Telegram
     type: select
     proxies:
-      - 节点选择
+      - BWG-VMESS
+      - Racknerd-Vmess
   - name: 📢 谷歌服务
     type: select
     proxies:
-      - 节点选择
+      - BWG-VMESS
+      - Racknerd-Vmess
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 国内流量
-      - 节点选择
+      - BWG-VMESS
+      - Racknerd-Vmess
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🎯 国内流量
-      - 节点选择
+      - BWG-VMESS
+      - Racknerd-Vmess
   - name: 🌍 国外媒体
     type: select
     proxies:
-      - 节点选择
+      - BWG-VMESS
+      - Racknerd-Vmess
       - 🎯 国内流量
   - name: 🚀 国外流量
     type: select
     proxies:
-      - 节点选择
+      - BWG-VMESS
+      - Racknerd-Vmess
   - name: 🛑 广告拦截
     type: select
     proxies:
@@ -62,9 +72,9 @@ proxy-groups:
     type: select
     proxies:
       - DIRECT
-      - 节点选择
-    
-    
+      - BWG-VMESS
+      - Racknerd-Vmess
+ 
 # 规则地址
 rule-providers:
   🎯 国内流量:
