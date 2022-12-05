@@ -144,7 +144,7 @@ rules:
  - DOMAIN-KEYWORD,tinder,🚀 国外流量
  - DOMAIN-KEYWORD,dandanzan10,🚀 国外流量
  - DOMAIN-SUFFIX,dandanzan10.top,🚀 国外流量
- - RULE-SET,ChinaMax, DIRECT
+ - RULE-SET,ChinaMax,🎯 国内流量
  - RULE-SET,Advertising,🛑 广告拦截
  - RULE-SET,Apple,🍎 苹果服务
  - RULE-SET,Google,📢 谷歌服务
