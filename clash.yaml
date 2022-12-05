@@ -77,19 +77,18 @@ proxy-groups:
  
 # 规则地址
 rule-providers:
-  ChinaMax:
+  ChinaMax_Classical:
     type: http
     behavior: classical
     path: ./rule/ChinaMax.yaml
-    url: https://raw.iqiq.io/blackmatrix7/ios_rule_script/master/rule/Clash/ChinaMax/ChinaMax.yaml
+    url: https://raw.iqiq.io/blackmatrix7/ios_rule_script/master/rule/Clash/ChinaMax/ChinaMax_Classical.yaml
     interval: 86400
     
   Advertising_Classical:
     type: http
     behavior: classical
     path: ./rule/Advertising_Classical.yaml
-    url: https://raw.iqiq.io/maplelgj/ios_rule_script/master/rule/Clash/Advertising/Advertising_Classical.yaml
-    interval: 86400
+    url: https://raw.iqiq.io/blackmatrix7/ios_rule_script/master/rule/Clash/Advertising/Advertising_Classical.yaml
     
   ZhihuAds:
     type: http
@@ -168,7 +167,7 @@ rules:
  #- DOMAIN-SUFFIX,dandanzan10.top,🚀 国外流量
  
 # 下面的规则是通过上面的rule-provider来确定的
- - RULE-SET,ChinaMax,🎯 国内流量
+ - RULE-SET,ChinaMax_Classical,🎯 国内流量
  - RULE-SET,Advertising_Classical,🛑 广告拦截
  - RULE-SET,Hijacking,🛑 广告拦截
  - RULE-SET,ZhihuAds,🛑 广告拦截
