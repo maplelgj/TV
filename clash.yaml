@@ -94,7 +94,7 @@ rule-providers:
   ZhihuAds:
     type: http
     behavior: classical
-    path: ./rule/Advertising.yaml
+    path: ./rule/ZhihuAds.yaml
     url: https://raw.iqiq.io/blackmatrix7/ios_rule_script/master/rule/Clash/ZhihuAds/ZhihuAds.yaml
     interval: 86400
     
