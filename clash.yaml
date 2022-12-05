@@ -43,13 +43,13 @@ proxy-groups:
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
-      - 🎯 国内流量
+      - DIRECT
       - BWG-VMESS
       - Racknerd-Vmess
   - name: 🍎 苹果服务
     type: select
     proxies:
-      - 🎯 国内流量
+      - DIRECT
       - BWG-VMESS
       - Racknerd-Vmess
   - name: 🌍 国外媒体
@@ -57,7 +57,7 @@ proxy-groups:
     proxies:
       - BWG-VMESS
       - Racknerd-Vmess
-      - 🎯 国内流量
+      - DIRECT
   - name: 🚀 国外流量
     type: select
     proxies:
@@ -144,15 +144,15 @@ rules:
  - DOMAIN-KEYWORD,tinder,🚀 国外流量
  - DOMAIN-KEYWORD,dandanzan10,🚀 国外流量
  - DOMAIN-SUFFIX,dandanzan10.top,🚀 国外流量
- - RULE-SET,ChinaMax,🎯 国内流量
- - RULE-SET,Advertising,🛑 广告拦截
- - RULE-SET,Apple,🍎 苹果服务
- - RULE-SET,Google,📢 谷歌服务
- - RULE-SET,Microsoft,Ⓜ️ 微软服务
- - RULE-SET,TikTok,🎶 TikTok
- - RULE-SET,Telegram,📲 Telegram
- - RULE-SET,GlobalMedia,🌍 国外媒体
- - RULE-SET,ProxyLite,🚀 国外流量
+ - RULE-SET,🎯 国内流量,DIRECT
+ #- RULE-SET,Advertising,🛑 广告拦截
+ #- RULE-SET,Apple,🍎 苹果服务
+ #- RULE-SET,Google,📢 谷歌服务
+ #- RULE-SET,Microsoft,Ⓜ️ 微软服务
+ #- RULE-SET,TikTok,🎶 TikTok
+ #- RULE-SET,Telegram,📲 Telegram
+ #- RULE-SET,GlobalMedia,🌍 国外媒体
+ #- RULE-SET,ProxyLite,🚀 国外流量
  - GEOIP,CN,DIRECT
  - MATCH,🐟 漏网之鱼
  
