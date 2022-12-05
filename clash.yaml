@@ -16,6 +16,62 @@ proxy-providers:
     url:  https://raw.iqiq.io/maplelgj/TV/main/clash.yaml # 机场给你的clash订阅链接
     interval: 86400
     
+proxy-groups:
+  - name: 🎯 国内流量
+    type: select
+    proxies:
+      - DIRECT
+  - name: 🎶 TikTok
+    type: select
+    proxies:
+      - BWG-VMESS
+      - Racknerd-Vmess
+  - name: 📲 Telegram
+    type: select
+    proxies:
+      - BWG-VMESS
+      - Racknerd-Vmess
+  - name: 📢 谷歌服务
+    type: select
+    proxies:
+      - BWG-VMESS
+      - Racknerd-Vmess
+  - name: Ⓜ️ 微软服务
+    type: select
+    proxies:
+      - 🎯 国内流量
+      - BWG-VMESS
+      - Racknerd-Vmess
+  - name: 🍎 苹果服务
+    type: select
+    proxies:
+      - 🎯 国内流量
+      - BWG-VMESS
+      - Racknerd-Vmess
+  - name: 🌍 国外媒体
+    type: select
+    proxies:
+      - BWG-VMESS
+      - Racknerd-Vmess
+      - 🎯 国内流量
+  - name: 🚀 国外流量
+    type: select
+    proxies:
+      - BWG-VMESS
+      - Racknerd-Vmess
+  - name: 🛑 广告拦截
+    type: select
+    proxies:
+      - REJECT
+      - DIRECT
+  - name: 🐟 漏网之鱼
+    type: select
+    proxies:
+      - DIRECT
+      - BWG-VMESS
+      - Racknerd-Vmess
+    
+    
 # 规则地址
 rule-providers:
   🎯 国内流量:
