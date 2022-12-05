@@ -154,8 +154,9 @@ rules:
  - RULE-SET,Telegram,📲 Telegram
  - RULE-SET,GlobalMedia,🌍 国外媒体
  - RULE-SET,ProxyLite,🚀 国外流量
- - GEOIP,CN,DIRECT
-# - GEOSITE,CN,DIRECT #【Meta专属】
+ - GEOIP,CN,🎯 国内流量
+ - GEOIP,LAN,🎯 国内流量
+#- GEOSITE,CN,🎯 国内流量 #【Meta专属】
  - MATCH,🐟 漏网之鱼
  
 
