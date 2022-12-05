@@ -11,7 +11,9 @@ external-controller: :9090
 
 # 服务器节点订阅
 proxy-providers:
+    type: http
     url:  https://raw.iqiq.io/maplelgj/TV/main/clash.yaml # 机场给你的clash订阅链接
+    path: ./proxy_provider/jiedian.yaml # 保存在本地文件的名字，可以随便取
   
     
 proxy-groups:
@@ -86,35 +88,35 @@ rule-providers:
     url: https://raw.iqiq.io/blackmatrix7/ios_rule_script/master/rule/Clash/Advertising/Advertising.yaml
     interval: 86400
     
-   🍎 苹果服务:
+  🍎 苹果服务:
     type: http
     behavior: classical
     path: ./rule/Apple.yaml
     url: https://raw.iqiq.io/blackmatrix7/ios_rule_script/master/rule/Clash/Apple/Apple.yaml
     interval: 86400
     
-   📢 谷歌服务:
+  📢 谷歌服务:
     type: http
     behavior: classical
     path: ./rule/Google.yaml
     url: https://raw.iqiq.io/blackmatrix7/ios_rule_script/master/rule/Clash/Google/Google.yaml
     interval: 86400
     
-   Ⓜ️ 微软服务:
+  Ⓜ️ 微软服务:
     type: http
     behavior: classical
     path: ./rule/Microsoft.yaml
     url: https://raw.iqiq.io/blackmatrix7/ios_rule_script/master/rule/Clash/Microsoft/Microsoft.yaml
     interval: 86400
     
-   🎶 TikTok:
+  🎶 TikTok:
     type: http
     behavior: classical
     path: ./rule/TikTok.yaml
     url: https://raw.iqiq.io/blackmatrix7/ios_rule_script/master/rule/Clash/TikTok/TikTok.yaml
     interval: 86400   
     
-   📲 Telegram:
+  📲 Telegram:
     type: http
     behavior: classical
     path: ./rule/Telegram.yaml
