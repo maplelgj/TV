@@ -2,6 +2,7 @@
 # 国外域名关键字
 payload:
 - DOMAIN-KEYWORD,tinder
+- DOMAIN-KEYWORD,v2rayssr
 - DOMAIN-KEYWORD,dandanzan10
 
 - DOMAIN-SUFFIX,v2rayssr.com
