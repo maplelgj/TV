@@ -3,10 +3,12 @@
  `https://raw.fastgit.org/maplelgj/TV/main/m2.json`   
  
  `https://raw.iqiq.io/maplelgj/TV/main/VV`  
+ 
+ `https://raw.iqiq.io/maplelgj/TV/main/clash.ini`  
 
  `https://raw.iqiq.io/maplelgj/TV/main/clash.yaml`  
  
- `https://raw.iqiq.io/maplelgj/TV/main/clash.ini`  
+ `https://jsd.cdn.zzko.cn/gh/maplelgj/TV@main/clash.yaml` 
 
 
 CLASH订阅转换地址 
