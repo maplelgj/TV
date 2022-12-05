@@ -155,7 +155,7 @@ rules:
  - RULE-SET,GlobalMedia,🌍 国外媒体
  - RULE-SET,ProxyLite,🚀 国外流量
  - GEOIP,CN,DIRECT
- - GEOSITE,CN,DIRECT #【Meta专属】
+# - GEOSITE,CN,DIRECT #【Meta专属】
  - MATCH,🐟 漏网之鱼
  
 
