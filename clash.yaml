@@ -13,7 +13,7 @@ external-controller: :9090
 proxy-providers:
   clash: # Provider 名称
     type: http # http在线获取  file加载本地文件
-    url:https://raw.iqiq.io/maplelgj/TV/main/clash.yaml # 机场给你的clash订阅链接
+    url:  https://raw.iqiq.io/maplelgj/TV/main/clash.yaml # 机场给你的clash订阅链接
     interval: 86400
     
 # 规则地址
