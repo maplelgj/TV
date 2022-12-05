@@ -137,7 +137,7 @@ rule-providers:
     url: https://raw.iqiq.io/blackmatrix7/ios_rule_script/master/rule/Clash/ProxyLite/ProxyLite.yaml
     interval: 86400 
     
- rules:
+rules:
 # 内容：可以自行添加其它自己想要的规则
  - DOMAIN-KEYWORD,tinder,🚀 国外流量
  - DOMAIN-KEYWORD,dandanzan10,🚀 国外流量
