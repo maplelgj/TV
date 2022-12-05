@@ -11,9 +11,14 @@ external-controller: :9090
 
 # 服务器节点订阅
 proxy-providers:
+    节点选择: # Provider 名称
     type: http
     url:  https://raw.iqiq.io/maplelgj/TV/main/clash.yaml # 机场给你的clash订阅链接
     path: ./proxy_provider/jiedian.yaml # 保存在本地文件的名字，可以随便取
+    health-check:
+    enable: true
+    interval: 600
+    url: http://www.gstatic.com/generate_204
   
     
 proxy-groups:
@@ -24,41 +29,34 @@ proxy-groups:
   - name: 🎶 TikTok
     type: select
     proxies:
-      - BWG-VMESS
-      - Racknerd-Vmess
+      - 节点选择
   - name: 📲 Telegram
     type: select
     proxies:
-      - BWG-VMESS
-      - Racknerd-Vmess
+      - 节点选择
   - name: 📢 谷歌服务
     type: select
     proxies:
-      - BWG-VMESS
-      - Racknerd-Vmess
+      - 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 国内流量
-      - BWG-VMESS
-      - Racknerd-Vmess
+      - 节点选择
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🎯 国内流量
-      - BWG-VMESS
-      - Racknerd-Vmess
+      - 节点选择
   - name: 🌍 国外媒体
     type: select
     proxies:
-      - BWG-VMESS
-      - Racknerd-Vmess
+      - 节点选择
       - 🎯 国内流量
   - name: 🚀 国外流量
     type: select
     proxies:
-      - BWG-VMESS
-      - Racknerd-Vmess
+      - 节点选择
   - name: 🛑 广告拦截
     type: select
     proxies:
@@ -68,8 +66,7 @@ proxy-groups:
     type: select
     proxies:
       - DIRECT
-      - BWG-VMESS
-      - Racknerd-Vmess
+      - 节点选择
     
     
 # 规则地址
@@ -141,7 +138,7 @@ rules:
  - DOMAIN-KEYWORD,tinder,🚀 国外流量
  - DOMAIN-KEYWORD,dandanzan10,🚀 国外流量
  - DOMAIN-SUFFIX,dandanzan10.top,🚀 国外流量
- - RULE-SET,ChinaMax, 🎯 国内流量
+ - RULE-SET,ChinaMax, DIRECT
  - RULE-SET,Advertising,🛑 广告拦截
  - RULE-SET,Apple,🍎 苹果服务
  - RULE-SET,Google,📢 谷歌服务
@@ -150,7 +147,7 @@ rules:
  - RULE-SET,Telegram,📲 Telegram
  - RULE-SET,GlobalMedia,🌍 国外媒体
  - RULE-SET,ProxyLite,🚀 国外流量
- - GEOIP,CN,🎯 国内流量
+ - GEOIP,CN,DIRECT
  - MATCH,🐟 漏网之鱼
  
 
