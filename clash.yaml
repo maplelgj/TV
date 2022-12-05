@@ -91,6 +91,13 @@ rule-providers:
     url: https://raw.iqiq.io/blackmatrix7/ios_rule_script/master/rule/Clash/Advertising/Advertising.yaml
     interval: 86400
     
+  Hijacking:
+    type: http
+    behavior: classical
+    path: ./rule/Hijacking.yaml
+    url: https://raw.iqiq.io/blackmatrix7/ios_rule_script/master/rule/Clash/Hijacking/Hijacking.yaml
+    interval: 86400
+    
   Apple:
     type: http
     behavior: classical
@@ -156,6 +163,7 @@ rules:
 # 下面的规则是通过上面的rule-provider来确定的
  - RULE-SET,ChinaMax,🎯 国内流量
  - RULE-SET,Advertising,🛑 广告拦截
+ - RULE-SET,Hijacking,🛑 广告拦截
  - RULE-SET,Apple,🍎 苹果服务
  - RULE-SET,Google,📢 谷歌服务
  - RULE-SET,Microsoft,Ⓜ️ 微软服务
