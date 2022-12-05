@@ -147,11 +147,11 @@ rule-providers:
     url: https://raw.iqiq.io/blackmatrix7/ios_rule_script/master/rule/Clash/GlobalMedia/GlobalMedia.yaml
     interval: 86400 
     
-  ProxyLite:
+  Proxy_Classical:
     type: http
     behavior: classical
     path: ./rule/ProxyLite.yaml
-    url: https://raw.iqiq.io/blackmatrix7/ios_rule_script/master/rule/Clash/ProxyLite/ProxyLite.yaml
+    url: https://raw.iqiq.io/maplelgj/ios_rule_script/master/rule/Clash/Proxy/Proxy_Classical.yaml
     interval: 86400    
     
   GFW:
@@ -178,7 +178,7 @@ rules:
  - RULE-SET,TikTok,🎶 TikTok
  - RULE-SET,Telegram,📲 Telegram
  - RULE-SET,GlobalMedia,🌍 国外媒体
- - RULE-SET,ProxyLite,🚀 国外流量
+ - RULE-SET,Proxy_Classical,🚀 国外流量
  - RULE-SET,GFW,🚀 国外流量
  - GEOIP,CN,🎯 国内流量
  - GEOIP,LAN,🎯 国内流量
