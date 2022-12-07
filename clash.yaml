@@ -31,16 +31,13 @@ experimental:
 dns:
   enable: true # 是否启用dns false
   ipv6: false
-  listen: 0.0.0.0:53
+  listen: 0.0.0.0:53 # 开启 DNS 服务器监听
   enhanced-mode: fake-ip # 模式：redir-host或fake-ip
-  use-hosts: true  
+  #use-hosts: true   # 查询 hosts
   fake-ip-range: 198.18.0.1/16 #
-  fake-ip-filter: # fake ip 白名单列表，如果你不知道这个参数的作用，请勿修改
-     - '*.lan'
-     - localhost.ptlogin2.qq.com
-     - "dns.msftncsi.com"
-     - "www.msftncsi.com"
-     - "www.msftconnecttest.com"  
+  #fake-ip-filter: # fake ip 白名单列表，配置不使用fake-ip的域名
+     #- '*.lan'
+     #- localhost.ptlogin2.qq.com
   nameserver:
      - 223.5.5.5 # 阿里DNS
      - 180.76.76.76 # 百度DNS
@@ -48,23 +45,27 @@ dns:
      - 117.50.11.11 # ONE DNS拦截版 恶意网站拦截、广告过滤
      - 117.50.10.10 # ONE DNS纯净版 直接返回其真实的响应结果
      - 114.114.114.114 # 114DNS
-     - https://dns.alidns.com/dns-query # 阿里 DoH DNS
-     - https://doh.360.cn/dns-query # 360 DoH DNS
-  fallback:
      - 8.8.8.8 # 谷歌DNS
      - 1.1.1.1 # Cloudflare DNS
      - tls://dns.rubyfish.cn:853
      - tls://1.0.0.1:853
      - tls://dns.google:853
+     - https://dns.alidns.com/dns-query # 阿里 DoH DNS
+     - https://doh.360.cn/dns-query # 360 DoH DNS
+   #fallback:
+     #- 8.8.8.8 # 谷歌DNS
+     #- 1.1.1.1 # Cloudflare DNS
+     #- tls://dns.rubyfish.cn:853
+     #- tls://1.0.0.1:853
+     #- tls://dns.google:853
      #- https://dns.rubyfish.cn/dns-query
      #- https://cloudflare-dns.com/dns-query
      #- https://dns.google/dns-query
-  fallback-filter:
-     geoip: true # 默认
-     ipcidr: # 在这个网段内的 IP 地址会被考虑为被污染的 IP
-       - 240.0.0.0/4
-
-
+  #fallback-filter:
+    #geoip: true # 默认
+    #geoip-code: CN # 当 nameserver 域名的 IP 查询 geoip 库为 CN 时，不使用 fallback 中的 DNS 查询结果
+    #ipcidr: # 在这个网段内的 IP 地址会被考虑为被污染的 IP
+     #  - 240.0.0.0/4
 
 # 服务器节点订阅
 #proxy-providers:
@@ -237,8 +238,8 @@ rules:
  - RULE-SET,Proxy_Classical,🚀 国外流量
  - RULE-SET,GFW,🚀 国外流量
  - GEOSITE,CN,🎯 国内流量 #【Meta专属】
- - GEOIP,CN,🎯 国内流量
- - GEOIP,LAN,🎯 国内流量
+#- GEOIP,CN,🎯 国内流量
+#- GEOIP,LAN,🎯 国内流量
  - MATCH,🐟 漏网之鱼
  
 
