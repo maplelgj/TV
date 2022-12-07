@@ -2,7 +2,7 @@
  
   `https://cdn.staticaly.com/gh/maplelgj/TV/main/m.json`  
  
- `https://raw.fastgit.org/maplelgj/TV/main/m2.json`   
+ `https://raw.fastgit.org/maplelgj/TV/main/m.json`   
  
  `https://raw.iqiq.io/maplelgj/TV/main/VV`  
  
