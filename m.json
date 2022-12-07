@@ -1,6 +1,6 @@
 {
-  "spider":"https://raw.iqiq.io/maplelgj/TV/main/jar/spider2207.jar",
-  "spider":"https://raw.iqiq.io/maplelgj/TV/main/jar/2925.jar",
+  "spider":"https://cdn.staticaly.com/gh/maplelgj/TV/main/jar/spider2207.jar",
+  "spider":"https://cdn.staticaly.com/gh/maplelgj/TV/main/jar/2925.jar",
 
 
 "lives": [
@@ -23,20 +23,20 @@
 {"key": "360_spider","name":"360影视","api":"csp_SP360","type":3,"filterable":1,"quickSearch":1,"searchable":1,"ext":""},
 
   
-{"key":"csp_xpath_cokemv","name":"Cokemv(XPath)","type":3,"api":"csp_XPathFilter","searchable":1,"quickSearch":1,"filterable":1,"ext":"https://raw.iqiq.io/maplelgj/TV/main/XP/cokemv.json"},
-{"key":"csp_xp_zxzj2","name":"在线之家(XPath)","type":3,"api":"csp_XPathFilter","searchable":1,"quickSearch":1,"filterable":1,"ext":"https://raw.iqiq.io/liu673cn/box/main/sub/MeowXP/zxzj2.json"},
-{"key":"csp_xpath_jbb","name":"剧白白(XPath)","type":3,"api":"csp_XPathMacFilter","searchable":1,"quickSearch":1,"filterable":1,"ext":"https://raw.iqiq.io/maplelgj/TV/main/XP/jubaibai.json"},
-{"key":"csp_xpath_ddg","name":"达达龟(XPath)","type":3,"api":"csp_XPathFilter","searchable":1,"quickSearch":1,"filterable":1,"ext":"https://raw.iqiq.io/maplelgj/TV/main/XP/dadagui.json"},
-{"key":"csp_xpath_lib","name":"LIBVIO(XPath)","type":3,"api":"csp_XPathFilter","searchable":1,"quickSearch":1,"filterable":1,"ext":"https://raw.iqiq.io/maplelgj/TV/main/XP/libvio.json"},
-{"key":"csp_xpath_lezhutv","name":"乐猪TV(XPath)","type":3,"api":"csp_XPathMac","searchable":1,"quickSearch":1,"filterable":0,"ext":"https://raw.iqiq.io/maplelgj/TV/main/XP/lezhutv.json"},
-{"key":"csp_XPath_bidiys","name":"哔嘀影视(XPath)","type":3,"api":"csp_XPath","searchable":1,"quickSearch":1,"filterable":0,"ext":"https://raw.iqiq.io/maplelgj/TV/main/XP/bidiys2.json"},
-{"key":"csp_xpath_jLgyy","name":"蓝光影院(XPF)","type":3,"api":"csp_XPathFilter","searchable":1,"quickSearch":1,"filterable":1,"ext":"https://raw.iqiq.io/maplelgj/TV/main/XP/lgyy.json"},
-{"key":"csp_xpath_vip1280","name":"VIP电影(XPath)","type":3,"api":"csp_XPath","searchable":1,"quickSearch":1,"filterable":0,"ext":"https://raw.iqiq.io/maplelgj/TV/main/XP/vip1280.json"},
-{"key":"csp_xpath_555","name":"555影视(XPath)","type":3,"api":"csp_XPath","searchable":1,"quickSearch":1,"filterable":1,"ext":"https://raw.iqiq.io/maplelgj/TV/main/XP/555.json"},
-{"key":"csp_xpath_naifeiorg","name":"奈飞中文(XPath)","type":3,"api":"csp_XPathMacFilter","searchable":1,"quickSearch":1,"filterable":1,"ext":"https://raw.iqiq.io/maplelgj/TV/main/XP/naifeiorg.json"},
-{"key":"csp_xp_球迷直播","name":"🏀dj看球","type": 3,"api": "csp_XPath","searchable": 1,"quickSearch": 1,"filterable": 0,"ext": "https://raw.iqiq.io/maplelgj/TV/main/XP/dj看球.json"},
-{"key":"csp_QB_17kan","name":"⚽17看球","type": 3,"api": "csp_XPath","searchable": 1,"quickSearch": 1,"filterable": 0,"ext": "https://raw.iqiq.io/maplelgj/TV/main/XP/17看球.json"},
-{"key": "csp_xpath_88kanqiu","name": "88看球","type": 3,"api": "csp_XPath","searchable": 1,"quickSearch": 1,"filterable": 0,"ext": "https://raw.iqiq.io/maplelgj/TV/main/XP/88kanqiu.json"}
+{"key":"csp_xpath_cokemv","name":"Cokemv(XPath)","type":3,"api":"csp_XPathFilter","searchable":1,"quickSearch":1,"filterable":1,"ext":"https://cdn.staticaly.com/gh/maplelgj/TV/main/XP/cokemv.json"},
+{"key":"csp_xp_zxzj2","name":"在线之家(XPath)","type":3,"api":"csp_XPathFilter","searchable":1,"quickSearch":1,"filterable":1,"ext":"https://cdn.staticaly.com/gh/liu673cn/box/main/sub/MeowXP/zxzj2.json"},
+{"key":"csp_xpath_jbb","name":"剧白白(XPath)","type":3,"api":"csp_XPathMacFilter","searchable":1,"quickSearch":1,"filterable":1,"ext":"https://cdn.staticaly.com/gh/maplelgj/TV/main/XP/jubaibai.json"},
+{"key":"csp_xpath_ddg","name":"达达龟(XPath)","type":3,"api":"csp_XPathFilter","searchable":1,"quickSearch":1,"filterable":1,"ext":"https://cdn.staticaly.com/gh/maplelgj/TV/main/XP/dadagui.json"},
+{"key":"csp_xpath_lib","name":"LIBVIO(XPath)","type":3,"api":"csp_XPathFilter","searchable":1,"quickSearch":1,"filterable":1,"ext":"https://cdn.staticaly.com/gh/maplelgj/TV/main/XP/libvio.json"},
+{"key":"csp_xpath_lezhutv","name":"乐猪TV(XPath)","type":3,"api":"csp_XPathMac","searchable":1,"quickSearch":1,"filterable":0,"ext":"https://cdn.staticaly.com/gh/maplelgj/TV/main/XP/lezhutv.json"},
+{"key":"csp_XPath_bidiys","name":"哔嘀影视(XPath)","type":3,"api":"csp_XPath","searchable":1,"quickSearch":1,"filterable":0,"ext":"https://cdn.staticaly.com/gh/maplelgj/TV/main/XP/bidiys2.json"},
+{"key":"csp_xpath_jLgyy","name":"蓝光影院(XPF)","type":3,"api":"csp_XPathFilter","searchable":1,"quickSearch":1,"filterable":1,"ext":"https://cdn.staticaly.com/gh/maplelgj/TV/main/XP/lgyy.json"},
+{"key":"csp_xpath_vip1280","name":"VIP电影(XPath)","type":3,"api":"csp_XPath","searchable":1,"quickSearch":1,"filterable":0,"ext":"https://cdn.staticaly.com/gh/maplelgj/TV/main/XP/vip1280.json"},
+{"key":"csp_xpath_555","name":"555影视(XPath)","type":3,"api":"csp_XPath","searchable":1,"quickSearch":1,"filterable":1,"ext":"https://cdn.staticaly.com/gh/maplelgj/TV/main/XP/555.json"},
+{"key":"csp_xpath_naifeiorg","name":"奈飞中文(XPath)","type":3,"api":"csp_XPathMacFilter","searchable":1,"quickSearch":1,"filterable":1,"ext":"https://cdn.staticaly.com/gh/maplelgj/TV/main/XP/naifeiorg.json"},
+{"key":"csp_xp_球迷直播","name":"🏀dj看球","type": 3,"api": "csp_XPath","searchable": 1,"quickSearch": 1,"filterable": 0,"ext": "https://cdn.staticaly.com/gh/maplelgj/TV/main/XP/dj看球.json"},
+{"key":"csp_QB_17kan","name":"⚽17看球","type": 3,"api": "csp_XPath","searchable": 1,"quickSearch": 1,"filterable": 0,"ext": "https://cdn.staticaly.com/gh/maplelgj/TV/main/XP/17看球.json"},
+{"key": "csp_xpath_88kanqiu","name": "88看球","type": 3,"api": "csp_XPath","searchable": 1,"quickSearch": 1,"filterable": 0,"ext": "https://cdn.staticaly.com/gh/maplelgj/TV/main/XP/88kanqiu.json"}
 
  
 ],
