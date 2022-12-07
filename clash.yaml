@@ -1,22 +1,46 @@
-mixed-port: 7890 
-# port: 7890
-# socks-port: 7891 
-# redir-port: 7892 
-#allow-lan: true  
-ipv6: true
-mode: rule 
-log-level: info 
-external-controller: 0.0.0.0:9090
+# 混合端口 HTTP和SOCKS5用一个端口
+mixed-port: 7890
 
+# HTTP 代理端口
+#port: 7890
+
+# SOCKS5 代理端口
+#socks-port: 7891
+
+# Linux 和 macOS 的 redir 代理端口 (如需使用此功能，请取消注释)
+# redir-port: 7892
+
+# 允许局域网的连接（可用来共享代理）
+#allow-lan: true
+
+#ipv6: true
+
+# 规则模式：rule（规则） / global（全局代理）/ direct（全局直连）/ script (脚本)
+mode: rule
+
+# 5 个级别：silent / error / warning / info / debug。级别越高日志输出量越大，越倾向于调试，若需要请自行开启。
+log-level: info
+
+# Clash 的 RESTful API
+external-controller: 127.0.0.1:9090
+
+# 实验性功能
+experimental:
+  ignore-resolve-fail: true # 忽略 DNS 解析失败，默认值为 true
+  # interface-name: en0 # outbound interface name
 dns:
-  enable: false # 是否启用dns false
-  #ipv6: false
+  enable: true # 是否启用dns false
+  ipv6: false
   listen: 0.0.0.0:53
   enhanced-mode: fake-ip # 模式：redir-host或fake-ip
+  use-hosts: true  
   fake-ip-range: 198.18.0.1/16 #
-  #fake-ip-filter: # fake ip 白名单列表，如果你不知道这个参数的作用，请勿修改
-     #- '*.lan'
-     #- localhost.ptlogin2.qq.com
+  fake-ip-filter: # fake ip 白名单列表，如果你不知道这个参数的作用，请勿修改
+     - '*.lan'
+     - localhost.ptlogin2.qq.com
+     - "dns.msftncsi.com"
+     - "www.msftncsi.com"
+     - "www.msftconnecttest.com"  
   nameserver:
      - 223.5.5.5 # 阿里DNS
      - 180.76.76.76 # 百度DNS
@@ -24,13 +48,21 @@ dns:
      - 117.50.11.11 # ONE DNS拦截版 恶意网站拦截、广告过滤
      - 117.50.10.10 # ONE DNS纯净版 直接返回其真实的响应结果
      - 114.114.114.114 # 114DNS
+     - https://dns.alidns.com/dns-query # 阿里 DoH DNS
+     - https://doh.360.cn/dns-query # 360 DoH DNS
+  fallback:
      - 8.8.8.8 # 谷歌DNS
      - 1.1.1.1 # Cloudflare DNS
      - tls://dns.rubyfish.cn:853
      - tls://1.0.0.1:853
      - tls://dns.google:853
-     - https://dns.alidns.com/dns-query # 阿里 DoH DNS
-     - https://doh.360.cn/dns-query # 360 DoH DNS
+     #- https://dns.rubyfish.cn/dns-query
+     #- https://cloudflare-dns.com/dns-query
+     #- https://dns.google/dns-query
+  fallback-filter:
+     geoip: true # 默认
+     ipcidr: # 在这个网段内的 IP 地址会被考虑为被污染的 IP
+       - 240.0.0.0/4
 
 
 
