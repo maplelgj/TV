@@ -237,9 +237,9 @@ rules:
  - RULE-SET,GlobalMedia,🌍 国外媒体
  - RULE-SET,Proxy_Classical,🚀 国外流量
  - RULE-SET,GFW,🚀 国外流量
- - GEOSITE,CN,🎯 国内流量 #【Meta专属】
-#- GEOIP,CN,🎯 国内流量
-#- GEOIP,LAN,🎯 国内流量
+#- GEOSITE,CN,🎯 国内流量 #【Meta专属】
+ - GEOIP,CN,🎯 国内流量
+ - GEOIP,LAN,🎯 国内流量
  - MATCH,🐟 漏网之鱼
  
 
