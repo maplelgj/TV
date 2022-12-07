@@ -145,8 +145,8 @@ rule-providers:
   Advertising_Classical:
     type: http
     behavior: classical
-    path: ./rule/Advertising.yaml
-    url: https://cdn.staticaly.com/gh/blackmatrix7/ios_rule_script/master/rule/Clash/Advertising/Advertising.yaml
+    path: ./rule/Advertising_Classical.yaml
+    url: https://cdn.staticaly.com/gh/blackmatrix7/ios_rule_script/master/rule/Clash/Advertising/Advertising_Classical.yaml
     
   ZhihuAds:
     type: http
