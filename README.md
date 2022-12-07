@@ -4,7 +4,13 @@
  
  `https://raw.fastgit.org/maplelgj/TV/main/m.json`   
  
- `https://raw.iqiq.io/maplelgj/TV/main/VV`  
+ 
+ 
+ `https://raw.fastgit.org/maplelgj/TV/main/VV`  
+ 
+ `https://cdn.staticaly.com/gh/maplelgj/TV/main/VV`  
+ 
+ 
  
  `https://raw.iqiq.io/maplelgj/TV/main/clash.ini`  
 
