@@ -1,0 +1,204 @@
+# 混合端口 HTTP和SOCKS5用一个端口
+mixed-port: 7890
+# HTTP 代理端口
+#port: 7890
+# SOCKS5 代理端口
+#socks-port: 7891
+# Linux 和 macOS 的 redir 代理端口 (如需使用此功能，请取消注释)
+# redir-port: 7892
+# 允许局域网的连接（可用来共享代理）
+allow-lan: true
+#ipv6: true
+# 规则模式：rule（规则） / global（全局代理）/ direct（全局直连）/ script (脚本)
+mode: rule
+# 5 个级别：silent / error / warning / info / debug。级别越高日志输出量越大，越倾向于调试，若需要请自行开启。
+log-level: info
+
+# Clash 的 RESTful API
+external-controller: 127.0.0.1:9090
+
+# 实验性功能
+experimental:
+  ignore-resolve-fail: true # 忽略 DNS 解析失败，默认值为 true
+  # interface-name: en0 # outbound interface name
+dns:
+  enable: true # 是否启用dns false
+  ipv6: false
+  listen: 0.0.0.0:53 # 开启 DNS 服务器监听
+  enhanced-mode: fake-ip # 模式：redir-host或fake-ip
+  #use-hosts: true   # 查询 hosts
+  fake-ip-range: 198.18.0.1/16 #
+  #fake-ip-filter: # fake ip 白名单列表，配置不使用fake-ip的域名
+     #- '*.lan'
+     #- localhost.ptlogin2.qq.com
+  nameserver:
+     - 223.5.5.5 # 阿里DNS
+     - 180.76.76.76 # 百度DNS
+     - 119.29.29.29 # 腾讯DNS
+     - 117.50.11.11 # ONE DNS拦截版 恶意网站拦截、广告过滤
+     - 117.50.10.10 # ONE DNS纯净版 直接返回其真实的响应结果
+     - 114.114.114.114 # 114DNS
+     - 8.8.8.8 # 谷歌DNS
+     - 1.1.1.1 # Cloudflare DNS
+     - tls://dns.rubyfish.cn:853
+     - tls://1.0.0.1:853
+     - tls://dns.google:853
+     - https://dns.alidns.com/dns-query # 阿里 DoH DNS
+     - https://doh.360.cn/dns-query # 360 DoH DNS
+
+# 服务器节点订阅
+#proxy-providers:
+  #  节点: # Provider 名称
+  # type: http
+  #  url:  https://raw.iqiq.io/maplelgj/TV/main/VV # 机场给你的clash订阅链接
+  #  path: ./proxy_provider/jiedian.yaml # 保存在本地文件的名字，可以随便取
+    
+proxies:
+  - {name: BWG-VMESS, server: 679888.xyz, port: 56788, type: vmess, uuid: b92dfaee-7b1a-4c36-a737-f69f1e67a6ce, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /1edd91/, headers: {Host: 679888.xyz}}}
+  - {name: Racknerd-Vmess, server: heihei006009.tk, port: 343, type: vmess, uuid: 7ed04ef6-0f03-42f1-a609-b21a0b3a3181, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /47d5ff16f/, headers: {Host: heihei006009.tk}}}
+ 
+proxy-groups:
+  - name: 🎯 国内流量
+    type: select
+    proxies:
+      - DIRECT
+  - name: 🎶 TikTok
+    type: select
+    proxies:
+      - BWG-VMESS
+      - Racknerd-Vmess
+  - name: 📲 Telegram
+    type: select
+    proxies:
+      - BWG-VMESS
+      - Racknerd-Vmess
+  - name: 📢 谷歌服务
+    type: select
+    proxies:
+      - BWG-VMESS
+      - Racknerd-Vmess
+
+  - name: 🍎 苹果服务
+    type: select
+    proxies:
+      - DIRECT
+      - BWG-VMESS
+      - Racknerd-Vmess
+  - name: 🌍 国外媒体
+    type: select
+    proxies:
+      - BWG-VMESS
+      - Racknerd-Vmess
+      - DIRECT
+  - name: 🚀 国外流量
+    type: select
+    proxies:
+      - BWG-VMESS
+      - Racknerd-Vmess
+  - name: 🛑 广告拦截
+    type: select
+    proxies:
+      - REJECT
+      - DIRECT
+  - name: 🐟 漏网之鱼
+    type: select
+    proxies:
+      - DIRECT
+      - BWG-VMESS
+      - Racknerd-Vmess
+ 
+# 规则地址
+rule-providers:
+  ChinaMax_Classical:
+    type: http
+    behavior: classical
+    path: ./rule/ChinaMax_Classical.yaml
+    url: https://cdn.staticaly.com/gh/blackmatrix7/ios_rule_script/master/rule/Clash/ChinaMax/ChinaMax_Classical.yaml
+    interval: 86400
+    
+  Advertising_Classical:
+    type: http
+    behavior: classical
+    path: ./rule/Advertising_Classical.yaml
+    url: https://cdn.staticaly.com/gh/blackmatrix7/ios_rule_script/master/rule/Clash/Advertising/Advertising_Classical.yaml
+    
+  ZhihuAds:
+    type: http
+    behavior: classical
+    path: ./rule/ZhihuAds.yaml
+    url: https://cdn.staticaly.com/gh/blackmatrix7/ios_rule_script/master/rule/Clash/ZhihuAds/ZhihuAds.yaml
+    interval: 86400
+    
+  Apple:
+    type: http
+    behavior: classical
+    path: ./rule/Apple.yaml
+    url: https://cdn.staticaly.com/gh/blackmatrix7/ios_rule_script/master/rule/Clash/Apple/Apple.yaml
+    interval: 86400
+    
+  Google:
+    type: http
+    behavior: classical
+    path: ./rule/Google.yaml
+    url: https://cdn.staticaly.com/gh/blackmatrix7/ios_rule_script/master/rule/Clash/Google/Google.yaml
+    interval: 86400
+    
+  TikTok:
+    type: http
+    behavior: classical
+    path: ./rule/TikTok.yaml
+    url: https://cdn.staticaly.com/gh/blackmatrix7/ios_rule_script/master/rule/Clash/TikTok/TikTok.yaml
+    interval: 86400   
+    
+  Telegram:
+    type: http
+    behavior: classical
+    path: ./rule/Telegram.yaml
+    url: https://cdn.staticaly.com/gh/blackmatrix7/ios_rule_script/master/rule/Clash/Telegram/Telegram.yaml
+    interval: 86400  
+    
+  GlobalMedia:
+    type: http
+    behavior: classical
+    path: ./rule/GlobalMedia.yaml
+    url: https://cdn.staticaly.com/gh/blackmatrix7/ios_rule_script/master/rule/Clash/GlobalMedia/GlobalMedia.yaml
+    interval: 86400 
+    
+  Proxy_Classical:
+    type: http
+    behavior: classical
+    path: ./rule/Proxy_Classical.yaml
+    url: https://cdn.staticaly.com/gh/blackmatrix7/ios_rule_script/master/rule/Clash/Proxy/Proxy_Classical.yaml
+    interval: 86400    
+    
+  GFW:
+    type: http
+    behavior: classical
+    path: ./rule/GFW.yaml
+    url: https://cdn.staticaly.com/gh/maplelgj/TV/main/clash/GFW.yaml
+    interval: 86400
+    
+rules:
+# 内容：可以自行添加其它自己想要的规则
+ #- DOMAIN-KEYWORD,tinder,🚀 国外流量
+ #- DOMAIN-KEYWORD,dandanzan10,🚀 国外流量
+ #- DOMAIN-SUFFIX,dandanzan10.top,🚀 国外流量
+ 
+# 下面的规则是通过上面的rule-provider来确定的
+ - RULE-SET,ChinaMax_Classical,🎯 国内流量
+ - RULE-SET,Advertising_Classical,🛑 广告拦截
+ - RULE-SET,ZhihuAds,🛑 广告拦截
+ - RULE-SET,Apple,🍎 苹果服务
+ - RULE-SET,Google,📢 谷歌服务
+ - RULE-SET,TikTok,🎶 TikTok
+ - RULE-SET,Telegram,📲 Telegram
+ - RULE-SET,GlobalMedia,🌍 国外媒体
+ - RULE-SET,Proxy_Classical,🚀 国外流量
+ - RULE-SET,GFW,🚀 国外流量
+ - GEOSITE,CN,🎯 国内流量 #【Meta专属】
+ - GEOIP,CN,🎯 国内流量
+ - GEOIP,LAN,🎯 国内流量
+ - MATCH,🐟 漏网之鱼
+ 
+
+    
