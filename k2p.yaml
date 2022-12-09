@@ -3602,6 +3602,11 @@ rules:
  - IP-CIDR6,2a0b:b581::/48,🎯 国内流量,no-resolve
  - IP-CIDR6,2a0b:b582::/48,🎯 国内流量,no-resolve
  - IP-CIDR6,2a0b:b583::/48,🎯 国内流量,no-resolve
+ - DOMAIN,appcloud2.in.zhihu.com,🛑 广告拦截
+ - DOMAIN,mqtt.zhihu.com,🛑 广告拦截
+ - DOMAIN,sugar.zhihu.com,🛑 广告拦截
+ - IP-CIDR,118.89.204.198/32,🛑 广告拦截,no-resolve
+ - IP-CIDR6,2402:4e00:1200:ed00:0:9089:6dac:96b6/128,🛑 广告拦截,no-resolve
  - DOMAIN-SUFFIX,0emm.com,📢 谷歌服务
  - DOMAIN-SUFFIX,1e100.net,📢 谷歌服务
  - DOMAIN-SUFFIX,1ucrs.com,📢 谷歌服务
