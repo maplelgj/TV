@@ -29,6 +29,9 @@ dns:
      - tls://1.0.0.1:853
      - tls://dns.google:853
      - https://dns.alidns.com/dns-query # 阿里 DoH DNS
+     - https://dns.google/dns-query
+     - https://dns.cloudflare.com/dns-query
+     - https://dns.adguard.com/dns-query
      - https://doh.360.cn/dns-query # 360 DoH DNS
 
 
