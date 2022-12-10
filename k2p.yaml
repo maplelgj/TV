@@ -1,50 +1,30 @@
-# 混合端口 HTTP和SOCKS5用一个端口
+
 mixed-port: 7890
-# HTTP 代理端口
 #port: 7890
-# SOCKS5 代理端口
 #socks-port: 7891
-# Linux 和 macOS 的 redir 代理端口 (如需使用此功能，请取消注释)
 # redir-port: 7892
-# 允许局域网的连接（可用来共享代理）
 allow-lan: true
 #ipv6: true
-# 规则模式：rule（规则） / global（全局代理）/ direct（全局直连）/ script (脚本)
 mode: rule
-# 5 个级别：silent / error / warning / info / debug。级别越高日志输出量越大，越倾向于调试，若需要请自行开启。
 log-level: info
-
-# Clash 的 RESTful API
 external-controller: 127.0.0.1:9090
 
-# 实验性功能
-experimental:
-  ignore-resolve-fail: true # 忽略 DNS 解析失败，默认值为 true
-  # interface-name: en0 # outbound interface name
 dns:
   enable: true # 是否启用dns false
   ipv6: false
   listen: 0.0.0.0:53 # 开启 DNS 服务器监听
   enhanced-mode: fake-ip # 模式：redir-host或fake-ip
-  #use-hosts: true   # 查询 hosts
   fake-ip-range: 198.18.0.1/16 #
-  #fake-ip-filter: # fake ip 白名单列表，配置不使用fake-ip的域名
-     #- '*.lan'
-     #- localhost.ptlogin2.qq.com
   nameserver:
      - 223.5.5.5 # 阿里DNS
+     - 8.8.8.8 # 谷歌DNS
+     - 1.1.1.1 # Cloudflare DNS
      - 180.76.76.76 # 百度DNS
      - 119.29.29.29 # 腾讯DNS
      - 117.50.11.11 # ONE DNS拦截版 恶意网站拦截、广告过滤
      - 117.50.10.10 # ONE DNS纯净版 直接返回其真实的响应结果
      - 114.114.114.114 # 114DNS
-     - 8.8.8.8 # 谷歌DNS
-     - 1.1.1.1 # Cloudflare DNS
-     - tls://dns.rubyfish.cn:853
-     - tls://1.0.0.1:853
-     - tls://dns.google:853
-     - https://dns.alidns.com/dns-query # 阿里 DoH DNS
-     - https://doh.360.cn/dns-query # 360 DoH DNS
+
 
 # 服务器节点订阅
 #proxy-providers:
@@ -195,7 +175,6 @@ rules:
  - RULE-SET,GlobalMedia,🌍 国外媒体
  - RULE-SET,Proxy_Classical,🚀 国外流量
  - RULE-SET,GFW,🚀 国外流量
- - GEOSITE,CN,🎯 国内流量 #【Meta专属】
  - GEOIP,CN,🎯 国内流量
  - GEOIP,LAN,🎯 国内流量
  - MATCH,🐟 漏网之鱼
