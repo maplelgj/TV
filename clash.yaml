@@ -1,33 +1,13 @@
-# 混合端口 HTTP和SOCKS5用一个端口
 mixed-port: 7890
-
-# HTTP 代理端口
 #port: 7890
-
-# SOCKS5 代理端口
 #socks-port: 7891
-
-# Linux 和 macOS 的 redir 代理端口 (如需使用此功能，请取消注释)
 # redir-port: 7892
-
-# 允许局域网的连接（可用来共享代理）
-#allow-lan: true
-
+allow-lan: true
 #ipv6: true
-
-# 规则模式：rule（规则） / global（全局代理）/ direct（全局直连）/ script (脚本)
 mode: rule
-
-# 5 个级别：silent / error / warning / info / debug。级别越高日志输出量越大，越倾向于调试，若需要请自行开启。
 log-level: info
-
-# Clash 的 RESTful API
 external-controller: 127.0.0.1:9090
 
-# 实验性功能
-experimental:
-  ignore-resolve-fail: true # 忽略 DNS 解析失败，默认值为 true
-  # interface-name: en0 # outbound interface name
 dns:
   enable: true # 是否启用dns false
   ipv6: false
@@ -35,9 +15,7 @@ dns:
   enhanced-mode: fake-ip # 模式：redir-host或fake-ip
   #use-hosts: true   # 查询 hosts
   fake-ip-range: 198.18.0.1/16 #
-  #fake-ip-filter: # fake ip 白名单列表，配置不使用fake-ip的域名
-     #- '*.lan'
-     #- localhost.ptlogin2.qq.com
+
   nameserver:
      - 223.5.5.5 # 阿里DNS
      - 180.76.76.76 # 百度DNS
@@ -52,20 +30,7 @@ dns:
      - tls://dns.google:853
      - https://dns.alidns.com/dns-query # 阿里 DoH DNS
      - https://doh.360.cn/dns-query # 360 DoH DNS
-   #fallback:
-     #- 8.8.8.8 # 谷歌DNS
-     #- 1.1.1.1 # Cloudflare DNS
-     #- tls://dns.rubyfish.cn:853
-     #- tls://1.0.0.1:853
-     #- tls://dns.google:853
-     #- https://dns.rubyfish.cn/dns-query
-     #- https://cloudflare-dns.com/dns-query
-     #- https://dns.google/dns-query
-  #fallback-filter:
-    #geoip: true # 默认
-    #geoip-code: CN # 当 nameserver 域名的 IP 查询 geoip 库为 CN 时，不使用 fallback 中的 DNS 查询结果
-    #ipcidr: # 在这个网段内的 IP 地址会被考虑为被污染的 IP
-     #  - 240.0.0.0/4
+
 
 # 服务器节点订阅
 #proxy-providers:
@@ -155,12 +120,6 @@ rule-providers:
     url: https://cdn.staticaly.com/gh/blackmatrix7/ios_rule_script/master/rule/Clash/ZhihuAds/ZhihuAds.yaml
     interval: 86400
     
-  Hijacking:
-    type: http
-    behavior: classical
-    path: ./rule/Hijacking.yaml
-    url: https://cdn.staticaly.com/gh/blackmatrix7/ios_rule_script/master/rule/Clash/Hijacking/Hijacking.yaml
-    interval: 86400
     
   Apple:
     type: http
@@ -227,7 +186,6 @@ rules:
 # 下面的规则是通过上面的rule-provider来确定的
  - RULE-SET,ChinaMax_Classical,🎯 国内流量
  - RULE-SET,Advertising_Classical,🛑 广告拦截
- - RULE-SET,Hijacking,🛑 广告拦截
  - RULE-SET,ZhihuAds,🛑 广告拦截
  - RULE-SET,Apple,🍎 苹果服务
  - RULE-SET,Google,📢 谷歌服务
@@ -237,7 +195,7 @@ rules:
  - RULE-SET,GlobalMedia,🌍 国外媒体
  - RULE-SET,Proxy_Classical,🚀 国外流量
  - RULE-SET,GFW,🚀 国外流量
- - GEOSITE,CN,🎯 国内流量 #【Meta专属】
+#- GEOSITE,CN,🎯 国内流量 #【Meta专属】
  - GEOIP,CN,🎯 国内流量
  - GEOIP,LAN,🎯 国内流量
  - MATCH,🐟 漏网之鱼
