@@ -11,10 +11,8 @@ external-controller: 127.0.0.1:9090
 dns:
   enable: true # 是否启用dns false
   ipv6: false
-  listen: 0.0.0.0:53 # 开启 DNS 服务器监听
+  listen: 0.0.0.0:8053 # 开启 DNS 服务器监听
   enhanced-mode: fake-ip # 模式：redir-host或fake-ip
-  #use-hosts: true   # 查询 hosts
-  fake-ip-range: 198.18.0.1/16 #
 
   nameserver:
      - 223.5.5.5 # 阿里DNS
