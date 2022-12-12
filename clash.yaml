@@ -11,24 +11,29 @@ external-controller: 127.0.0.1:9090
 dns:
   enable: true # 是否启用dns false
   ipv6: false
-  listen: 0.0.0.0:8053 # 开启 DNS 服务器监听
-  enhanced-mode: fake-ip # 模式：redir-host或fake-ip
+  listen: 127.0.0.1:53 # 开启 DNS 服务器监听
+  #enhanced-mode: fake-ip # 模式：redir-host或fake-ip
 
   nameserver:
      - 223.5.5.5 # 阿里DNS
-     - 8.8.8.8 # 谷歌DNS
-     - 1.1.1.1 # 
      - 180.76.76.76 # 百度DNS
      - 119.29.29.29 # 腾讯DNS
      - 117.50.11.11 # ONE DNS拦截版 恶意网站拦截、广告过滤
      - 117.50.10.10 # ONE DNS纯净版 直接返回其真实的响应结果
      - 114.114.114.114 # 114DNS
      #- https://dns.alidns.com/dns-query # 阿里 DoH DNS
-     #- https://dns.google/dns-query
-     #- https://dns.cloudflare.com/dns-query
-     #- https://dns.adguard.com/dns-query
      #- https://doh.360.cn/dns-query # 360 DoH DNS
-
+   fallback:
+     - 8.8.8.8 # 谷歌DNS
+     - 1.1.1.1 # Cloudflare DNS
+     - https://dns.google/dns-query
+     - https://dns.cloudflare.com/dns-query
+     #- https://dns.adguard.com/dns-query
+  fallback-filter:
+     geoip: true # 默认
+     geoip-code: CN
+     ipcidr: # 在这个网段内的 IP 地址会被考虑为被污染的 IP
+       - 240.0.0.0/4
 
 # 服务器节点订阅
 #proxy-providers:
