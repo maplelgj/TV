@@ -12,7 +12,7 @@ dns:
   enable: true # 是否启用dns false
   ipv6: false
   listen: 127.0.0.1:53 # 开启 DNS 服务器监听
-  enhanced-mode: fake-ip # 模式：redir-host或fake-ip
+  #enhanced-mode: fake-ip # 模式：redir-host或fake-ip
 
   nameserver:
      - 223.5.5.5 # 阿里DNS
@@ -29,11 +29,11 @@ dns:
      - https://dns.google/dns-query
      - https://dns.cloudflare.com/dns-query
      #- https://dns.adguard.com/dns-query
-  fallback-filter:
-     geoip: true # 默认
-     geoip-code: CN
-     ipcidr: # 在这个网段内的 IP 地址会被考虑为被污染的 IP
-       - 240.0.0.0/4
+  #fallback-filter:
+     #geoip: true # 默认
+     #geoip-code: CN
+     #ipcidr: # 在这个网段内的 IP 地址会被考虑为被污染的 IP
+       #- 240.0.0.0/4
 
 # 服务器节点订阅
 #proxy-providers:
