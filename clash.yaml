@@ -23,7 +23,7 @@ dns:
      - 114.114.114.114 # 114DNS
      #- https://dns.alidns.com/dns-query # 阿里 DoH DNS
      #- https://doh.360.cn/dns-query # 360 DoH DNS
-   fallback:
+  fallback:
      - 8.8.8.8 # 谷歌DNS
      - 1.1.1.1 # Cloudflare DNS
      - https://dns.google/dns-query
