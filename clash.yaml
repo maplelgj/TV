@@ -42,9 +42,10 @@ proxy-groups:
     type: select
     proxies:
       - DIRECT
-  - name: 🎶 TikTok
+  - name: 🍎 苹果服务
     type: select
     proxies:
+      - DIRECT
       - BWG-VMESS
       - Racknerd-Vmess
   - name: 📲 Telegram
@@ -52,15 +53,14 @@ proxy-groups:
     proxies:
       - Racknerd-Vmess
       - BWG-VMESS
-  - name: 📢 谷歌服务
+  - name: 🎶 TikTok
     type: select
     proxies:
       - BWG-VMESS
       - Racknerd-Vmess
-  - name: 🍎 苹果服务
+  - name: 📢 谷歌服务
     type: select
     proxies:
-      - DIRECT
       - BWG-VMESS
       - Racknerd-Vmess
   - name: 🚀 国外流量
