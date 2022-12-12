@@ -8,18 +8,7 @@ mode: rule
 log-level: info
 external-controller: 127.0.0.1:9090
 
-dns:
-  enable: true # 是否启用dns false
-  ipv6: false
-  listen: 127.0.0.1:53 # 开启 DNS 服务器监听
-  #enhanced-mode: fake-ip # 模式：redir-host或fake-ip
-  nameserver:
-     - 223.5.5.5 # 阿里DNS
-     - 119.29.29.29 # 腾讯DNS
-     - 114.114.114.114 # 114DNS
-  fallback:
-     - 8.8.8.8 # 谷歌DNS
-     - 1.1.1.1 # Cloudflare DNS
+
 proxies:
   - {name: BWG-VMESS, server: 679888.xyz, port: 51212, type: vmess, uuid: b92dfaee-7b1a-4c36-a737-f69f1e67a6ce, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /1edd91/, headers: {Host: 679888.xyz}}, udp: true}
   - {name: Racknerd-Vmess, server: heihei006009.tk, port: 343, type: vmess, uuid: 7ed04ef6-0f03-42f1-a609-b21a0b3a3181, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /47d5ff16f/, headers: {Host: heihei006009.tk}}, udp: true}
