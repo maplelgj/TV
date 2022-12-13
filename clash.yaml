@@ -63,15 +63,18 @@ dns:
     - speedtest.cros.wr.pvp.net
   default-nameserver:
     - 223.5.5.5
-  nameserver:
     - 119.29.29.29
     - 114.114.114.114
-    - https://dns.alidns.com/dns-query
-    - https://doh.pub/dns-query
     - 8.8.8.8
     - 1.1.1.1
+  nameserver:
+    - https://dns.alidns.com/dns-query
+    - https://doh.pub/dns-query
     - https://dns.google/dns-query
     - https://1.1.1.1/dns-query
+    - tls://dns.rubyfish.cn:853
+    - tls://1.0.0.1:853
+    - tls://dns.google:853
 
 # 服务器节点订阅
 #proxy-providers:
