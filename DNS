@@ -26,3 +26,77 @@ dns:
       - +.google.cn
       - +.googleapis.cn
       - +.gvt1.com
+
+
+
+
+
+dns:
+  enable: true
+  ipv6: false
+  listen: 127.0.0.1:53
+  enhanced-mode: fake-ip
+  fake-ip-range: 198.18.0.1/16
+  fake-ip-filter:
+    - "*.lan"
+    - "*.local"
+    - "dns.msftncsi.com"
+    - "www.msftncsi.com"
+    - "www.msftconnecttest.com"
+    - "stun.*.*.*"
+    - "stun.*.*"
+    - miwifi.com
+    - music.163.com
+    - "*.music.163.com"
+    - "*.126.net"
+    - api-jooxtt.sanook.com
+    - api.joox.com
+    - joox.com
+    - y.qq.com
+    - "*.y.qq.com"
+    - streamoc.music.tc.qq.com
+    - mobileoc.music.tc.qq.com
+    - isure.stream.qqmusic.qq.com
+    - dl.stream.qqmusic.qq.com
+    - aqqmusic.tc.qq.com
+    - amobile.music.tc.qq.com
+    - "*.xiami.com"
+    - "*.music.migu.cn"
+    - music.migu.cn
+    - netis.cc
+    - router.asus.com
+    - repeater.asus.com
+    - routerlogin.com
+    - routerlogin.net
+    - tendawifi.com
+    - tendawifi.net
+    - tplinklogin.net
+    - tplinkwifi.net
+    - tplinkrepeater.net
+    - "*.ntp.org.cn"
+    - "*.openwrt.pool.ntp.org"
+    - "*.msftconnecttest.com"
+    - "*.msftncsi.com"
+    - localhost.ptlogin2.qq.com
+    - "*.*.*.srv.nintendo.net"
+    - "*.*.stun.playstation.net"
+    - "xbox.*.*.microsoft.com"
+    - "*.ipv6.microsoft.com"
+    - "*.*.xboxlive.com"
+    - speedtest.cros.wr.pvp.net
+  default-nameserver:
+    - 223.5.5.5
+    
+  nameserver:
+    - 119.29.29.29
+    - 114.114.114.114
+    - 8.8.8.8
+    - 1.1.1.1
+    
+    
+    
+    
+    
+    
+    
+    
