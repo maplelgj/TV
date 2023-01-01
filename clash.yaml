@@ -99,28 +99,28 @@ rule-providers:
     type: http
     behavior: classical
     path: ./rule/China_Classical.yaml
-    url: https://jsd.cdn.zzko.cn/gh/blackmatrix7/ios_rule_script@master/rule/Clash/China/China_Classical.yaml
+    url: https://cdn.staticaly.com/gh/blackmatrix7/ios_rule_script/master/rule/Clash/China/China_Classical.yaml
     interval: 86400
     
   AdvertisingLite_Classical:
     type: http
     behavior: classical
     path: ./rule/AdvertisingLite_Classical.yaml
-    url: https://raw.iqiq.io/blackmatrix7/ios_rule_script/master/rule/Clash/AdvertisingLite/AdvertisingLite_Classical.yaml
+    url: https://cdn.staticaly.com/gh/blackmatrix7/ios_rule_script/master/rule/Clash/AdvertisingLite/AdvertisingLite_Classical.yaml
     interval: 86400
     
   Hijacking:
     type: http
     behavior: classical
     path: ./rule/Hijacking.yaml
-    url: https://raw.iqiq.io/blackmatrix7/ios_rule_script/master/rule/Clash/Hijacking/Hijacking.yaml
+    url: https://cdn.staticaly.com/gh/blackmatrix7/ios_rule_script/master/rule/Clash/Hijacking/Hijacking.yaml
     interval: 86400
     
   Privacy_Classical:
     type: http
     behavior: classical
     path: ./rule/Privacy_Classical.yaml
-    url: https://raw.iqiq.io/blackmatrix7/ios_rule_script/master/rule/Clash/Privacy/Privacy_Classical.yaml
+    url: https://cdn.staticaly.com/gh/blackmatrix7/ios_rule_script/master/rule/Clash/Privacy/Privacy_Classical.yaml
     interval: 86400
     
   ZhihuAds:
