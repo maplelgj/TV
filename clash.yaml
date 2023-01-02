@@ -19,8 +19,8 @@ dns:
     - 119.29.29.29
     - 114.114.114.114
   fallback:
-    - https://dns.google/dns-query
-    - https://1.1.1.1/dns-query
+    - 8.8.8.8
+    - 1.1.1.1
   fallback-filter:
     geoip: true
     geoip-code: CN
