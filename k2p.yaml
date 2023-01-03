@@ -28,6 +28,8 @@ proxy-groups:
     type: select
     proxies:
       - DIRECT
+      - BWG-VMESS
+      - Racknerd-Vmess
   - name: 🆎 AdBlock
     type: select
     proxies:
