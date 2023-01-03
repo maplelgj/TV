@@ -4,11 +4,13 @@ mixed-port: 7890
 #redir-port: 7892
 allow-lan: true
 mode: rule
+ipv6: false
 log-level: info
 external-controller: 0.0.0.0:9090
 
 dns:
   enable: true
+  ipv6: false
   listen: 0.0.0.0:8053
   default-nameserver :
     - 8.8.8.8
@@ -19,8 +21,9 @@ dns:
     - 119.29.29.29
     - 114.114.114.114
   fallback:
-    - 8.8.8.8
     - 1.1.1.1
+    - https://dns.google/dns-query
+    - https://1.1.1.1/dns-query
   fallback-filter:
     geoip: true
     geoip-code: CN
@@ -82,6 +85,8 @@ proxy-groups:
     type: select
     proxies:
       - DIRECT
+      - BWG-VMESS
+      - Racknerd-Vmess
   - name: 🆎 AdBlock
     type: select
     proxies:
