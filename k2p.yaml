@@ -7,33 +7,27 @@ log-level: info
 ipv6: false
 external-controller: 127.0.0.1:9090
 
-
- #dns:
-   #enable: true
-   #ipv6: false
-   #listen: 127.0.0.1:8053
-   #default-nameserver :
-     #- 223.5.5.5
-     #- 8.8.8.8
-   #enhanced-mode: redir-host
+ dns:
+   enable: true
+   ipv6: false
+   listen: 127.0.0.1:8053
+   default-nameserver :
+     - 223.5.5.5
+     - 8.8.8.8
+   enhanced-mode: redir-host
   # enhanced-mode: redir-host # 或 fake-ip
-   #nameserver:
-     #- 119.29.29.29
-     #- 114.114.114.114
-     #- 1.1.1.1
-     #- https://dns.google/dns-query
-     #- https://1.1.1.1/dns-query
-     #- tls://dns.rubyfish.cn:853 # DNS over TLS
+   nameserver:
+     - 119.29.29.29
+     - 114.114.114.114
+     - 1.1.1.1
+     - https://dns.google/dns-query
+     - https://1.1.1.1/dns-query
+     - tls://dns.rubyfish.cn:853 # DNS over TLS
 
 proxies:
   - {name: BWG-VMESS, server: 679888.xyz, port: 56789, type: vmess, uuid: b92dfaee-7b1a-4c36-a737-f69f1e67a6ce, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /1edd91/, headers: {Host: 679888.xyz}}, udp: true}
   - {name: Racknerd-Vmess, server: heihei006009.tk, port: 45678, type: vmess, uuid: 7ed04ef6-0f03-42f1-a609-b21a0b3a3181, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /47d5ff16f/, headers: {Host: heihei006009.tk}}, udp: true}
 proxy-groups:
-  - name: 🎶 TikTok
-    type: select
-    proxies:
-      - BWG-VMESS
-      - Racknerd-Vmess
   - name: 📲 Telegram
     type: select
     proxies:
@@ -50,11 +44,6 @@ proxy-groups:
       - DIRECT
       - BWG-VMESS
       - Racknerd-Vmess
-  - name: 🆎 AdBlock
-    type: select
-    proxies:
-      - REJECT
-      - DIRECT
   - name: 🐟 漏网之鱼
     type: select
     proxies:
@@ -62,23 +51,6 @@ proxy-groups:
       - BWG-VMESS
       - Racknerd-Vmess
 rules:
- - DOMAIN,p16-tiktokcdn-com.akamaized.net,🎶 TikTok
- - DOMAIN-SUFFIX,byteoversea.com,🎶 TikTok
- - DOMAIN-SUFFIX,ibytedtos.com,🎶 TikTok
- - DOMAIN-SUFFIX,ibyteimg.com,🎶 TikTok
- - DOMAIN-SUFFIX,ipstatp.com,🎶 TikTok
- - DOMAIN-SUFFIX,isnssdk.com,🎶 TikTok
- - DOMAIN-SUFFIX,muscdn.com,🎶 TikTok
- - DOMAIN-SUFFIX,musical.ly,🎶 TikTok
- - DOMAIN-SUFFIX,sgpstatp.com,🎶 TikTok
- - DOMAIN-SUFFIX,snssdk.com,🎶 TikTok
- - DOMAIN-SUFFIX,tik-tokapi.com,🎶 TikTok
- - DOMAIN-SUFFIX,tiktok.com,🎶 TikTok
- - DOMAIN-SUFFIX,tiktokcdn.com,🎶 TikTok
- - DOMAIN-SUFFIX,tiktokv.com,🎶 TikTok
- - DOMAIN-KEYWORD,musical.ly,🎶 TikTok
- - DOMAIN-KEYWORD,tiktok,🎶 TikTok
- - PROCESS-NAME,com.zhiliaoapp.musically,🎶 TikTok
  - DOMAIN-SUFFIX,comments.app,📲 Telegram
  - DOMAIN-SUFFIX,contest.com,📲 Telegram
  - DOMAIN-SUFFIX,graph.org,📲 Telegram
@@ -111,6 +83,23 @@ rules:
  - PROCESS-NAME,nekox.messenger,📲 Telegram
  - PROCESS-NAME,org.telegram.messenger,📲 Telegram
  - PROCESS-NAME,telegram.exe,📲 Telegram
+ - DOMAIN,p16-tiktokcdn-com.akamaized.net,🚀 国外流量
+ - DOMAIN-SUFFIX,byteoversea.com,🚀 国外流量
+ - DOMAIN-SUFFIX,ibytedtos.com,🚀 国外流量
+ - DOMAIN-SUFFIX,ibyteimg.com,🚀 国外流量
+ - DOMAIN-SUFFIX,ipstatp.com,🚀 国外流量
+ - DOMAIN-SUFFIX,isnssdk.com,🚀 国外流量
+ - DOMAIN-SUFFIX,muscdn.com,🚀 国外流量
+ - DOMAIN-SUFFIX,musical.ly,🚀 国外流量
+ - DOMAIN-SUFFIX,sgpstatp.com,🚀 国外流量
+ - DOMAIN-SUFFIX,snssdk.com,🚀 国外流量
+ - DOMAIN-SUFFIX,tik-tokapi.com,🚀 国外流量
+ - DOMAIN-SUFFIX,tiktok.com,🚀 国外流量
+ - DOMAIN-SUFFIX,tiktokcdn.com,🚀 国外流量
+ - DOMAIN-SUFFIX,tiktokv.com,🚀 国外流量
+ - DOMAIN-KEYWORD,musical.ly,🚀 国外流量
+ - DOMAIN-KEYWORD,tiktok,🚀 国外流量
+ - PROCESS-NAME,com.zhiliaoapp.musically,🚀 国外流量
  - DOMAIN-SUFFIX,1password.com,🚀 国外流量
  - DOMAIN-SUFFIX,adguard.org,🚀 国外流量
  - DOMAIN-SUFFIX,bit.no.com,🚀 国外流量
