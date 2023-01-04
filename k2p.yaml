@@ -26,7 +26,7 @@ dns:
     - tls://dns.rubyfish.cn:853 # DNS over TLS
 
 proxies:
-  - {name: BWG-VMESS, server: 679888.xyz, port: 45678, type: vmess, uuid: b92dfaee-7b1a-4c36-a737-f69f1e67a6ce, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /1edd91/, headers: {Host: 679888.xyz}}, udp: true}
+  - {name: BWG-VMESS, server: 679888.xyz, port: 56789, type: vmess, uuid: b92dfaee-7b1a-4c36-a737-f69f1e67a6ce, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /1edd91/, headers: {Host: 679888.xyz}}, udp: true}
   - {name: Racknerd-Vmess, server: heihei006009.tk, port: 45678, type: vmess, uuid: 7ed04ef6-0f03-42f1-a609-b21a0b3a3181, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /47d5ff16f/, headers: {Host: heihei006009.tk}}, udp: true}
 proxy-groups:
   - name: 🎶 TikTok
