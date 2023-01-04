@@ -7,7 +7,7 @@ log-level: info
 ipv6: false
 external-controller: 127.0.0.1:9090
 
- dns:
+dns:
    enable: true
    ipv6: false
    listen: 127.0.0.1:8053
