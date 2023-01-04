@@ -55,17 +55,18 @@ proxies:
   - {name: Racknerd-Vmess, server: heihei006009.tk, port: 45678, type: vmess, uuid: 7ed04ef6-0f03-42f1-a609-b21a0b3a3181, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /47d5ff16f/, headers: {Host: heihei006009.tk}}}
  
 proxy-groups:
+  - name: 🎯 国内流量
+    type: select
+    proxies:
+      - DIRECT
+      - BWG-VMESS
+      - Racknerd-Vmess
   - name: 🍎 苹果服务
     type: select
     proxies:
       - DIRECT
       - BWG-VMESS
       - Racknerd-Vmess
-  - name: 📲 Telegram
-    type: select
-    proxies:
-      - Racknerd-Vmess
-      - BWG-VMESS
   - name: 📢 谷歌服务
     type: select
     proxies:
@@ -76,17 +77,16 @@ proxy-groups:
     proxies:
       - BWG-VMESS
       - Racknerd-Vmess
-  - name: 🎯 国内流量
+   - name: 📲 Telegram
     type: select
     proxies:
-      - DIRECT
-      - BWG-VMESS
       - Racknerd-Vmess
-  - name: 🆎 AdBlock
-    type: select
-    proxies:
-      - REJECT
-      - DIRECT
+      - BWG-VMESS
+  #- name: 🆎 AdBlock
+    #type: select
+    #proxies:
+      #- REJECT
+      #- DIRECT
   - name: 🐟 漏网之鱼
     type: select
     proxies:
@@ -196,10 +196,10 @@ rules:
  
 # 下面的规则是通过上面的rule-provider来确定的
  - RULE-SET,China_Classical,🎯 国内流量
- - RULE-SET,AdvertisingLite_Classical,🆎 AdBlock
- - RULE-SET,Hijacking,🆎 AdBlock
- - RULE-SET,Privacy_Classical,🆎 AdBlock
- - RULE-SET,ZhihuAds,🆎 AdBlock
+ #- RULE-SET,AdvertisingLite_Classical,🆎 AdBlock
+ #- RULE-SET,Hijacking,🆎 AdBlock
+ #- RULE-SET,Privacy_Classical,🆎 AdBlock
+ #- RULE-SET,ZhihuAds,🆎 AdBlock
  - RULE-SET,Apple,🍎 苹果服务
  - RULE-SET,Telegram,📲 Telegram
  - RULE-SET,Google,📢 谷歌服务
