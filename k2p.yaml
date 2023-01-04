@@ -8,21 +8,39 @@ ipv6: false
 external-controller: 127.0.0.1:9090
 
 dns:
-   enable: true
-   ipv6: false
-   listen: 127.0.0.1:8053
-   default-nameserver :
-     - 223.5.5.5
-     - 8.8.8.8
-   enhanced-mode: redir-host
+  enable: true
+  ipv6: false
+  listen: 127.0.0.1:8053
+  default-nameserver :
+    - 223.5.5.5
+    - 8.8.8.8
+  enhanced-mode: redir-host
   # enhanced-mode: redir-host # 或 fake-ip
-   nameserver:
-     - 119.29.29.29
-     - 114.114.114.114
-     - 1.1.1.1
-     - https://dns.google/dns-query
-     - https://1.1.1.1/dns-query
-     - tls://dns.rubyfish.cn:853 # DNS over TLS
+  nameserver:
+    - 119.29.29.29
+    - 114.114.114.114
+  fallback:
+    - 1.1.1.1
+    - https://dns.google/dns-query
+    - https://1.1.1.1/dns-query
+  fallback-filter:
+    geoip: true
+    geoip-code: CN
+    ipcidr:
+      - 240.0.0.0/4
+      - 0.0.0.0/32
+      - 127.0.0.1/32
+    domain:
+      - '+.google.com'
+      - '+.googleapis.com'
+      - '+.youtube.com'
+      - '+.appspot.com'
+      - '+.telegram.com'
+      - '+.facebook.com'
+      - '+.twitter.com'
+      - '+.blogger.com'
+      - '+.gmail.com'
+      - '+.gvt1.com'
 
 proxies:
   - {name: BWG-VMESS, server: 679888.xyz, port: 56789, type: vmess, uuid: b92dfaee-7b1a-4c36-a737-f69f1e67a6ce, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /1edd91/, headers: {Host: 679888.xyz}}, udp: true}
