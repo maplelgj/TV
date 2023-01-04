@@ -148,6 +148,8 @@ rules:
  - DOMAIN-SUFFIX,us,🚀 国外流量
  - DOMAIN-SUFFIX,ca,🚀 国外流量
  - DOMAIN-KEYWORD,1e100,🚀 国外流量
+ - DOMAIN-KEYWORD,emotn,🚀 国外流量
+ - DOMAIN-KEYWORD,dangsfly,🚀 国外流量
  - DOMAIN-KEYWORD,abema,🚀 国外流量
  - DOMAIN-KEYWORD,appledaily,🚀 国外流量
  - DOMAIN-KEYWORD,avtb,🚀 国外流量
