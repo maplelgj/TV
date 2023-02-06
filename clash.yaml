@@ -62,6 +62,11 @@ proxy-groups:
       - DIRECT
       - BWG-VMESS
       - Racknerd-Vmess
+  - name: 📲 ChatGPT
+    type: select
+    proxies:
+      - Racknerd-Vmess
+      - BWG-VMESS
   #- name: 📢 谷歌服务
     #type: select
     #proxies:
@@ -183,6 +188,13 @@ rule-providers:
     url: https://cdn.staticaly.com/gh/maplelgj/TV/main/clash/GFW.yaml
     interval: 86400
     
+  ChatGPT:
+    type: http
+    behavior: classical
+    path: ./rule/GFW.yaml
+    url: https://cdn.staticaly.com/gh/maplelgj/TV/main/clash/chatgpt.yaml
+    interval: 86400
+    
 rules:
 # 内容：可以自行添加其它自己想要的规则
  #- DOMAIN-KEYWORD,tinder,🚀 国外流量
@@ -197,6 +209,7 @@ rules:
  - RULE-SET,ZhihuAds,🆎 AdBlock
  - RULE-SET,Apple,🍎 苹果服务
  - RULE-SET,Telegram,📲 Telegram
+ - RULE-SET,ChatGPT,📲 ChatGPT
  #- RULE-SET,Google,📢 谷歌服务
  - RULE-SET,Google,🚀 国外流量
  - RULE-SET,TikTok,🚀 国外流量
