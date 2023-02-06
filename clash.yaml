@@ -191,8 +191,8 @@ rule-providers:
   ChatGPT:
     type: http
     behavior: classical
-    path: ./rule/GFW.yaml
-    url: https://cdn.staticaly.com/gh/maplelgj/TV/main/clash/chatgpt.yaml
+    path: ./rule/ChatGPT.yaml
+    url: https://cdn.staticaly.com/gh/maplelgj/TV/main/clash/ChatGPT.yaml
     interval: 86400
     
 rules:
