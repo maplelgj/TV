@@ -131,35 +131,35 @@ rule-providers:
   China_Classical:
     type: http
     behavior: classical
-    path: ./rule_provider/China_Classical.yaml
+    path: ./rule/China_Classical.yaml
     url: https://cdn.staticaly.com/gh/blackmatrix7/ios_rule_script/master/rule/Clash/China/China_Classical.yaml
     interval: 86400
     
   BanAD:
     type: http
     behavior: classical
-    path: ./rule_provider/BanAD.yaml
+    path: ./rule/BanAD.yaml
     url: https://cdn.staticaly.com/gh/ACL4SSR/ACL4SSR/master/Clash/Providers/BanAD.yaml
     interval: 86400
     
   Hijacking:
     type: http
     behavior: classical
-    path: ./rule_provider/Hijacking.yaml
+    path: ./rule/Hijacking.yaml
     url: https://cdn.staticaly.com/gh/blackmatrix7/ios_rule_script/master/rule/Clash/Hijacking/Hijacking.yaml
     interval: 86400
     
   Privacy_Classical:
     type: http
     behavior: classical
-    path: ./rule_provider/Privacy_Classical.yaml
+    path: ./rule/Privacy_Classical.yaml
     url: https://cdn.staticaly.com/gh/blackmatrix7/ios_rule_script/master/rule/Clash/Privacy/Privacy_Classical.yaml
     interval: 86400
     
   ZhihuAds:
     type: http
     behavior: classical
-    path: ./rule_provider/ZhihuAds.yaml
+    path: ./rule/ZhihuAds.yaml
     url: https://cdn.staticaly.com/gh/blackmatrix7/ios_rule_script/master/rule/Clash/ZhihuAds/ZhihuAds.yaml
     interval: 86400
     
@@ -167,56 +167,56 @@ rule-providers:
   Apple:
     type: http
     behavior: classical
-    path: ./rule_provider/Apple.yaml
+    path: ./rule/Apple.yaml
     url: https://cdn.staticaly.com/gh/blackmatrix7/ios_rule_script/master/rule/Clash/Apple/Apple.yaml
     interval: 86400
     
   Google:
     type: http
     behavior: classical
-    path: ./rule_provider/Google.yaml
+    path: ./rule/Google.yaml
     url: https://cdn.staticaly.com/gh/blackmatrix7/ios_rule_script/master/rule/Clash/Google/Google.yaml
     interval: 86400
     
   OneDrive:
     type: http
     behavior: classical
-    path: ./rule_provider/Microsoft.yaml
+    path: ./rule/Microsoft.yaml
     url: https://cdn.staticaly.com/gh/blackmatrix7/ios_rule_script/master/rule/Clash/OneDrive/OneDrive.yaml
-    interval: 86400  
+    interval: 86400
     
   Telegram:
     type: http
     behavior: classical
-    path: ./rule_provider/Telegram.yaml
+    path: ./rule/Telegram.yaml
     url: https://cdn.staticaly.com/gh/blackmatrix7/ios_rule_script/master/rule/Clash/Telegram/Telegram.yaml
-    interval: 86400  
+    interval: 86400
     
   GlobalMedia:
     type: http
     behavior: classical
-    path: ./rule_provider/GlobalMedia.yaml
+    path: ./rule/GlobalMedia.yaml
     url: https://cdn.staticaly.com/gh/blackmatrix7/ios_rule_script/master/rule/Clash/GlobalMedia/GlobalMedia.yaml
-    interval: 86400 
+    interval: 86400
     
   ProxyGFWlist:
     type: http
     behavior: classical
-    path: ./rule_provider/ProxyGFWlist.yaml
+    path: ./rule/ProxyGFWlist.yaml
     url: https://cdn.staticaly.com/gh/ACL4SSR/ACL4SSR/master/Clash/Providers/ProxyGFWlist.yaml
-    interval: 86400    
+    interval: 86400
     
   GFW:
     type: http
     behavior: classical
-    path: ./rule_provider/GFW.yaml
+    path: ./rule/GFW.yaml
     url: https://cdn.staticaly.com/gh/maplelgj/TV/main/clash/GFW.yaml
     interval: 86400
     
   ChatGPT:
     type: http
     behavior: classical
-    path: ./rule_provider/ChatGPT.yaml
+    path: ./rule/ChatGPT.yaml
     url: https://cdn.staticaly.com/gh/maplelgj/TV/main/clash/ChatGPT.yaml
     interval: 86400
     
