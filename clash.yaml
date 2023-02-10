@@ -139,7 +139,7 @@ rule-providers:
     type: http
     behavior: classical
     path: ./rule_provider/BanAD.yaml
-    url: https://raw.fastgit.org/ACL4SSR/ACL4SSR/master/Clash/Providers/BanAD.yaml
+    url: https://cdn.staticaly.com/gh/ACL4SSR/ACL4SSR/master/Clash/Providers/BanAD.yaml
     interval: 86400
     
   Hijacking:
@@ -182,7 +182,7 @@ rule-providers:
     type: http
     behavior: classical
     path: ./rule_provider/Microsoft.yaml
-    url: https://raw.iqiq.io/blackmatrix7/ios_rule_script/master/rule/Clash/OneDrive/OneDrive.yaml
+    url: https://cdn.staticaly.com/gh/blackmatrix7/ios_rule_script/master/rule/Clash/OneDrive/OneDrive.yaml
     interval: 86400  
     
   Telegram:
@@ -203,7 +203,7 @@ rule-providers:
     type: http
     behavior: classical
     path: ./rule_provider/ProxyGFWlist.yaml
-    url: https://raw.fastgit.org/ACL4SSR/ACL4SSR/master/Clash/Providers/ProxyGFWlist.yaml
+    url: https://cdn.staticaly.com/gh/ACL4SSR/ACL4SSR/master/Clash/Providers/ProxyGFWlist.yaml
     interval: 86400    
     
   GFW:
