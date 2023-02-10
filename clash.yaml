@@ -128,10 +128,10 @@ proxy-groups:
  
 # 规则地址
 rule-providers:
-  China_Classical:
+  China:
     type: http
     behavior: classical
-    path: ./rule/China_Classical.yaml
+    path: ./rule/China.yaml
     url: https://cdn.staticaly.com/gh/blackmatrix7/ios_rule_script/master/rule/Clash/China/China_Classical.yaml
     interval: 86400
     
@@ -149,10 +149,10 @@ rule-providers:
     url: https://cdn.staticaly.com/gh/blackmatrix7/ios_rule_script/master/rule/Clash/Hijacking/Hijacking.yaml
     interval: 86400
     
-  Privacy_Classical:
+  Privacy:
     type: http
     behavior: classical
-    path: ./rule/Privacy_Classical.yaml
+    path: ./rule/Privacy.yaml
     url: https://cdn.staticaly.com/gh/blackmatrix7/ios_rule_script/master/rule/Clash/Privacy/Privacy_Classical.yaml
     interval: 86400
     
@@ -227,10 +227,10 @@ rules:
  #- DOMAIN-SUFFIX,dandanzan10.top,🚀 国外流量
  
 # 下面的规则是通过上面的rule-provider来确定的
- - RULE-SET,China_Classical,🎯 国内流量
+ - RULE-SET,China,🎯 国内流量
  - RULE-SET,BanAD,🆎 AdBlock
  - RULE-SET,Hijacking,🆎 AdBlock
- - RULE-SET,Privacy_Classical,🆎 AdBlock
+ - RULE-SET,Privacy,🆎 AdBlock
  - RULE-SET,ZhihuAds,🆎 AdBlock
  - RULE-SET,Apple,🍎 苹果服务
  - RULE-SET,Telegram,📲 Telegram
