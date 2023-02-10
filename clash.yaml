@@ -131,35 +131,35 @@ rule-providers:
   China_Classical:
     type: http
     behavior: classical
-    path: ./providers/rule/China_Classical.yaml
+    path: ./rule_provider/China_Classical.yaml
     url: https://cdn.staticaly.com/gh/blackmatrix7/ios_rule_script/master/rule/Clash/China/China_Classical.yaml
     interval: 86400
     
   AdvertisingLite_Classical:
     type: http
     behavior: classical
-    path: ./providers/rule/AdvertisingLite_Classical.yaml
+    path: ./rule_provider/AdvertisingLite_Classical.yaml
     url: https://cdn.staticaly.com/gh/blackmatrix7/ios_rule_script/master/rule/Clash/AdvertisingLite/AdvertisingLite_Classical.yaml
     interval: 86400
     
   Hijacking:
     type: http
     behavior: classical
-    path: ./providers/rule/Hijacking.yaml
+    path: ./rule_provider/Hijacking.yaml
     url: https://cdn.staticaly.com/gh/blackmatrix7/ios_rule_script/master/rule/Clash/Hijacking/Hijacking.yaml
     interval: 86400
     
   Privacy_Classical:
     type: http
     behavior: classical
-    path: ./providers/rule/Privacy_Classical.yaml
+    path: ./rule_provider/Privacy_Classical.yaml
     url: https://cdn.staticaly.com/gh/blackmatrix7/ios_rule_script/master/rule/Clash/Privacy/Privacy_Classical.yaml
     interval: 86400
     
   ZhihuAds:
     type: http
     behavior: classical
-    path: ./providers/rule/ZhihuAds.yaml
+    path: ./rule_provider/ZhihuAds.yaml
     url: https://cdn.staticaly.com/gh/blackmatrix7/ios_rule_script/master/rule/Clash/ZhihuAds/ZhihuAds.yaml
     interval: 86400
     
@@ -167,63 +167,56 @@ rule-providers:
   Apple:
     type: http
     behavior: classical
-    path: ./providers/rule/Apple.yaml
+    path: ./rule_provider/Apple.yaml
     url: https://cdn.staticaly.com/gh/blackmatrix7/ios_rule_script/master/rule/Clash/Apple/Apple.yaml
     interval: 86400
     
   Google:
     type: http
     behavior: classical
-    path: ./providers/rule/Google.yaml
+    path: ./rule_provider/Google.yaml
     url: https://cdn.staticaly.com/gh/blackmatrix7/ios_rule_script/master/rule/Clash/Google/Google.yaml
     interval: 86400
     
   OneDrive:
     type: http
     behavior: classical
-    path: ./providers/rule/Microsoft.yaml
+    path: ./rule_provider/Microsoft.yaml
     url: https://raw.iqiq.io/blackmatrix7/ios_rule_script/master/rule/Clash/OneDrive/OneDrive.yaml
-    interval: 86400
-    
-  TikTok:
-    type: http
-    behavior: classical
-    path: ./providers/rule/TikTok.yaml
-    url: https://cdn.staticaly.com/gh/blackmatrix7/ios_rule_script/master/rule/Clash/TikTok/TikTok.yaml
-    interval: 86400   
+    interval: 86400  
     
   Telegram:
     type: http
     behavior: classical
-    path: ./providers/rule/Telegram.yaml
+    path: ./rule_provider/Telegram.yaml
     url: https://cdn.staticaly.com/gh/blackmatrix7/ios_rule_script/master/rule/Clash/Telegram/Telegram.yaml
     interval: 86400  
     
   GlobalMedia:
     type: http
     behavior: classical
-    path: ./providers/rule/GlobalMedia.yaml
+    path: ./rule_provider/GlobalMedia.yaml
     url: https://cdn.staticaly.com/gh/blackmatrix7/ios_rule_script/master/rule/Clash/GlobalMedia/GlobalMedia.yaml
     interval: 86400 
     
   Proxy_Classical:
     type: http
     behavior: classical
-    path: ./providers/rule/Proxy_Classical.yaml
+    path: ./rule_provider/Proxy_Classical.yaml
     url: https://cdn.staticaly.com/gh/blackmatrix7/ios_rule_script/master/rule/Clash/Proxy/Proxy_Classical.yaml
     interval: 86400    
     
   GFW:
     type: http
     behavior: classical
-    path: ./providers/rule/GFW.yaml
+    path: ./rule_provider/GFW.yaml
     url: https://cdn.staticaly.com/gh/maplelgj/TV/main/clash/GFW.yaml
     interval: 86400
     
   ChatGPT:
     type: http
     behavior: classical
-    path: ./providers/rule/ChatGPT.yaml
+    path: ./rule_provider/ChatGPT.yaml
     url: https://cdn.staticaly.com/gh/maplelgj/TV/main/clash/ChatGPT.yaml
     interval: 86400
     
@@ -244,7 +237,6 @@ rules:
  - RULE-SET,ChatGPT,📲 ChatGPT
  #- RULE-SET,Google,📢 谷歌服务
  - RULE-SET,Google,🚀 国外流量
- - RULE-SET,TikTok,🚀 国外流量
  - RULE-SET,OneDrive,🚀 国外流量
  - RULE-SET,GlobalMedia,🚀 国外流量
  - RULE-SET,Proxy_Classical,🚀 国外流量
