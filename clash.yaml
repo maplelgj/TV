@@ -228,10 +228,6 @@ rules:
  
 # 下面的规则是通过上面的rule-provider来确定的
  - RULE-SET,China,🎯 国内流量
- - RULE-SET,BanAD,🆎 AdBlock
- - RULE-SET,Hijacking,🆎 AdBlock
- - RULE-SET,Privacy,🆎 AdBlock
- - RULE-SET,ZhihuAds,🆎 AdBlock
  - RULE-SET,Apple,🍎 苹果服务
  - RULE-SET,Telegram,📲 Telegram
  - RULE-SET,ChatGPT,📲 ChatGPT
@@ -241,6 +237,10 @@ rules:
  - RULE-SET,GlobalMedia,🚀 国外流量
  - RULE-SET,ProxyGFWlist,🚀 国外流量
  - RULE-SET,GFW,🚀 国外流量
+ - RULE-SET,BanAD,🆎 AdBlock
+ - RULE-SET,Hijacking,🆎 AdBlock
+ - RULE-SET,Privacy,🆎 AdBlock
+ - RULE-SET,ZhihuAds,🆎 AdBlock
  - GEOIP,CN,🎯 国内流量
  - MATCH,🐟 漏网之鱼
  
