@@ -37,10 +37,7 @@
 
 
 {"key":"csp_xpath_cokemv","name":"Cokemv(XPath)","type":3,"api":"csp_XPathFilter","searchable":1,"quickSearch":1,"filterable":1,"ext":"https://cdn.staticaly.com/gh/maplelgj/TV/main/XP/cokemv.json"},
-{"key":"csp_xpath_lib","name":"LIBVIO(XPath)","type":3,"api":"csp_XPathFilter","searchable":1,"quickSearch":1,"filterable":1,"ext":"https://cdn.staticaly.com/gh/maplelgj/TV/main/XP/libvio.json"},
-{"key":"csp_XPath_bidiys","name":"哔嘀影视(XPath)","type":3,"api":"csp_XPath","searchable":1,"quickSearch":1,"filterable":0,"ext":"https://cdn.staticaly.com/gh/maplelgj/TV/main/XP/bidiys2.json"},
-{"key":"csp_xpath_jLgyy","name":"蓝光影院(XPF)","type":3,"api":"csp_XPathFilter","searchable":1,"quickSearch":1,"filterable":1,"ext":"https://cdn.staticaly.com/gh/maplelgj/TV/main/XP/lgyy.json"},
-{"key":"csp_xpath_vip1280","name":"VIP电影(XPath)","type":3,"api":"csp_XPath","searchable":1,"quickSearch":1,"filterable":0,"ext":"https://cdn.staticaly.com/gh/maplelgj/TV/main/XP/vip1280.json"}
+{"key":"csp_xpath_lib","name":"LIBVIO(XPath)","type":3,"api":"csp_XPathFilter","searchable":1,"quickSearch":1,"filterable":1,"ext":"https://cdn.staticaly.com/gh/maplelgj/TV/main/XP/libvio.json"}
 ],
 
 "parses":[
