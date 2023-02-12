@@ -1,7 +1,7 @@
 {
 "spider":"https://cdn.staticaly.com/gh/maplelgj/TV/main/jar/Yoursmile2.jar",
-"spider":"https://cdn.staticaly.com/gh/maplelgj/TV/main/jar/18.jar",
-"spider":"https://cdn.staticaly.com/gh/maplelgj/TV/main/jar/ts.jar",
+//"spider":"https://cdn.staticaly.com/gh/maplelgj/TV/main/jar/18.jar",
+//"spider":"https://cdn.staticaly.com/gh/maplelgj/TV/main/jar/ts.jar",
 "lives":[{"group":"redirect","channels":[{"name":"redirect","urls":["proxy://do=live&type=txt&ext=https://raw.iqiq.io/zhanghong1983/TVBOXZY/main/TV/live.txt"]}]}],
 "wallpaper":"http://maoyingshi.cc/api.php",
 
