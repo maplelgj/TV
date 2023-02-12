@@ -1,7 +1,7 @@
 {
   "spider":"https://cdn.staticaly.com/gh/maplelgj/TV/main/jar/Yoursmile.jar",
-  //"spider":"https://cdn.staticaly.com/gh/maplelgj/TV/main/jar/2212.jar",
-  //"spider":"https://cdn.staticaly.com/gh/maplelgj/TV/main/jar/spider2207.jar",
+  "spider":"https://cdn.staticaly.com/gh/maplelgj/TV/main/jar/2212.jar",
+  "spider":"https://cdn.staticaly.com/gh/maplelgj/TV/main/jar/spider2207.jar",
 
 
 "lives": [
@@ -13,31 +13,20 @@
  
 {"key":"LiteApple","name":"小苹果","type":3,"api":"csp_LiteApple","searchable":1,"quickSearch":1,"filterable":1},
 {"key": "csp_77","name": "酷云七七","type": 3,"api": "csp_Kunyu77","searchable": 1,"quickSearch": 1,"filterable": 1},
-{"key": "csp_CZSPP","name": "厂长资源","type": 3,"api": "csp_Czsapp","searchable": 1,"quickSearch": 1,"filterable": 0},
 {"key":"BuLei","name":"布雷影视","type":3,"api":"csp_BuLei","searchable":1,"quickSearch":1,"filterable":1},
 {"key":"csp_Cokemv","name":"Cokemv","type":3,"api":"csp_Cokemv","playerType":1,"searchable":1,"quickSearch":1,"filterable":1},
-{"key": "csp_LibVio","name": "LibVio","type": 3,"api": "csp_Lib","searchable": 1,"quickSearch": 1,"filterable": 0},
 {"key":"csp_Bttoo","name":"两个BT","type": 3,"api": "csp_Bttoo","searchable": 1,"quickSearch": 1,"filterable": 1},
 {"key":"Lezhu_","name":"乐猪影视","type":3,"api":"csp_Lezhu","searchable":1,"quickSearch":1,"filterable":1},
 {"key":"csp_Kuaikan","name":"快看影视","type":3,"api":"csp_Kuaikan","searchable":1,"quickSearch":1,"filterable":1}, 
 {"key":"AppTT","name":"图图影视","type":"3","api":"csp_Dora","searchable":"1","quickSearch":"1","filterable":"1","ext":"110c922de7d69804467fb83d3bb664b5"},
 {"key":"csp_Zxzj","name":"在线之家","type":3,"api":"csp_Zxzj","searchable":1,"quickSearch":1,"filterable":1},
   
-{"key":"csp_IKan","name":"爱看〔ts〕","type":3,"api": "csp_Dora","searchable": 1,"quickSearch": 1,"filterable":1,"ext":"a4ce9a4ba7d4f4bced2ff9dfc4ab4e50","jar":"https://cdn.staticaly.com/gh/maplelgj/BOXVIP/main/JAR/cs.jar"},
-{"key":"AppTT","name":"图图影视〔ts〕","type":"3","api":"csp_Dora","searchable":"1","quickSearch":"1","filterable":"1","ext":"110c922de7d69804467fb83d3bb664b5","jar":"https://cdn.staticaly.com/gh/maplelgj/BOXVIP/main/JAR/cs.jar"},
-{"key":"Cokemv","name":"Cokemv〔ts〕","type":"3","api":"csp_Dora","searchable":"1","quickSearch":"1","filterable":"1","ext":"b88de1329655cca1beba45aa9776de70","jar":"https://cdn.staticaly.com/gh/maplelgj/BOXVIP/main/JAR/cs.jar"},
-{"key":"Czsapp","name":"厂长资源〔ts〕","type":"3","api":"csp_Dora","searchable":"1","quickSearch":"1","filterable":"1","ext":"8ee655f702d0d21f3643504783babbc3","jar":"https://cdn.staticaly.com/gh/maplelgj/BOXVIP/main/JAR/cs.jar"},
-
 {"key":"dr_JRKAN直播","name":"JRKAN直播(js)","type":3,"api":"https://agit.ai/Yoursmile7/TVBox/raw/branch/master/js/lib/drpy.min.js","searchable":0,"quickSearch":0,"filterable":0,"ext":"https://cdn.staticaly.com/gh/maplelgj/BOXVIP/main/JS/js/JRKAN直播.js"},
 {"key":"drpy_js_厂长资源","name":"影视|厂长资源[js]","type":3,"api":"https://agit.ai/Yoursmile7/TVBox/raw/branch/master/js/lib/drpy.min.js","ext":"https://cdn.staticaly.com/gh/maplelgj/BOXVIP/main/JS/js/厂长资源.js"},
 {"key":"drpy_js_农民","name":"影视|农民[js]","type":3,"api":"https://agit.ai/Yoursmile7/TVBox/raw/branch/master/js/lib/drpy.min.js","ext":"https://cdn.staticaly.com/gh/maplelgj/BOXVIP/main/JS/js/农民.js"},
 {"key":"drpy_js_LIBVIO","name":"影视|LIBVIO[js]","type":3,"api":"https://agit.ai/Yoursmile7/TVBox/raw/branch/master/js/lib/drpy.min.js","ext":"https://cdn.staticaly.com/gh/maplelgj/BOXVIP/main/JS/js/LIBVIO.js"},
-{"key":"drpy_js_布雷蓝光","name":"影视|布雷蓝光[js]","type":3,"api":"https://agit.ai/Yoursmile7/TVBox/raw/branch/master/js/lib/drpy.min.js","ext":"https://cdn.staticaly.com/gh/maplelgj/BOXVIP/main/JS/js/布雷蓝光.js"},
+{"key":"drpy_js_布雷蓝光","name":"影视|布雷蓝光[js]","type":3,"api":"https://agit.ai/Yoursmile7/TVBox/raw/branch/master/js/lib/drpy.min.js","ext":"https://cdn.staticaly.com/gh/maplelgj/BOXVIP/main/JS/js/布雷蓝光.js"}
 
-
-
-{"key":"csp_xpath_cokemv","name":"Cokemv(XPath)","type":3,"api":"csp_XPathFilter","searchable":1,"quickSearch":1,"filterable":1,"ext":"https://cdn.staticaly.com/gh/maplelgj/TV/main/XP/cokemv.json"},
-{"key":"csp_xpath_lib","name":"LIBVIO(XPath)","type":3,"api":"csp_XPathFilter","searchable":1,"quickSearch":1,"filterable":1,"ext":"https://cdn.staticaly.com/gh/maplelgj/TV/main/XP/libvio.json"}
 ],
 
 "parses":[
