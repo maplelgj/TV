@@ -107,16 +107,22 @@ proxy-groups:
       - DIRECT
       - BWG-VMESS
       - Racknerd-Vmess
-  - name: 📲 ChatGPT
+  - name: Ⓜ️ 微软服务
+    type: select
+    proxies:
+      - DIRECT
+      - BWG-VMESS
+      - Racknerd-Vmess
+  - name: 📺 ChatGPT
     type: select
     proxies:
       - Racknerd-Vmess
       - BWG-VMESS
-  #- name: 📢 谷歌服务
-    #type: select
-    #proxies:
-      #- BWG-VMESS
-      #- Racknerd-Vmess
+  - name: 📢 谷歌服务
+    type: select
+    proxies:
+      - BWG-VMESS
+      - Racknerd-Vmess
   - name: 📲 Telegram
     type: select
     proxies:
@@ -197,6 +203,13 @@ rule-providers:
     path: ./rule/OneDrive.yaml
     url: https://cdn.staticaly.com/gh/blackmatrix7/ios_rule_script/master/rule/Clash/OneDrive/OneDrive.yaml
     interval: 86400
+  
+  Microsoft:
+    type: http
+    behavior: classical
+    path: ./rule/Microsoft.yaml
+    url: https://cdn.staticaly.com/gh/maplelgj/ios_rule_script/master/rule/Clash/Microsoft/Microsoft.yaml
+    interval: 86400
     
   Telegram:
     type: http
@@ -242,9 +255,9 @@ rules:
  - RULE-SET,China,🎯 国内流量
  - RULE-SET,Apple,🍎 苹果服务
  - RULE-SET,Telegram,📲 Telegram
- - RULE-SET,ChatGPT,📲 ChatGPT
- #- RULE-SET,Google,📢 谷歌服务
- - RULE-SET,Google,🚀 国外流量
+ - RULE-SET,ChatGPT,📺 ChatGPT
+ - RULE-SET,Google,📢 谷歌服务
+ - RULE-SET,Microsoft,Ⓜ️ 微软服务
  - RULE-SET,OneDrive,🚀 国外流量
  - RULE-SET,GlobalMedia,🚀 国外流量
  - RULE-SET,ProxyGFWlist,🚀 国外流量
