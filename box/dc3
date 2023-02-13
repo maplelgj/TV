@@ -1,0 +1,44 @@
+{
+    "urls": [
+        {
+            "url": "本接口由公众号《小胡软件》整理",
+            "name": "💗公众号《小胡软件》💗"
+        },
+        {
+            "url": "本接口由公众号《小胡软件》整理",
+            "name": "💗线路均来自网络💗"
+        },
+        {
+            "url": "https://notabug.org/qizhen15800/My9394/raw/master/ProfessionalEdition.m3u8",
+            "name": "👄不良帅"
+        },         
+        {
+            "url": "http://www.dmtv.ml/mao/single.json",
+            "name": "👄乱世"
+        }, 
+        {
+            "url": "https://ghproxy.com/https://raw.githubusercontent.com/chengxueli818913/maoTV/main/44.txt",
+            "name": "👄佰欣园"
+        },
+        {
+            "url": "https://raw.fastgit.org/kebedd69/TVbox-interface/main/%E7%94%9C%E8%9C%9C.json",
+            "name": "👄甜蜜"
+        },
+        {
+            "url": "https://ghproxy.com/https://raw.githubusercontent.com/xianyuyimu/TVBOX-/main/TVBox/%E4%B8%80%E6%9C%A8%E8%87%AA%E7%94%A8.json",
+            "name": "👄一木"
+        },        
+        {
+            "url": "https://agit.ai/n/b/raw/branch/a/b/c.json",
+            "name": "👄agit/abc"
+        },
+        {
+            "url": "https://agit.ai/mmmgit/tvbox/raw/branch/main/zzz1.json",
+            "name": "👄zzz1"
+        },
+        {
+            "url": "https://ghproxy.com/https://raw.githubusercontent.com/2hacc/TVBox/main/tvbox",
+            "name": "👄二哈"
+        }
+    ]
+}
