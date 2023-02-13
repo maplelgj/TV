@@ -118,16 +118,16 @@ proxy-groups:
     proxies:
       - Racknerd-Vmess
       - BWG-VMESS
-  - name: 📢 谷歌服务
-    type: select
-    proxies:
-      - BWG-VMESS
-      - Racknerd-Vmess
   - name: 📲 Telegram
     type: select
     proxies:
       - Racknerd-Vmess
       - BWG-VMESS
+  - name: 📢 谷歌服务
+    type: select
+    proxies:
+      - BWG-VMESS
+      - Racknerd-Vmess
   - name: 🚀 国外流量
     type: select
     proxies:
