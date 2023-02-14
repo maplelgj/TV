@@ -21,14 +21,14 @@
 // {"key":"Czsapp","name":"厂长","type":"3","api":"csp_Dora","searchable":"1","quickSearch":"1","filterable":"1","ext":"8ee655f702d0d21f3643504783babbc3","jar":"https://cdn.staticaly.com/gh/maplelgj/TV/main/jar/cs.jar"},
 
   
-{"key":"dr_JRKAN直播","name":"JRKAN直播(js)","type":3,"api":"https://cdn.staticaly.com/gh/maplelgj/BOXVIP/main/JS/lib/drpy2.min.js","searchable":0,"quickSearch":0,"filterable":0,"ext":"https://cdn.staticaly.com/gh/maplelgj/BOXVIP/main/JS/js/JRKAN直播.js"},
-{"key":"drpy_js_310直播","name":"体育|310直播[js]","type":3,"api":"https://cdn.staticaly.com/gh/maplelgj/BOXVIP/main/JS/lib/drpy2.min.js","ext":"https://cdn.staticaly.com/gh/maplelgj/BOXVIP/main/JS/js/310直播.js"},
+{"key":"dr_JRKAN直播","name":"JRKAN直播(js)","type":3,"api":"https://jsd.cdn.zzko.cn/gh/maplelgj/BOXVIP@main/JS/lib/drpy2.min.js","searchable":0,"quickSearch":0,"filterable":0,"ext":"https://jsd.cdn.zzko.cn/gh/maplelgj/BOXVIP@main/JS/js/JRKAN直播.js"},
+{"key":"drpy_js_310直播","name":"体育|310直播[js]","type":3,"api":"https://jsd.cdn.zzko.cn/gh/maplelgj/BOXVIP@main/JS/lib/drpy2.min.js","ext":"https://jsd.cdn.zzko.cn/gh/maplelgj/BOXVIP@main/JS/js/310直播.js"},
 
 	
-{"key":"drpy_js_厂长资源","name":"影视|厂长资源[js]","type":3,"api":"https://cdn.staticaly.com/gh/maplelgj/BOXVIP/main/JS/lib/drpy2.min.js","ext":"https://cdn.staticaly.com/gh/maplelgj/BOXVIP/main/JS/js/厂长资源.js"},
-{"key":"drpy_js_农民","name":"影视|农民[js]","type":3,"api":"https://cdn.staticaly.com/gh/maplelgj/BOXVIP/main/JS/lib/drpy2.min.js","ext":"https://cdn.staticaly.com/gh/maplelgj/BOXVIP/main/JS/js/农民.js"},
-{"key":"drpy_js_LIBVIO","name":"影视|LIBVIO[js]","type":3,"api":"https://cdn.staticaly.com/gh/maplelgj/BOXVIP/main/JS/lib/drpy2.min.js","ext":"https://cdn.staticaly.com/gh/maplelgj/BOXVIP/main/JS/js/LIBVIO.js"},
-{"key":"drpy_js_布雷蓝光","name":"影视|布雷蓝光[js]","type":3,"api":"https://cdn.staticaly.com/gh/maplelgj/BOXVIP/main/JS/lib/drpy.min.js","ext":"https://cdn.staticaly.com/gh/maplelgj/BOXVIP/main/JS/js/布雷蓝光.js"},
+{"key":"drpy_js_厂长资源","name":"影视|厂长资源[js]","type":3,"api":"https://jsd.cdn.zzko.cn/gh/maplelgj/BOXVIP@main/JS/lib/drpy2.min.js","ext":"https://jsd.cdn.zzko.cn/gh/maplelgj/BOXVIP@main/JS/js/厂长资源.js"},
+{"key":"drpy_js_农民","name":"影视|农民[js]","type":3,"api":"https://jsd.cdn.zzko.cn/gh/maplelgj/BOXVIP@main/JS/lib/drpy2.min.js","ext":"https://jsd.cdn.zzko.cn/gh/maplelgj/BOXVIP@main/JS/js/农民.js"},
+{"key":"drpy_js_LIBVIO","name":"影视|LIBVIO[js]","type":3,"api":"https://jsd.cdn.zzko.cn/gh/maplelgj/BOXVIP@main/JS/lib/drpy2.min.js","ext":"https://jsd.cdn.zzko.cn/gh/maplelgj/BOXVIP@main/JS/js/LIBVIO.js"},
+{"key":"drpy_js_布雷蓝光","name":"影视|布雷蓝光[js]","type":3,"api":"https://jsd.cdn.zzko.cn/gh/maplelgj/BOXVIP@main/JS/lib/drpy.min.js","ext":"https://jsd.cdn.zzko.cn/gh/maplelgj/BOXVIP@main/JS/js/布雷蓝光.js"},
 //{"key":"UpYun","name":"☁️UP云搜","type":3,"api":"csp_UpYun","searchable":1,"quickSearch":1,"filterable":1,"ext": "https://agit.ai/Yoursmile7/TVBox/raw/branch/master/token.txt"},
 //{"key":"PanSou","name":"😽盘搜","type":3,"api":"csp_PanSou","searchable":1,"quickSearch":1,"filterable":1,"ext": "https://agit.ai/Yoursmile7/TVBox/raw/branch/master/token.txt"},
 {"key":"YiSo","name":"🆎易搜","type":3,"api":"csp_YiSo","searchable":1,"quickSearch":1,"filterable":1,"ext": "https://agit.ai/Yoursmile7/TVBox/raw/branch/master/token.txt"}
