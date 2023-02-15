@@ -7,7 +7,6 @@
   `https://jsd.cdn.zzko.cn/gh/maplelgj/TV@main/m.json`   
 
  
-  `https://cdn.staticaly.com/gh/maplelgj/TV/main/VIP.json`  
  #
  `https://raw.fastgit.org/maplelgj/TV/main/VV`  
  
