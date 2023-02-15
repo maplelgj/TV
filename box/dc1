@@ -6,6 +6,17 @@
             "name": "大聪明"
         },
         
+           {
+            "url": "https://agit.ai/Yoursmile7/TVBox/raw/branch/master/XC.json",
+            "name": "🦀南风"
+        },
+        
+        
+                {
+            "url": "https://agit.ai/nbwzlyd/xiaopingguo/raw/branch/master/xiaopingguo/xiaopingguo.json",
+            "name": "🍎小苹果"
+        },
+        
         {
             "url": "https://agit.ai/cyl518/yl/raw/branch/master/ml.json",
             "name": "胖丫"
@@ -62,10 +73,7 @@
             "url": "http://52bsj.vip:98/wuai",
             "name": "🦊吾爱"
         },
-        {
-            "url": "https://agit.ai/Yoursmile7/TVBox/raw/branch/master/XC.json",
-            "name": "🦀南风"
-        },
+
         {
             "url": "https://download.kstore.space/download/2883/m3u8/dsj/guochan/mp1/1.m3u8",
             "name": "💂蚂蚁论坛"
@@ -78,10 +86,7 @@
             "url": "http://www.yunwp.cn/api/v3/file/get/1093/1007.json?sign=kJ5EJJLNzf63QKB1ykTZwbbW9vnMfi-2Wjumk-wtL-E%3D%3A0",
             "name": "🦛小马"
         },
-        {
-            "url": "https://agit.ai/nbwzlyd/xiaopingguo/raw/branch/master/xiaopingguo/xiaopingguo.json",
-            "name": "🍎小苹果"
-        },
+
         {
             "url": "https://raw.iqiq.io/zhanghong1983/TVBOXZY/main/tvbox.json",
             "name": "🥓张弘"
