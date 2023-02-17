@@ -272,7 +272,7 @@ rules:
  - RULE-SET,GFW,🚀 国外流量
  - RULE-SET,BanAD,🆎 AdBlock
  - RULE-SET,AdvertisingLite,🆎 AdBlock
- - RULE-SET,AdGuardSDNSFilter,🆎 AdBlock
+ #- RULE-SET,AdGuardSDNSFilter,🆎 AdBlock
  #- RULE-SET,EasyPrivacy,🆎 AdBlock
  - RULE-SET,Hijacking,🆎 AdBlock
  - RULE-SET,ZhihuAds,🆎 AdBlock
