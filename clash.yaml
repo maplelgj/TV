@@ -117,7 +117,7 @@ rule-providers:
     type: http
     behavior: classical
     path: ./rule/AdvertisingLite.yaml
-    url: https://cdn.staticaly.com/gh/blackmatrix7/ios_rule_script/master/rule/Clash/AdvertisingLite/AdvertisingLite_Classical.yaml
+    url: https://cdn.staticaly.com/gh/blackmatrix7/ios_rule_script/master/rule/Clash/AdvertisingLite/AdvertisingLite.yaml
     interval: 86400
     
   Hijacking:
