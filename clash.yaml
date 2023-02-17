@@ -15,10 +15,10 @@ dns:
     - 180.76.76.76
     - 119.29.29.29
   nameserver:
-    - 114.114.114.114
     - 223.5.5.5
     - https://dns.alidns.com/dns-query
     - https://dns.pub/dns-query
+    - https://1.12.12.12/dns-query
   fallback:
     - https://dns.twnic.tw/dns-query
     - 8.8.8.8 # Google DNS UDP
