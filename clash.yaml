@@ -165,7 +165,7 @@ rule-providers:
     type: http
     behavior: classical
     path: ./rule/AdGuardSDNSFilter.yaml
-    url: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/AdGuardSDNSFilter/AdGuardSDNSFilter_Classical.yaml
+    url: https://raw.fastgit.org/blackmatrix7/ios_rule_script/master/rule/Clash/AdGuardSDNSFilter/AdGuardSDNSFilter_Classical.yaml
     interval: 86400
     
   Hijacking:
