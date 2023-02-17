@@ -161,12 +161,6 @@ rule-providers:
     url: https://cdn.staticaly.com/gh/ACL4SSR/ACL4SSR/master/Clash/Providers/BanAD.yaml
     interval: 86400
     
-  AdGuardSDNSFilter:
-    type: http
-    behavior: classical
-    path: ./rule/AdGuardSDNSFilter.yaml
-    url: https://raw.fastgit.org/blackmatrix7/ios_rule_script/master/rule/Clash/AdGuardSDNSFilter/AdGuardSDNSFilter_Classical.yaml
-    interval: 86400
     
   Hijacking:
     type: http
@@ -264,7 +258,6 @@ rules:
  - RULE-SET,ProxyGFWlist,🚀 国外流量
  - RULE-SET,GFW,🚀 国外流量
  - RULE-SET,BanAD,🆎 AdBlock
- - RULE-SET,AdGuardSDNSFilter,🆎 AdBlock
  - RULE-SET,Hijacking,🆎 AdBlock
  - RULE-SET,ZhihuAds,🆎 AdBlock
  - GEOIP,CN,🎯 国内流量
