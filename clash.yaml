@@ -113,6 +113,12 @@ rule-providers:
     url: https://cdn.staticaly.com/gh/ACL4SSR/ACL4SSR/master/Clash/Providers/BanAD.yaml
     interval: 86400
     
+  BanEasyPrivacy:
+    type: http
+    behavior: classical
+    path: ./rule/BanEasyPrivacy.yaml
+    url: https://cdn.staticaly.com/gh/ACL4SSR/ACL4SSR/master/Clash/Providers/BanEasyPrivacy.yaml
+    interval: 86400
     
   Hijacking:
     type: http
@@ -210,6 +216,7 @@ rules:
  - RULE-SET,ProxyGFWlist,🚀 国外流量
  - RULE-SET,GFW,🚀 国外流量
  - RULE-SET,BanAD,🆎 AdBlock
+ - RULE-SET,BanEasyPrivacy,🆎 AdBlock
  - RULE-SET,Hijacking,🆎 AdBlock
  - RULE-SET,ZhihuAds,🆎 AdBlock
  - GEOIP,CN,🎯 国内流量
