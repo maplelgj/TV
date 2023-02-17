@@ -168,12 +168,6 @@ rule-providers:
     url: https://cdn.staticaly.com/gh/blackmatrix7/ios_rule_script/master/rule/Clash/Hijacking/Hijacking.yaml
     interval: 86400
     
-  Privacy:
-    type: http
-    behavior: classical
-    path: ./rule/Privacy.yaml
-    url: https://raw.fastgit.org/blackmatrix7/ios_rule_script/master/rule/Clash/Privacy/Privacy_Classical.yaml
-    interval: 86400
     
   ZhihuAds:
     type: http
@@ -264,7 +258,6 @@ rules:
  - RULE-SET,GFW,🚀 国外流量
  - RULE-SET,BanAD,🆎 AdBlock
  - RULE-SET,Hijacking,🆎 AdBlock
- - RULE-SET,Privacy,🆎 AdBlock
  - RULE-SET,ZhihuAds,🆎 AdBlock
  - GEOIP,CN,🎯 国内流量
  - MATCH,🐟 漏网之鱼
