@@ -127,6 +127,13 @@ rule-providers:
     url: https://raw.fastgit.org/blackmatrix7/ios_rule_script/master/rule/Clash/Hijacking/Hijacking.yaml
     interval: 86400
     
+  EasyPrivacy:
+    type: http
+    behavior: classical
+    path: ./rule/EasyPrivacy.yaml
+    url: https://raw.fastgit.org/blackmatrix7/ios_rule_script/master/rule/Clash/EasyPrivacy/EasyPrivacy_Classical.yaml
+    interval: 86400
+    
   ZhihuAds:
     type: http
     behavior: classical
@@ -215,6 +222,7 @@ rules:
  - RULE-SET,GFW,🚀 国外流量
  - RULE-SET,BanAD,🆎 AdBlock
  - RULE-SET,AdvertisingLite,🆎 AdBlock
+ - RULE-SET,EasyPrivacy,🆎 AdBlock
  - RULE-SET,Hijacking,🆎 AdBlock
  - RULE-SET,ZhihuAds,🆎 AdBlock
  - GEOIP,CN,🎯 国内流量
