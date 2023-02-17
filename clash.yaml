@@ -172,7 +172,7 @@ rule-providers:
     type: http
     behavior: classical
     path: ./rule/Privacy.yaml
-    url: https://cdn.staticaly.com/gh/blackmatrix7/ios_rule_script/master/rule/Clash/Privacy/Privacy_Classical.yaml
+    url: https://raw.fastgit.org/blackmatrix7/ios_rule_script/master/rule/Clash/Privacy/Privacy_Classical.yaml
     interval: 86400
     
   ZhihuAds:
@@ -201,7 +201,7 @@ rule-providers:
     type: http
     behavior: classical
     path: ./rule/OneDrive.yaml
-    url: https://cdn.staticaly.com/gh/blackmatrix7/ios_rule_script/master/rule/Clash/OneDrive/OneDrive.yaml
+    url: https://raw.fastgit.org/blackmatrix7/ios_rule_script/master/rule/Clash/OneDrive/OneDrive.yaml
     interval: 86400
   
   Microsoft:
@@ -222,14 +222,14 @@ rule-providers:
     type: http
     behavior: classical
     path: ./rule/GlobalMedia.yaml
-    url: https://cdn.staticaly.com/gh/blackmatrix7/ios_rule_script/master/rule/Clash/GlobalMedia/GlobalMedia.yaml
+    url: https://raw.fastgit.org/blackmatrix7/ios_rule_script/master/rule/Clash/GlobalMedia/GlobalMedia.yaml
     interval: 86400
     
   ProxyGFWlist:
     type: http
     behavior: classical
     path: ./rule/ProxyGFWlist.yaml
-    url: https://cdn.staticaly.com/gh/ACL4SSR/ACL4SSR/master/Clash/Providers/ProxyGFWlist.yaml
+    url: https://raw.fastgit.org/ACL4SSR/ACL4SSR/master/Clash/Providers/ProxyGFWlist.yaml
     interval: 86400
     
   GFW:
