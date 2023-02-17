@@ -141,6 +141,13 @@ rule-providers:
     url: https://raw.fastgit.org/blackmatrix7/ios_rule_script/master/rule/Clash/China/China_Classical.yaml
     interval: 86400
     
+  AdGDirect:
+    type: http
+    behavior: classical
+    path: ./rule/AdGDirect.yaml
+    url: https://raw.fastgit.org/blackmatrix7/ios_rule_script/master/rule/Clash/AdGuardSDNSFilter/Direct/Direct.yaml
+    interval: 86400
+    
   BanAD:
     type: http
     behavior: classical
@@ -167,6 +174,13 @@ rule-providers:
     #behavior: classical
     #path: ./rule/EasyPrivacy.yaml
     #url: https://raw.fastgit.org/blackmatrix7/ios_rule_script/master/rule/Clash/EasyPrivacy/EasyPrivacy_Classical.yaml
+    #interval: 86400
+    
+  #AdGuardSDNSFilter:
+    #type: http
+    #behavior: classical
+    #path: ./rule/AdGuardSDNSFilter.yaml
+    #url: https://raw.fastgit.org/blackmatrix7/ios_rule_script/master/rule/Clash/AdGuardSDNSFilter/AdGuardSDNSFilter_Classical.yaml
     #interval: 86400
     
   ZhihuAds:
@@ -246,6 +260,7 @@ rules:
  
 # 下面的规则是通过上面的rule-provider来确定的
  - RULE-SET,China,🎯 国内流量
+ - RULE-SET,AdGDirect,🎯 国内流量
  - RULE-SET,Apple,🍎 苹果服务
  - RULE-SET,Telegram,📲 Telegram
  - RULE-SET,ChatGPT,📺 ChatGPT
@@ -257,6 +272,7 @@ rules:
  - RULE-SET,GFW,🚀 国外流量
  - RULE-SET,BanAD,🆎 AdBlock
  - RULE-SET,AdvertisingLite,🆎 AdBlock
+ - RULE-SET,AdGuardSDNSFilter,🆎 AdBlock
  #- RULE-SET,EasyPrivacy,🆎 AdBlock
  - RULE-SET,Hijacking,🆎 AdBlock
  - RULE-SET,ZhihuAds,🆎 AdBlock
