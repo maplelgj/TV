@@ -143,13 +143,6 @@ rule-providers:
     url: https://raw.fastgit.org/blackmatrix7/ios_rule_script/master/rule/Clash/China/China_Classical.yaml
     interval: 86400
     
-  BanEasyList:
-    type: http
-    behavior: classical
-    path: ./rule/BanEasyList.yaml
-    url: https://raw.fastgit.org/ACL4SSR/ACL4SSR/master/Clash/Providers/BanEasyList.yaml
-    interval: 86400
-    
   BanAD:
     type: http
     behavior: classical
@@ -178,12 +171,12 @@ rule-providers:
     url: https://raw.fastgit.org/blackmatrix7/ios_rule_script/master/rule/Clash/ZhihuAds/ZhihuAds.yaml
     interval: 86400
     
-  #AdvertisingLite:
-    #type: http
-    #behavior: classical
-    #path: ./rule/AdvertisingLite.yaml
-    #url: https://raw.fastgit.org/blackmatrix7/ios_rule_script/master/rule/Clash/AdvertisingLite/AdvertisingLite.yaml
-    #interval: 86400
+  AdvertisingLite:
+    type: http
+    behavior: classical
+    path: ./rule/AdvertisingLite.yaml
+    url: https://raw.fastgit.org/blackmatrix7/ios_rule_script/master/rule/Clash/AdvertisingLite/AdvertisingLite.yaml
+    interval: 86400
     
   Apple:
     type: http
@@ -265,7 +258,7 @@ rules:
  - RULE-SET,ProxyGFWlist,🚀 国外流量
  - RULE-SET,GFW,🚀 国外流量
  - RULE-SET,BanAD,🆎 AdBlock
- - RULE-SET,BanEasyList,🆎 AdBlock
+ - RULE-SET,AdvertisingLite,🆎 AdBlock
  - RULE-SET,BanEasyListChina,🆎 AdBlock
  - RULE-SET,Hijacking,🆎 AdBlock
  - RULE-SET,ZhihuAds,🆎 AdBlock
