@@ -112,6 +112,11 @@ proxy-groups:
     proxies:
       - Racknerd-Vmess
       - BWG-VMESS
+  - name: 📹 Youtube
+    type: select
+    proxies:
+      - Racknerd-Vmess
+      - BWG-VMESS
   - name: 📢 谷歌服务
     type: select
     proxies:
@@ -176,6 +181,13 @@ rule-providers:
     behavior: classical
     path: ./rule/Apple.yaml
     url: https://raw.fastgit.org/blackmatrix7/ios_rule_script/master/rule/Clash/Apple/Apple.yaml
+    interval: 86400
+    
+  YouTube:
+    type: http
+    behavior: classical
+    path: ./rule/YouTube.yaml
+    url: https://fastly.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/YouTube/YouTube.yaml
     interval: 86400
     
   Google:
@@ -244,6 +256,7 @@ rules:
  - RULE-SET,Apple,🍎 苹果服务
  - RULE-SET,Telegram,📲 Telegram
  - RULE-SET,ChatGPT,📺 ChatGPT
+ - RULE-SET,ChatGPT,📹 Youtube
  - RULE-SET,Google,📢 谷歌服务
  - RULE-SET,Microsoft,Ⓜ️ 微软服务
  - RULE-SET,OneDrive,🚀 国外流量
