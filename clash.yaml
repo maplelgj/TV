@@ -148,33 +148,40 @@ rule-providers:
     url: https://raw.fastgit.org/blackmatrix7/ios_rule_script/master/rule/Clash/China/China_Classical.yaml
     interval: 86400
     
-  Advertising:
+   #Advertising:
+     #type: http
+     #behavior: classical
+     #path: ./rule/Advertising.yaml
+     #url: https://fastly.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/Advertising/Advertising_Classical.yaml
+     #interval: 86400
+   
+  BanEasyListChina:
     type: http
     behavior: classical
-    path: ./rule/Advertising.yaml
-    url: https://fastly.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/Advertising/Advertising_Classical.yaml
+    path: ./rule/BanEasyListChina.yaml
+    url: https://raw.fastgit.org/ACL4SSR/ACL4SSR/master/Clash/Providers/BanEasyListChina.yaml
     interval: 86400
-   
-  #BanEasyListChina:
-    #type: http
-    #behavior: classical
-    #path: ./rule/BanEasyListChina.yaml
-    #url: https://raw.fastgit.org/ACL4SSR/ACL4SSR/master/Clash/Providers/BanEasyListChina.yaml
-    #interval: 86400
     
-  #Hijacking:
-    #type: http
-    #behavior: classical
-    #path: ./rule/Hijacking.yaml
-    #url: https://raw.fastgit.org/blackmatrix7/ios_rule_script/master/rule/Clash/Hijacking/Hijacking.yaml
-    #interval: 86400
+  Hijacking:
+    type: http
+    behavior: classical
+    path: ./rule/Hijacking.yaml
+    url: https://raw.fastgit.org/blackmatrix7/ios_rule_script/master/rule/Clash/Hijacking/Hijacking.yaml
+    interval: 86400
     
-  #AdvertisingLite:
-    #type: http
-    #behavior: classical
-    #path: ./rule/AdvertisingLite.yaml
-    #url: https://raw.fastgit.org/blackmatrix7/ios_rule_script/master/rule/Clash/AdvertisingLite/AdvertisingLite.yaml
-    #interval: 86400
+  Privacy:
+    type: http
+    behavior: classical
+    path: ./rule/Privacy.yaml
+    url: https://fastly.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/Privacy/Privacy_Classical.yaml
+    interval: 86400
+    
+  AdvertisingLite:
+    type: http
+    behavior: classical
+    path: ./rule/AdvertisingLite.yaml
+    url: https://fastly.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/AdvertisingLite/AdvertisingLite_Classical.yaml
+    interval: 86400
     
   Apple:
     type: http
@@ -263,10 +270,10 @@ rules:
  - RULE-SET,GlobalMedia,🚀 国外流量
  - RULE-SET,ProxyGFWlist,🚀 国外流量
  - RULE-SET,GFW,🚀 国外流量
- - RULE-SET,Advertising,🆎 AdBlock
- #- RULE-SET,AdvertisingLite,🆎 AdBlock
- #- RULE-SET,BanEasyListChina,🆎 AdBlock
- #- RULE-SET,Hijacking,🆎 AdBlock
+ - RULE-SET,BanEasyListChina,🆎 AdBlock
+ - RULE-SET,AdvertisingLite,🆎 AdBlock
+ - RULE-SET,Hijacking,🆎 AdBlock
+ - RULE-SET,Privacy,🆎 AdBlock
  - GEOIP,CN,🎯 国内流量
  - MATCH,🐟 漏网之鱼
  
