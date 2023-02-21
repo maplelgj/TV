@@ -13,17 +13,17 @@ dns:
   ipv6: false
   default-nameserver:
     - 180.76.76.76
-    - 119.29.29.29
+    - 114.114.114.114
   nameserver:
     - 223.5.5.5
+    - 119.29.29.29
     - https://dns.alidns.com/dns-query
     - https://dns.pub/dns-query
-    - https://1.12.12.12/dns-query
   fallback:
-    - https://dns.twnic.tw/dns-query
     - 8.8.8.8 # Google DNS UDP
-    - https://dns.google/dns-query # Google DNS over HTTPS
     - 1.1.1.1
+    - https://dns.twnic.tw/dns-query
+    - https://dns.google/dns-query # Google DNS over HTTPS
   fallback-filter:
     geoip: true
     geoip-code: CN
