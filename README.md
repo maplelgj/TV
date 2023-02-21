@@ -14,7 +14,11 @@
  
  `https://cdn.staticaly.com/gh/maplelgj/TV/main/VV`  
  
-  `https://raw.fastgit.org/maplelgj/TV/main/free` 
+ `https://raw.fastgit.org/maplelgj/TV/main/free` 
+  
+ `https://raw.fastgit.org/freefq/free/master/v2` 
+  
+  
  #
  `https://raw.iqiq.io/maplelgj/TV/main/clash.ini`  
 
