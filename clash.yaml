@@ -96,12 +96,12 @@ proxy-groups:
       - DIRECT
       - BWG-VMESS
       - Racknerd-Vmess
-  - name: Ⓜ️ 微软服务
-    type: select
-    proxies:
-      - DIRECT
-      - BWG-VMESS
-      - Racknerd-Vmess
+  #- name: Ⓜ️ 微软服务
+    #type: select
+    #proxies:
+      #- DIRECT
+      #- BWG-VMESS
+      #- Racknerd-Vmess
   - name: 📺 ChatGPT
     type: select
     proxies:
@@ -211,12 +211,12 @@ rule-providers:
     url: https://raw.fastgit.org/blackmatrix7/ios_rule_script/master/rule/Clash/OneDrive/OneDrive.yaml
     interval: 86400
   
-  Microsoft:
-    type: http
-    behavior: classical
-    path: ./rule/Microsoft.yaml
-    url: https://raw.fastgit.org/maplelgj/ios_rule_script/master/rule/Clash/Microsoft/Microsoft.yaml
-    interval: 86400
+  #Microsoft:
+    #type: http
+    #behavior: classical
+    #path: ./rule/Microsoft.yaml
+    #url: https://raw.fastgit.org/maplelgj/ios_rule_script/master/rule/Clash/Microsoft/Microsoft.yaml
+    #interval: 86400
     
   Telegram:
     type: http
@@ -255,7 +255,6 @@ rule-providers:
     
 rules:
 # 内容：可以自行添加其它自己想要的规则
- #- DOMAIN-KEYWORD,tinder,🚀 国外流量
  #- DOMAIN-SUFFIX,dandanzan.com,🚀 国外流量
  
 # 下面的规则是通过上面的rule-provider来确定的
@@ -265,7 +264,7 @@ rules:
  - RULE-SET,ChatGPT,📺 ChatGPT
  - RULE-SET,YouTube,📹 Youtube
  - RULE-SET,Google,📢 谷歌服务
- - RULE-SET,Microsoft,Ⓜ️ 微软服务
+ #- RULE-SET,Microsoft,Ⓜ️ 微软服务
  - RULE-SET,OneDrive,🚀 国外流量
  - RULE-SET,GlobalMedia,🚀 国外流量
  - RULE-SET,ProxyGFWlist,🚀 国外流量
