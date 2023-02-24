@@ -76,7 +76,7 @@ dns:
 proxies:
   - {name: BWG-VMESS, server: 679888.xyz, port: 343, type: vmess, uuid: b92dfaee-7b1a-4c36-a737-f69f1e67a6ce, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /1edd91/, headers: {Host: 679888.xyz}}}
   - {name: Racknerd-Vmess, server: heihei006009.tk, port: 444, type: vmess, uuid: 7ed04ef6-0f03-42f1-a609-b21a0b3a3181, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /47d5ff16f/, headers: {Host: heihei006009.tk}}}
- 
+  - {name: hicairo.com, server: Astonishing.xixi666.repl.co, port: 443, type: vmess, uuid: cb16fc75-0970-4122-928d-13ef24b6daf9, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /vm, headers: {Host: Astonishing.xixi666.repl.co}}, udp: true}
 proxy-groups:
 # type:
 # select 手动选择，该组在节点列表上，手动选择列表或者 proxy-group 
