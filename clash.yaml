@@ -112,6 +112,7 @@ proxy-groups:
     proxies:
       - Racknerd-Vmess
       - BWG-VMESS
+      - hicairo.com
   - name: 📹 Youtube
     type: select
     proxies:
