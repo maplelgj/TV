@@ -108,11 +108,11 @@ proxy-groups:
   - name: 📲 Telegram
     type: select
     proxies:
-      - 美国-BWG
-      - 美国-Racknerd
-      - 美国-01
-      - 美国-02
-      - 美国-03
+      - 🇺🇸 美国-BWG
+      - 🇺🇸 美国-Racknerd
+      - 🇺🇸 美国-01
+      - 🇺🇸 美国-02
+      - 🇺🇸 美国-03
   - name: 📹 Youtube
     type: select
     proxies:
