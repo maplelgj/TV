@@ -4,6 +4,7 @@ payload:
 - DOMAIN-KEYWORD,tinder
 - DOMAIN-KEYWORD,v2rayssr
 - DOMAIN-KEYWORD,dandanzan10
+- DOMAIN-KEYWORD,gcore
 
 - DOMAIN-SUFFIX,v2rayssr.com
 - DOMAIN-SUFFIX,dandanzan10.top
@@ -23,3 +24,4 @@ payload:
 - DOMAIN-SUFFIX,browserleaks.com
 - DOMAIN-SUFFIX,hicairo.com
 - DOMAIN-SUFFIX,cloudflareinsights.com
+- DOMAIN-SUFFIX,buliang0.cf
