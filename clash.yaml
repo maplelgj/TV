@@ -83,13 +83,6 @@ proxy-groups:
 # url-test 延迟最低节点，测试该组所有节点的延迟
 # fallback 定期测试列表中服务器的可用性，按顺序切换使用第一个可用的服务器
 # load-balance 负载均衡，由该组2个以上的节点提供链接
-
-  - name: 🎯 国内流量
-    type: select
-    proxies:
-      - DIRECT
-      - BWG-VMESS
-      - Racknerd-Vmess
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -107,6 +100,7 @@ proxy-groups:
     proxies:
       - Racknerd-Vmess
       - BWG-VMESS
+      - hicairo.com
   - name: 📲 Telegram
     type: select
     proxies:
@@ -118,16 +112,25 @@ proxy-groups:
     proxies:
       - Racknerd-Vmess
       - BWG-VMESS
+      - hicairo.com
   - name: 📢 谷歌服务
     type: select
     proxies:
       - BWG-VMESS
       - Racknerd-Vmess
+      - hicairo.com
   - name: 🚀 国外流量
     type: select
     proxies:
       - BWG-VMESS
       - Racknerd-Vmess
+      - hicairo.com
+  - name: 🎯 国内流量
+    type: select
+    proxies:
+      - DIRECT
+      - BWG-VMESS
+      - hicairo.com
   - name: 🆎 AdBlock
     type: select
     proxies:
