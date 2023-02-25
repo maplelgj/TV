@@ -74,9 +74,11 @@ dns:
       #url: http://www.youtube.com/generate_204 # 用来测ping的地址
     
 proxies:
-  - {name: BWG-VMESS, server: 679888.xyz, port: 343, type: vmess, uuid: b92dfaee-7b1a-4c36-a737-f69f1e67a6ce, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /1edd91/, headers: {Host: 679888.xyz}}}
-  - {name: Racknerd-Vmess, server: heihei006009.tk, port: 444, type: vmess, uuid: 7ed04ef6-0f03-42f1-a609-b21a0b3a3181, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /47d5ff16f/, headers: {Host: heihei006009.tk}}}
-  - {name: hicairo.com, server: Astonishing.xixi666.repl.co, port: 443, type: vmess, uuid: cb16fc75-0970-4122-928d-13ef24b6daf9, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /vm, headers: {Host: Astonishing.xixi666.repl.co}}, udp: true}
+  - {name: 美国-BWG, server: 679888.xyz, port: 343, type: vmess, uuid: b92dfaee-7b1a-4c36-a737-f69f1e67a6ce, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /1edd91/, headers: {Host: 679888.xyz}}}
+  - {name: 美国-Racknerd, server: 107.173.87.118, port: 443, type: vmess, uuid: 7e23d467-b488-4db1-f915-8f2dceda2d86, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /vm}, udp: true}
+  - {name: 美国-01, server: Astonishing.xixi666.repl.co, port: 443, type: vmess, uuid: cb16fc75-0970-4122-928d-13ef24b6daf9, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /vm, headers: {Host: Astonishing.xixi666.repl.co}}, udp: true}
+  - {name: 美国-02, server: VMESS.xixi666.repl.co, port: 443, type: vmess, uuid: 84a0e7da-d941-47d2-ac75-93fce19d7afe, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /vm, headers: {Host: VMESS.xixi666.repl.co}}, udp: true}
+  - {name: 美国-03, server: VMESS02.xixi666.repl.co, port: 443, type: vmess, uuid: 226e6e0f-b99f-41e2-b695-ee8a0e39537c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /vm, headers: {Host: VMESS02.xixi666.repl.co}}, udp: true}
 proxy-groups:
 # type:
 # select 手动选择，该组在节点列表上，手动选择列表或者 proxy-group 
@@ -87,50 +89,62 @@ proxy-groups:
     type: select
     proxies:
       - DIRECT
-      - BWG-VMESS
-      - Racknerd-Vmess
+      - 美国-BWG
+      - 美国-Racknerd    
   #- name: Ⓜ️ 微软服务
     #type: select
     #proxies:
       #- DIRECT
-      #- BWG-VMESS
-      #- Racknerd-Vmess
+      #- 美国-BWG
+      #- 美国-Racknerd
   - name: 📺 ChatGPT
     type: select
     proxies:
-      - Racknerd-Vmess
-      - BWG-VMESS
-      - hicairo.com
+      - 美国-BWG
+      - 美国-Racknerd
+      - 美国-01
+      - 美国-02
+      - 美国-03
   - name: 📲 Telegram
     type: select
     proxies:
-      - Racknerd-Vmess
-      - BWG-VMESS
-      - hicairo.com
+      - 美国-BWG
+      - 美国-Racknerd
+      - 美国-01
+      - 美国-02
+      - 美国-03
   - name: 📹 Youtube
     type: select
     proxies:
-      - Racknerd-Vmess
-      - BWG-VMESS
-      - hicairo.com
+      - 美国-BWG
+      - 美国-Racknerd
+      - 美国-01
+      - 美国-02
+      - 美国-03
   - name: 📢 谷歌服务
     type: select
     proxies:
-      - BWG-VMESS
-      - Racknerd-Vmess
-      - hicairo.com
+      - 美国-BWG
+      - 美国-Racknerd
+      - 美国-01
+      - 美国-02
+      - 美国-03
   - name: 🚀 国外流量
     type: select
     proxies:
-      - BWG-VMESS
-      - Racknerd-Vmess
-      - hicairo.com
+      - 美国-BWG
+      - 美国-Racknerd
+      - 美国-01
+      - 美国-02
+      - 美国-03
   - name: 🎯 国内流量
     type: select
     proxies:
       - DIRECT
-      - BWG-VMESS
-      - hicairo.com
+      - 美国-BWG
+      - 美国-01
+      - 美国-02
+      - 美国-03
   - name: 🆎 AdBlock
     type: select
     proxies:
@@ -140,8 +154,10 @@ proxy-groups:
     type: select
     proxies:
       - DIRECT
-      - BWG-VMESS
-      - Racknerd-Vmess
+      - 美国-BWG
+      - 美国-01
+      - 美国-02
+      - 美国-03
  
 # 规则地址
 rule-providers:
