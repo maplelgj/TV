@@ -135,6 +135,7 @@ proxy-groups:
     type: select
     proxies:
       - DIRECT
+      - ♻️ 自动选择
       - 🇺🇸 美国-BWG
       - 🇺🇸 美国-02
       - 🇺🇸 美国-Drpoax02
