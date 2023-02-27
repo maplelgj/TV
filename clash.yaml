@@ -97,7 +97,7 @@ proxy-groups:
 # load-balance 负载均衡，由该组2个以上的节点提供链接
   - name: ♻️ 自动选择
     type: url-test
-    url: http://www.gstatic.com/generate_204
+    url: http://www.google.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
@@ -139,12 +139,6 @@ proxy-groups:
       - 🇺🇸 美国-02
       - 🇺🇸 美国-Drpoax02
       - 🇺🇸 美国-Racknerd02   
-  #- name: Ⓜ️ 微软服务
-    #type: select
-    #proxies:
-      #- DIRECT
-      #- 🇺🇸 美国-BWG
-      #- 🇺🇸 美国-Racknerd02
   - name: 📺 ChatGPT
     type: select
     proxies:
@@ -194,6 +188,13 @@ proxy-groups:
       - 🇺🇸 美国-02
       - 🇺🇸 美国-03
       - 🇺🇸 美国-Drpoax02
+  - name: Ⓜ️ 微软服务
+    type: select
+    proxies:
+      - DIRECT
+      - ♻️ 自动选择
+      - 🇺🇸 美国-BWG
+      - 🇺🇸 美国-Racknerd02
   - name: 🎯 国内流量
     type: select
     proxies:
@@ -340,7 +341,7 @@ rules:
  - RULE-SET,ChatGPT,📺 ChatGPT
  - RULE-SET,YouTube,📹 Youtube
  - RULE-SET,Google,📢 谷歌服务
- #- RULE-SET,Microsoft,Ⓜ️ 微软服务
+ - RULE-SET,Microsoft,Ⓜ️ 微软服务
  - RULE-SET,OneDrive,🚀 国外流量
  - RULE-SET,GlobalMedia,🚀 国外流量
  - RULE-SET,ProxyGFWlist,🚀 国外流量
