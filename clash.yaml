@@ -73,6 +73,7 @@ dns:
       #lazy: true # 为true时，未被使用时不进行测ping
       #url: http://www.youtube.com/generate_204 # 用来测ping的地址
     
+
 proxies:
   - {name: 🇺🇸 美国-BWG, server: 679888.xyz, port: 343, type: vmess, uuid: b92dfaee-7b1a-4c36-a737-f69f1e67a6ce, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /1edd91/, headers: {Host: 679888.xyz}}}
   - {name: 🇺🇸 美国-Drpoax, server: abc.679888.xyz, port: 443, type: vmess, uuid: 5d760eb9-f941-47de-9cdc-da61cefb6d3b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /vm, headers: {Host: abc.679888.xyz}}, udp: true}
@@ -83,7 +84,11 @@ proxies:
   - {name: 🇺🇸 美国-01, server: Astonishing.xixi666.repl.co, port: 443, type: vmess, uuid: cb16fc75-0970-4122-928d-13ef24b6daf9, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /vm, headers: {Host: Astonishing.xixi666.repl.co}}, udp: true}
   - {name: 🇺🇸 美国-02, server: VMESS.xixi666.repl.co, port: 443, type: vmess, uuid: 84a0e7da-d941-47d2-ac75-93fce19d7afe, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /vm, headers: {Host: VMESS.xixi666.repl.co}}, udp: true}
   - {name: 🇺🇸 美国-03, server: VMESS02.xixi666.repl.co, port: 443, type: vmess, uuid: 226e6e0f-b99f-41e2-b695-ee8a0e39537c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /vm, headers: {Host: VMESS02.xixi666.repl.co}}, udp: true}
-  - {name: 🇺🇸 美国-04, server: rep04.xixi666.repl.co, port: 443, type: vmess, uuid: 5b94680c-1336-44eb-a4f4-7d31958f2098, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /vm, headers: {Host: rep04.xixi666.repl.co}}, udp: true}proxy-groups:
+  - {name: 🇺🇸 美国-04, server: rep04.xixi666.repl.co, port: 443, type: vmess, uuid: 5b94680c-1336-44eb-a4f4-7d31958f2098, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /vm, headers: {Host: rep04.xixi666.repl.co}}, udp: true}
+  
+  
+
+proxy-groups:
 # type:
 # select 手动选择，该组在节点列表上，手动选择列表或者 proxy-group 
 # url-test 延迟最低节点，测试该组所有节点的延迟
