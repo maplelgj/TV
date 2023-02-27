@@ -95,6 +95,42 @@ proxy-groups:
 # url-test 延迟最低节点，测试该组所有节点的延迟
 # fallback 定期测试列表中服务器的可用性，按顺序切换使用第一个可用的服务器
 # load-balance 负载均衡，由该组2个以上的节点提供链接
+  - name: ♻️ 自动选择
+    type: url-test
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    tolerance: 50
+    proxies:
+      - 🇺🇸 美国-BWG
+      - 🇺🇸 美国-Racknerd02
+      - 🇺🇸 美国-Racknerd03
+      - 🇺🇸 美国-Racknerd04
+      - 🇺🇸 美国-Racknerd05
+      - 🇺🇸 美国-01
+      - 🇺🇸 美国-02
+      - 🇺🇸 美国-03
+      - 🇺🇸 美国-04
+      - 🇺🇸 美国-Drpoax02
+      - 🇺🇸 美国-Drpoax03
+      - 🇺🇸 美国-Drpoax04
+      
+  - name: ⚖️ 负载均衡
+    type: load-balance
+    url: http://www.google.com/generate_204
+    interval: 300
+    strategy: consistent-hashing
+    proxies:
+      - 🇺🇸 美国-Racknerd02
+      - 🇺🇸 美国-Racknerd03
+      - 🇺🇸 美国-Racknerd04
+      - 🇺🇸 美国-Racknerd05
+      - 🇺🇸 美国-01
+      - 🇺🇸 美国-02
+      - 🇺🇸 美国-03
+      - 🇺🇸 美国-04
+      - 🇺🇸 美国-Drpoax02
+      - 🇺🇸 美国-Drpoax03
+      - 🇺🇸 美国-Drpoax04
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -112,6 +148,7 @@ proxy-groups:
   - name: 📺 ChatGPT
     type: select
     proxies:
+      - ♻️ 自动选择
       - 🇺🇸 美国-BWG
       - 🇺🇸 美国-Racknerd02
       - 🇺🇸 美国-Racknerd03
@@ -122,22 +159,15 @@ proxy-groups:
       - 🇺🇸 美国-Drpoax02
       - 🇺🇸 美国-Drpoax03
   - name: 📲 Telegram
-    type: load-balance
-    url: http://www.google.com/generate_204
-    interval: 300
-    strategy: consistent-hashing
+    type: select
     proxies:
+      - ♻️ 自动选择
+      - ⚖️ 负载均衡
       - 🇺🇸 美国-Racknerd02
-      - 🇺🇸 美国-Racknerd03
-      - 🇺🇸 美国-Racknerd04
-      - 🇺🇸 美国-01
-      - 🇺🇸 美国-02
-      - 🇺🇸 美国-03
-      - 🇺🇸 美国-Drpoax02
-      - 🇺🇸 美国-Drpoax03
   - name: 📹 Youtube
     type: select
     proxies:
+      - ♻️ 自动选择
       - 🇺🇸 美国-BWG
       - 🇺🇸 美国-Racknerd02
       - 🇺🇸 美国-01
@@ -147,6 +177,7 @@ proxy-groups:
   - name: 📢 谷歌服务
     type: select
     proxies:
+      - ♻️ 自动选择
       - 🇺🇸 美国-BWG
       - 🇺🇸 美国-Racknerd02
       - 🇺🇸 美国-01
@@ -156,6 +187,7 @@ proxy-groups:
   - name: 🚀 国外流量
     type: select
     proxies:
+      - ♻️ 自动选择
       - 🇺🇸 美国-BWG
       - 🇺🇸 美国-Racknerd02
       - 🇺🇸 美国-01
@@ -166,6 +198,7 @@ proxy-groups:
     type: select
     proxies:
       - DIRECT
+      - ♻️ 自动选择
       - 🇺🇸 美国-BWG
   - name: 🆎 AdBlock
     type: select
@@ -176,6 +209,7 @@ proxy-groups:
     type: select
     proxies:
       - DIRECT
+      - ♻️ 自动选择
       - 🇺🇸 美国-BWG
       - 🇺🇸 美国-Racknerd02
       - 🇺🇸 美国-02
