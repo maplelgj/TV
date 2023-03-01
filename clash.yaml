@@ -80,9 +80,6 @@ dns:
 
 proxies:
   - {name: 🇺🇸 美国-BWG, server: 679888.xyz, port: 443, type: vmess, uuid: b92dfaee-7b1a-4c36-a737-f69f1e67a6ce, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /1edd91/, headers: {Host: 679888.xyz}}}
-  - {name: 🇺🇸 美国-Drpoax02, server: 108.162.196.205, port: 443, type: vmess, uuid: 5d760eb9-f941-47de-9cdc-da61cefb6d3b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /vm, headers: {Host: abc.679888.xyz}}, udp: true}
-  - {name: 🇺🇸 美国-Drpoax03, server: 108.162.194.21, port: 443, type: vmess, uuid: 5d760eb9-f941-47de-9cdc-da61cefb6d3b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /vm, headers: {Host: abc.679888.xyz}}, udp: true}
-  - {name: 🇺🇸 美国-Drpoax04, server: 103.21.244.241, port: 443, type: vmess, uuid: 5d760eb9-f941-47de-9cdc-da61cefb6d3b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /vm, headers: {Host: abc.679888.xyz}}, udp: true}
   - {name: 🇺🇸 美国-replit01, server: Astonishing.xixi666.repl.co, port: 443, type: vmess, uuid: cb16fc75-0970-4122-928d-13ef24b6daf9, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /vm, headers: {Host: Astonishing.xixi666.repl.co}}, udp: true}
   - {name: 🇺🇸 美国-replit02, server: VMESS.xixi666.repl.co, port: 443, type: vmess, uuid: 84a0e7da-d941-47d2-ac75-93fce19d7afe, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /vm, headers: {Host: VMESS.xixi666.repl.co}}, udp: true}
   - {name: 🇺🇸 美国-replit03, server: VMESS02.xixi666.repl.co, port: 443, type: vmess, uuid: 226e6e0f-b99f-41e2-b695-ee8a0e39537c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /vm, headers: {Host: VMESS02.xixi666.repl.co}}, udp: true}
@@ -91,7 +88,12 @@ proxies:
   - {name: 🇺🇸 美国-Racknerd03, server: 198.41.199.194, port: 443, type: vmess, uuid: f3b0dfdd-cb49-4a18-b18d-30ba50d48ed9, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /507b1/, headers: {Host: aa01.679888.xyz}}, udp: true}
   - {name: 🇺🇸 美国-Racknerd04, server: 108.162.195.33, port: 443, type: vmess, uuid: f3b0dfdd-cb49-4a18-b18d-30ba50d48ed9, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /507b1/, headers: {Host: aa01.679888.xyz}}, udp: true}
   - {name: 🇺🇸 美国-Racknerd05, server: 103.21.244.47, port: 443, type: vmess, uuid: f3b0dfdd-cb49-4a18-b18d-30ba50d48ed9, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /507b1/, headers: {Host: aa01.679888.xyz}}, udp: true}
-  
+  - {name: 🇺🇸 美国-Racknerd06, server: 108.162.193.2, port: 443, type: vmess, uuid: f3b0dfdd-cb49-4a18-b18d-30ba50d48ed9, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /507b1/, headers: {Host: aa01.679888.xyz}}, udp: true}
+  - {name: 🇩🇪 德国-Drpoax02, server: 108.162.196.205, port: 443, type: vmess, uuid: 5d760eb9-f941-47de-9cdc-da61cefb6d3b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /vm, headers: {Host: abc.679888.xyz}}, udp: true}
+  - {name: 🇩🇪 德国-Drpoax03, server: 108.162.194.21, port: 443, type: vmess, uuid: 5d760eb9-f941-47de-9cdc-da61cefb6d3b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /vm, headers: {Host: abc.679888.xyz}}, udp: true}
+  - {name: 🇩🇪 德国-Drpoax04, server: 103.21.244.241, port: 443, type: vmess, uuid: 5d760eb9-f941-47de-9cdc-da61cefb6d3b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /vm, headers: {Host: abc.679888.xyz}}, udp: true}
+  - {name: 🇩🇪 德国-Drpoax05, server: 103.21.244.150, port: 443, type: vmess, uuid: 5d760eb9-f941-47de-9cdc-da61cefb6d3b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /vm, headers: {Host: abc.679888.xyz}}, udp: true}
+  - {name: 🇸🇬 新加坡-Render02, server: 103.21.244.6, port: 443, type: vmess, uuid: 6610ecbb-704f-4288-95b8-f7aec921faa9, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /vmess, headers: {Host: x-render-4sow.onrender.com}}, 
 
 proxy-groups:
 # type:
@@ -99,6 +101,27 @@ proxy-groups:
 # url-test 延迟最低节点，测试该组所有节点的延迟
 # fallback 定期测试列表中服务器的可用性，按顺序切换使用第一个可用的服务器
 # load-balance 负载均衡，由该组2个以上的节点提供链接
+
+  - name: 🔰 节点选择
+    type: select
+    proxies:
+      - ♻️ 自动选择
+      - DIRECT
+      - 🇺🇸 美国-BWG
+      - 🇺🇸 美国-replit01
+      - 🇺🇸 美国-replit02
+      - 🇺🇸 美国-replit03
+      - 🇺🇸 美国-replit04
+      - 🇺🇸 美国-Racknerd02
+      - 🇺🇸 美国-Racknerd03
+      - 🇺🇸 美国-Racknerd04
+      - 🇺🇸 美国-Racknerd05
+      - 🇺🇸 美国-Racknerd06
+      - 🇩🇪 德国-Drpoax02
+      - 🇩🇪 德国-Drpoax03
+      - 🇩🇪 德国-Drpoax04
+      - 🇩🇪 德国-Drpoax05
+      - 🇸🇬 新加坡-Render02
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.google.com/generate_204
@@ -114,9 +137,9 @@ proxy-groups:
       - 🇺🇸 美国-replit02
       - 🇺🇸 美国-replit03
       - 🇺🇸 美国-replit04
-      - 🇺🇸 美国-Drpoax02
-      - 🇺🇸 美国-Drpoax03
-      - 🇺🇸 美国-Drpoax04
+      - 🇩🇪 德国-Drpoax02
+      - 🇩🇪 德国-Drpoax03
+      - 🇩🇪 德国-Drpoax04
       
   - name: ⚖️ 负载均衡
     type: load-balance
@@ -128,13 +151,11 @@ proxy-groups:
       - 🇺🇸 美国-Racknerd03
       - 🇺🇸 美国-Racknerd04
       - 🇺🇸 美国-Racknerd05
+      - 🇺🇸 美国-Racknerd06
       - 🇺🇸 美国-replit01
       - 🇺🇸 美国-replit02
       - 🇺🇸 美国-replit03
       - 🇺🇸 美国-replit04
-      - 🇺🇸 美国-Drpoax02
-      - 🇺🇸 美国-Drpoax03
-      - 🇺🇸 美国-Drpoax04
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -142,7 +163,7 @@ proxy-groups:
       - ♻️ 自动选择
       - 🇺🇸 美国-BWG
       - 🇺🇸 美国-replit02
-      - 🇺🇸 美国-Drpoax02
+      - 🇩🇪 德国-Drpoax02
       - 🇺🇸 美国-Racknerd02   
   - name: 📺 ChatGPT
     type: select
@@ -156,8 +177,8 @@ proxy-groups:
       - 🇺🇸 美国-replit02
       - 🇺🇸 美国-replit03
       - 🇺🇸 美国-replit04
-      - 🇺🇸 美国-Drpoax02
-      - 🇺🇸 美国-Drpoax03
+      - 🇩🇪 德国-Drpoax02
+      - 🇩🇪 德国-Drpoax03
   - name: 📲 Telegram
     type: select
     proxies:
@@ -171,10 +192,11 @@ proxy-groups:
       - ♻️ 自动选择
       - 🇺🇸 美国-BWG
       - 🇺🇸 美国-Racknerd02
-      - 🇺🇸 美国-Drpoax02
       - 🇺🇸 美国-replit01
       - 🇺🇸 美国-replit02
       - 🇺🇸 美国-replit03
+      - 🇺🇸 美国-replit04
+      - 🇩🇪 德国-Drpoax02
   - name: 📢 谷歌服务
     type: select
     proxies:
@@ -184,7 +206,7 @@ proxy-groups:
       - 🇺🇸 美国-replit01
       - 🇺🇸 美国-replit02
       - 🇺🇸 美国-replit03
-      - 🇺🇸 美国-Drpoax02
+      - 🇺🇸 美国-replit04
   - name: 🚀 国外流量
     type: select
     proxies:
@@ -194,18 +216,19 @@ proxy-groups:
       - 🇺🇸 美国-replit01
       - 🇺🇸 美国-replit02
       - 🇺🇸 美国-replit03
+      - 🇺🇸 美国-replit04
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - DIRECT
       - ♻️ 自动选择
-      - 🇺🇸 美国-BWG
+      - 🔰 节点选择
   - name: 🎯 国内流量
     type: select
     proxies:
       - DIRECT
       - ♻️ 自动选择
-      - 🇺🇸 美国-BWG
+      - 🔰 节点选择
   - name: 🆎 AdBlock
     type: select
     proxies:
@@ -216,7 +239,7 @@ proxy-groups:
     proxies:
       - DIRECT
       - ♻️ 自动选择
-      - 🇺🇸 美国-BWG
+      - 🔰 节点选择
 
  
  
