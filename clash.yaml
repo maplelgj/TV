@@ -187,16 +187,16 @@ proxy-groups:
       - 🇺🇸 美国-BWG
       - 🇺🇸 美国-Racknerd02
   - name: 📹 Youtube
-    type: load-balance
-    url: http://www.google.com/generate_204
-    interval: 300
-    strategy: consistent-hashing
+    type: select
+    proxies:
+      - ♻️ 自动选择
+      - ⚖️ 负载均衡
+      - 🇺🇸 美国-BWG
+      - 🇺🇸 美国-Racknerd02
       - 🇺🇸 美国-replit01
       - 🇺🇸 美国-replit02
       - 🇺🇸 美国-replit03
       - 🇺🇸 美国-replit04
-      - 🇺🇸 美国-Racknerd02
-      - 🇺🇸 美国-Racknerd03
   - name: 📢 谷歌服务
     type: select
     proxies:
