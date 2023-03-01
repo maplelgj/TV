@@ -89,6 +89,8 @@ proxies:
   - {name: 🇺🇸 美国-Racknerd04, server: 108.162.195.33, port: 443, type: vmess, uuid: f3b0dfdd-cb49-4a18-b18d-30ba50d48ed9, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /507b1/, headers: {Host: aa01.679888.xyz}}, udp: true}
   - {name: 🇺🇸 美国-Racknerd05, server: 103.21.244.47, port: 443, type: vmess, uuid: f3b0dfdd-cb49-4a18-b18d-30ba50d48ed9, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /507b1/, headers: {Host: aa01.679888.xyz}}, udp: true}
   - {name: 🇺🇸 美国-Racknerd06, server: 108.162.193.2, port: 443, type: vmess, uuid: f3b0dfdd-cb49-4a18-b18d-30ba50d48ed9, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /507b1/, headers: {Host: aa01.679888.xyz}}, udp: true}
+  - {name: 🇺🇸 美国-Racknerd07, server: 108.162.196.234, port: 443, type: vmess, uuid: f3b0dfdd-cb49-4a18-b18d-30ba50d48ed9, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /507b1/, headers: {Host: aa01.679888.xyz}}, udp: true}
+  - {name: 🇺🇸 美国-Racknerd08, server: 173.245.49.70, port: 443, type: vmess, uuid: f3b0dfdd-cb49-4a18-b18d-30ba50d48ed9, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /507b1/, headers: {Host: aa01.679888.xyz}}, udp: true}
   - {name: 🇩🇪 德国-Drpoax02, server: 108.162.196.205, port: 443, type: vmess, uuid: 5d760eb9-f941-47de-9cdc-da61cefb6d3b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /vm, headers: {Host: abc.679888.xyz}}, udp: true}
   - {name: 🇩🇪 德国-Drpoax03, server: 108.162.194.21, port: 443, type: vmess, uuid: 5d760eb9-f941-47de-9cdc-da61cefb6d3b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /vm, headers: {Host: abc.679888.xyz}}, udp: true}
   - {name: 🇩🇪 德国-Drpoax04, server: 103.21.244.241, port: 443, type: vmess, uuid: 5d760eb9-f941-47de-9cdc-da61cefb6d3b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /vm, headers: {Host: abc.679888.xyz}}, udp: true}
@@ -115,6 +117,8 @@ proxy-groups:
       - 🇺🇸 美国-Racknerd04
       - 🇺🇸 美国-Racknerd05
       - 🇺🇸 美国-Racknerd06
+      - 🇺🇸 美国-Racknerd07
+      - 🇺🇸 美国-Racknerd08
       - 🇩🇪 德国-Drpoax02
       - 🇩🇪 德国-Drpoax03
       - 🇩🇪 德国-Drpoax04
@@ -133,6 +137,8 @@ proxy-groups:
       - 🇺🇸 美国-Racknerd04
       - 🇺🇸 美国-Racknerd05
       - 🇺🇸 美国-Racknerd06
+      - 🇺🇸 美国-Racknerd07
+      - 🇺🇸 美国-Racknerd08
       - 🇺🇸 美国-replit01
       - 🇺🇸 美国-replit02
       - 🇺🇸 美国-replit03
@@ -144,15 +150,16 @@ proxy-groups:
     interval: 300
     strategy: consistent-hashing
     proxies:
-      - 🇺🇸 美国-replit01
-      - 🇺🇸 美国-replit02
-      - 🇺🇸 美国-replit03
-      - 🇺🇸 美国-replit04
       - 🇺🇸 美国-Racknerd02
+      - 🇺🇸 美国-replit01
       - 🇺🇸 美国-Racknerd03
+      - 🇺🇸 美国-replit02
       - 🇺🇸 美国-Racknerd04
+      - 🇺🇸 美国-replit03
       - 🇺🇸 美国-Racknerd05
+      - 🇺🇸 美国-replit04
       - 🇺🇸 美国-Racknerd06
+      - 🇺🇸 美国-Racknerd07
   
   - name: 📺 ChatGPT
     type: select
