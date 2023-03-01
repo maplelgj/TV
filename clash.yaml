@@ -102,7 +102,7 @@ proxy-groups:
 # fallback 定期测试列表中服务器的可用性，按顺序切换使用第一个可用的服务器
 # load-balance 负载均衡，由该组2个以上的节点提供链接
 
-   - name: 🔰 节点选择
+  - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
