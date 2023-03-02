@@ -207,6 +207,17 @@ proxy-groups:
     proxies:
       - ♻️ 自动选择
       - 🔰 节点选择
+  - name: 🎥 国外媒体
+    type: fallback
+    url: http://www.google.com/generate_204
+    interval: 300
+    proxies:
+      - 🇺🇸 美国-Replit01
+      - 🇺🇸 美国-Replit02
+      - 🇺🇸 美国-Replit03
+      - 🇺🇸 美国-Replit04
+      - ♻️ 自动选择
+      - 🔰 节点选择
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -363,10 +374,10 @@ rules:
  - RULE-SET,YouTube,📹 Youtube
  - RULE-SET,Google,📢 谷歌服务
  - RULE-SET,Microsoft,Ⓜ️ 微软服务
- - RULE-SET,OneDrive,🚀 国外流量
- - RULE-SET,GlobalMedia,🚀 国外流量
+ - RULE-SET,GlobalMedia,🎥 国外媒体
  - RULE-SET,ProxyGFWlist,🚀 国外流量
- - RULE-SET,GFW,🚀 国外流量
+ - RULE-SET,OneDrive,🚀 国外流量
+ - RULE-SET,GFW,🎥 国外媒体
  - RULE-SET,BanEasyListChina,🆎 AdBlock
  - RULE-SET,AdvertisingLite,🆎 AdBlock
  - RULE-SET,Hijacking,🆎 AdBlock
