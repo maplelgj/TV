@@ -79,7 +79,7 @@ dns:
     
 
 proxies:
-  - {name: 🇺🇸 美国-BWG, server: 679888.xyz, port: 443, type: vmess, uuid: b92dfaee-7b1a-4c36-a737-f69f1e67a6ce, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /1edd91/, headers: {Host: 679888.xyz}}}
+  - {name: 🇺🇸 美国-BWG, server: bwg.679888.xyz, port: 443, type: vmess, uuid: ee47f04f-2b31-403b-9a73-7db057397e02, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /98069359a7/, headers: {Host: bwg.679888.xyz}}, udp: true}
   - {name: 🇺🇸 美国-Replit01, server: Astonishing.xixi666.repl.co, port: 443, type: vmess, uuid: cb16fc75-0970-4122-928d-13ef24b6daf9, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /vm, headers: {Host: Astonishing.xixi666.repl.co}}, udp: true}
   - {name: 🇺🇸 美国-Replit02, server: VMESS.xixi666.repl.co, port: 443, type: vmess, uuid: 84a0e7da-d941-47d2-ac75-93fce19d7afe, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /vm, headers: {Host: VMESS.xixi666.repl.co}}, udp: true}
   - {name: 🇺🇸 美国-Replit03, server: VMESS02.xixi666.repl.co, port: 443, type: vmess, uuid: 226e6e0f-b99f-41e2-b695-ee8a0e39537c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /vm, headers: {Host: VMESS02.xixi666.repl.co}}, udp: true}
