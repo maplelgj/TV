@@ -134,7 +134,7 @@ proxy-groups:
       - 🇺🇸 美国-Replit03
   - name: ⚖️ 负载均衡
     type: load-balance
-    url: http://www.google.com/generate_204
+    url: http://www.gstatic.com/generate_204
     interval: 300
     strategy: consistent-hashing
     proxies:
@@ -147,7 +147,7 @@ proxy-groups:
       - 🇺🇸 美国-Racknerd05
   - name: 📺 ChatGPT
     type: fallback
-    url: http://www.google.com/generate_204
+    url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
       - 🇺🇸 美国-Racknerd02
@@ -163,7 +163,7 @@ proxy-groups:
       - 🔰 节点选择
   - name: 📲 Telegram
     type: fallback
-    url: http://www.google.com/generate_204
+    url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
       - 🇺🇸 美国-Racknerd02
@@ -175,7 +175,7 @@ proxy-groups:
       - 🔰 节点选择
   - name: 📹 Youtube
     type: fallback
-    url: http://www.google.com/generate_204
+    url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
       - 🇺🇸 美国-Racknerd02
@@ -190,9 +190,10 @@ proxy-groups:
     proxies:
       - ♻️ 自动选择
       - 🔰 节点选择
+      - 🇺🇸 美国-BWG
   - name: 🎥 国外媒体
     type: fallback
-    url: http://www.google.com/generate_204
+    url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
       - 🇺🇸 美国-Replit01
