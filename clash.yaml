@@ -108,10 +108,10 @@ proxy-groups:
     type: select
     proxies:
       - 🇺🇸 美国-BWG
-      - 🇺🇸 美国-replit01
-      - 🇺🇸 美国-replit02
-      - 🇺🇸 美国-replit03
-      - 🇺🇸 美国-replit04
+      - 🇺🇸 美国-Replit01
+      - 🇺🇸 美国-Replit02
+      - 🇺🇸 美国-Replit03
+      - 🇺🇸 美国-Replit04
       - 🇺🇸 美国-Racknerd02
       - 🇺🇸 美国-Racknerd03
       - 🇺🇸 美国-Racknerd04
