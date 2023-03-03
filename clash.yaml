@@ -79,13 +79,9 @@ dns:
     
 
 proxies:
-  - {name: 🇺🇸 美国-BWG, server: bwg.679888.xyz, port: 443, type: vmess, uuid: b79c5783-68ba-4ac8-990f-a6d5ee8d54ac, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /vm, headers: {Host: bwg.679888.xyz}}, udp: true}
-  - {name: 🇺🇸 美国-BWG01, server: 103.21.244.84, port: 443, type: vmess, uuid: b79c5783-68ba-4ac8-990f-a6d5ee8d54ac, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /vm, headers: {Host: bwg.679888.xyz}}, udp: true}
-  - {name: 🇺🇸 美国-BWG02, server: 173.245.49.17, port: 443, type: vmess, uuid: b79c5783-68ba-4ac8-990f-a6d5ee8d54ac, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /vm, headers: {Host: bwg.679888.xyz}}, udp: true}
-  - {name: 🇺🇸 美国-BWG03, server: 172.67.174.3, port: 443, type: vmess, uuid: b79c5783-68ba-4ac8-990f-a6d5ee8d54ac, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /vm, headers: {Host: bwg.679888.xyz}}, udp: true}
-  - {name: 🇺🇸 美国-BWG04, server: 162.159.18.83, port: 443, type: vmess, uuid: b79c5783-68ba-4ac8-990f-a6d5ee8d54ac, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /vm, headers: {Host: bwg.679888.xyz}}, udp: true}
-  - {name: 🇺🇸 美国-BWG05, server: 172.67.175.19, port: 443, type: vmess, uuid: b79c5783-68ba-4ac8-990f-a6d5ee8d54ac, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /vm, headers: {Host: bwg.679888.xyz}}, udp: true}
-  - {name: 🇺🇸 美国-BWG06, server: 108.162.193.33, port: 443, type: vmess, uuid: b79c5783-68ba-4ac8-990f-a6d5ee8d54ac, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /vm, headers: {Host: bwg.679888.xyz}}, udp: true}
+  - {name: 🇺🇸 美国-BWG, server: wg.679888.xyz, port: 443, type: vmess, uuid: 239559ff-9324-4707-ee37-52e7b3083790, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /vm, headers: {Host: wg.679888.xyz}}, udp: true}
+  - {name: 🇺🇸 美国-BWG01, server: 172.67.83.154, port: 443, type: vmess, uuid: 239559ff-9324-4707-ee37-52e7b3083790, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /vm, headers: {Host: wg.679888.xyz}}, udp: true}
+  - {name: 🇺🇸 美国-BWG02, server: 103.21.244.157, port: 443, type: vmess, uuid: 239559ff-9324-4707-ee37-52e7b3083790, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /vm, headers: {Host: wg.679888.xyz}}, udp: true}
   - {name: 🇺🇸 美国-Replit01, server: replit01.xixi666.repl.co, port: 443, type: vmess, uuid: cb16fc75-0970-4122-928d-13ef24b6daf9, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /vm, headers: {Host: replit01.xixi666.repl.co}}, udp: true}
   - {name: 🇺🇸 美国-Replit02, server: replit02.xixi666.repl.co, port: 443, type: vmess, uuid: 226e6e0f-b99f-41e2-b695-ee8a0e39537c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /vm, headers: {Host: replit02.xixi666.repl.co}}, udp: true}
   - {name: 🇺🇸 美国-Replit03, server: replit03.xixi666.repl.co, port: 443, type: vmess, uuid: 5b94680c-1336-44eb-a4f4-7d31958f2098, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /vm, headers: {Host: replit03.xixi666.repl.co}}, udp: true}
@@ -111,12 +107,9 @@ proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
+      - 🇺🇸 美国-BWG
       - 🇺🇸 美国-BWG01
       - 🇺🇸 美国-BWG02
-      - 🇺🇸 美国-BWG03
-      - 🇺🇸 美国-BWG04
-      - 🇺🇸 美国-BWG05
-      - 🇺🇸 美国-BWG06
       - 🇺🇸 美国-Replit01
       - 🇺🇸 美国-Replit02
       - 🇺🇸 美国-Replit03
@@ -137,12 +130,9 @@ proxy-groups:
     interval: 300
     tolerance: 50
     proxies:
+      - 🇺🇸 美国-BWG
       - 🇺🇸 美国-BWG01
       - 🇺🇸 美国-BWG02
-      - 🇺🇸 美国-BWG03
-      - 🇺🇸 美国-BWG04
-      - 🇺🇸 美国-BWG05
-      - 🇺🇸 美国-BWG06
       - 🇺🇸 美国-Racknerd02
       - 🇺🇸 美国-Racknerd03
       - 🇺🇸 美国-Racknerd04
@@ -210,7 +200,7 @@ proxy-groups:
     proxies:
       - ♻️ 自动选择
       - 🔰 节点选择
-      - 🇺🇸 美国-BWG01
+      - 🇺🇸 美国-BWG
   - name: 🎥 国外媒体
     type: fallback
     url: http://www.gstatic.com/generate_204
