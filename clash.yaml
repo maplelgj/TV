@@ -80,8 +80,11 @@ dns:
 
 proxies:
   - {name: 🇺🇸 美国-BWG, server: wg.679888.xyz, port: 443, type: vmess, uuid: 239559ff-9324-4707-ee37-52e7b3083790, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /vm, headers: {Host: wg.679888.xyz}}, udp: true}
-  - {name: 🇺🇸 美国-BWG01, server: 172.67.83.154, port: 443, type: vmess, uuid: 239559ff-9324-4707-ee37-52e7b3083790, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /vm, headers: {Host: wg.679888.xyz}}, udp: true}
-  - {name: 🇺🇸 美国-BWG02, server: 103.21.244.157, port: 443, type: vmess, uuid: 239559ff-9324-4707-ee37-52e7b3083790, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /vm, headers: {Host: wg.679888.xyz}}, udp: true}
+  - {name: 🇺🇸 美国-BWG01, server: 103.21.244.157, port: 443, type: vmess, uuid: 239559ff-9324-4707-ee37-52e7b3083790, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /vm, headers: {Host: wg.679888.xyz}}, udp: true}
+  - {name: 🇺🇸 美国-BWG02, server: 108.162.198.233, port: 443, type: vmess, uuid: 239559ff-9324-4707-ee37-52e7b3083790, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /vm, headers: {Host: wg.679888.xyz}}, udp: true}
+  - {name: 🇺🇸 美国-BWG03, server: 173.245.49.68, port: 443, type: vmess, uuid: 239559ff-9324-4707-ee37-52e7b3083790, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /vm, headers: {Host: wg.679888.xyz}}, udp: true}
+  - {name: 🇺🇸 美国-BWG04, server: 173.245.49.201, port: 443, type: vmess, uuid: 239559ff-9324-4707-ee37-52e7b3083790, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /vm, headers: {Host: wg.679888.xyz}}, udp: true}
+  - {name: 🇺🇸 美国-BWG05, server: 103.21.244.134, port: 443, type: vmess, uuid: 239559ff-9324-4707-ee37-52e7b3083790, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /vm, headers: {Host: wg.679888.xyz}}, udp: true}
   - {name: 🇺🇸 美国-Replit01, server: replit01.xixi666.repl.co, port: 443, type: vmess, uuid: cb16fc75-0970-4122-928d-13ef24b6daf9, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /vm, headers: {Host: replit01.xixi666.repl.co}}, udp: true}
   - {name: 🇺🇸 美国-Replit02, server: replit02.xixi666.repl.co, port: 443, type: vmess, uuid: 226e6e0f-b99f-41e2-b695-ee8a0e39537c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /vm, headers: {Host: replit02.xixi666.repl.co}}, udp: true}
   - {name: 🇺🇸 美国-Replit03, server: replit03.xixi666.repl.co, port: 443, type: vmess, uuid: 5b94680c-1336-44eb-a4f4-7d31958f2098, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /vm, headers: {Host: replit03.xixi666.repl.co}}, udp: true}
@@ -126,6 +129,9 @@ proxy-groups:
     proxies:
       - 🇺🇸 美国-BWG01
       - 🇺🇸 美国-BWG02
+      - 🇺🇸 美国-BWG03
+      - 🇺🇸 美国-BWG04
+      - 🇺🇸 美国-BWG05
       - 🇺🇸 美国-BWG
       - 🇺🇸 美国-Racknerd01
       - 🇺🇸 美国-Racknerd02
