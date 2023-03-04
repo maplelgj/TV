@@ -196,11 +196,16 @@ proxy-groups:
       - ♻️ 自动选择
       - 🔰 节点选择
   - name: 📢 谷歌服务
-    type: select
+    type: fallback
+    url: http://www.gstatic.com/generate_204
+    interval: 300
     proxies:
+      - 🇺🇸 美国-BWG
+      - 🇺🇸 美国-BWG01
+      - 🇺🇸 美国-BWG02
       - ♻️ 自动选择
       - 🔰 节点选择
-      - 🇺🇸 美国-BWG
+
   - name: 🎥 国外媒体
     type: fallback
     url: http://www.gstatic.com/generate_204
