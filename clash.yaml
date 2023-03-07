@@ -205,15 +205,6 @@ proxy-groups:
       - 🇺🇸 美国-BWG
       - ♻️ 自动选择
       - 🔰 节点选择
-
-  - name: 🎥 国外媒体
-    type: fallback
-    url: http://www.gstatic.com/generate_204
-    interval: 300
-    proxies:
-      - 🇺🇸 美国-Racknerd
-      - ♻️ 自动选择
-      - 🔰 节点选择
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -226,9 +217,20 @@ proxy-groups:
       - DIRECT
       - ♻️ 自动选择
       - 🔰 节点选择
+  - name: 🎥 国外媒体
+    type: fallback
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    proxies:
+      - 🇺🇸 美国-Racknerd
+      - 🇺🇸 美国-Racknerd01
+      - ♻️ 自动选择
+      - 🔰 节点选择
   - name: 🚀 国外流量
     type: select
     proxies:
+      - 🇺🇸 美国-Racknerd
+      - 🇺🇸 美国-Racknerd01
       - ♻️ 自动选择
       - 🔰 节点选择
   - name: 🎯 国内流量
