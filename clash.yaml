@@ -227,7 +227,8 @@ proxy-groups:
       - ♻️ 自动选择
       - 🔰 节点选择
   - name: 🚀 国外流量
-    type: select
+    url: http://www.gstatic.com/generate_204
+    interval: 300
     proxies:
       - 🇺🇸 美国-Racknerd
       - 🇺🇸 美国-Racknerd01
