@@ -227,6 +227,7 @@ proxy-groups:
       - ♻️ 自动选择
       - 🔰 节点选择
   - name: 🚀 国外流量
+    type: fallback
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
