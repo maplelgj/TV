@@ -1,7 +1,8 @@
 {
-  "spider":"https://cdn.staticaly.com/gh/maplelgj/TV/main/jar/Yoursmile.jar",
-  //"spider":"https://cdn.staticaly.com/gh/maplelgj/TV/main/jar/2212.jar",
-  //"spider":"https://cdn.staticaly.com/gh/maplelgj/TV/main/jar/spider2207.jar",
+  "spider":"https://cdn.staticaly.com/gh/gaotianliuyun/gao/master/jar/fan.txt",
+//"spider":"https://cdn.staticaly.com/gh/maplelgj/TV/main/jar/Yoursmile.jar",
+//"spider":"https://cdn.staticaly.com/gh/maplelgj/TV/main/jar/2212.jar",
+//"spider":"https://cdn.staticaly.com/gh/maplelgj/TV/main/jar/spider2207.jar",
 "lives":[{"group":"redirect","channels":[{"name":"redirect","urls":["proxy://do=live&type=txt&ext=./TV/live.txt"]}]}],
 "wallpaper":"http://maoyingshi.cc/api.php",
 
@@ -14,6 +15,7 @@
 {"key":"csp_Bttoo","name":"两个BT","type": 3,"api": "csp_Bttoo","searchable": 1,"quickSearch": 1,"filterable": 1},
 {"key":"csp_Kuaikan","name":"快看影视","type":3,"api":"csp_Kuaikan","searchable":1,"quickSearch":1,"filterable":1}, 
 {"key":"csp_Czsapp","name":"厂长资源","type":3,"api":"csp_Czsapp","searchable":1,"quickSearch":1,"filterable":1},
+{"key":"csp_Lib","name": "Libvio┃SP","type": 3,"api": "csp_Libvio","searchable": 1,"quickSearch": 1,"filterable": 1,"ext":"https://tv.libvio.cc"},
 {"key":"csp_AppTT","name":"图图┃SP","type":3,"api":"csp_AppTT","searchable":1,"quickSearch":1,"filterable":1,"ext":"tv$$$dlJYWW16R0IqbmlsV3JMdCNkMFZ0OE1JdzRJQW1yY3I=$$$Y2hpbm16R0JiKnpYUCNWWg==$$$aHR0cDovL2FwaS50dDU4LnR2L2NvbmZpZy9uZXd0di5qc29uP3NzPQ=="},
 {"key":"csp_BuLei","name":"布雷┃SP","type":3,"api":"csp_BuLei","searchable":1,"quickSearch":1,"filterable":1,"ext":"https://www.bulei.cc"},
 
@@ -26,9 +28,11 @@
 
 	
 	
-//{"key":"UpYun","name":"☁️UP云搜","type":3,"api":"csp_UpYun","searchable":1,"quickSearch":1,"filterable":1,"ext": "https://agit.ai/Yoursmile7/TVBox/raw/branch/master/token.txt"},
-//{"key":"PanSou","name":"😽盘搜","type":3,"api":"csp_PanSou","searchable":1,"quickSearch":1,"filterable":1,"ext": "https://agit.ai/Yoursmile7/TVBox/raw/branch/master/token.txt"},
-{"key":"YiSo","name":"🆎易搜","type":3,"api":"csp_YiSo","searchable":1,"quickSearch":1,"filterable":1,"ext": "https://agit.ai/Yoursmile7/TVBox/raw/branch/master/token.txt"}
+{"key":"Zhaozy","name":"找资源","type":3,"api":"csp_Zhaozy","playerType":1,"searchable":1,"quickSearch":0,"filterable":0,"changeable":0,"ext":"http://ali.饭太硬.ml/alitoken$$$yingshi$$$abcd1234"},
+{"key":"YiSo","name":"易搜","type":3,"api":"csp_YiSo","playerType":1,"searchable":1,"quickSearch":1,"filterable":0,"changeable":0,"ext":"http://ali.饭太硬.ml/alitoken"},
+{"key":"PanSou","name":"盘搜","type":3,"api":"csp_PanSou","playerType":1,"searchable":1,"quickSearch":1,"filterable":0,"changeable":0,"ext":"http://ali.饭太硬.ml/alitoken"},
+{"key":"UpYun","name":"Up搜","type":3,"api":"csp_UpYun","playerType":1,"searchable":1,"quickSearch":1,"filterable":0,"changeable":0,"ext":"http://ali.饭太硬.ml/alitoken"}
+
 ],
 
 "parses":[
