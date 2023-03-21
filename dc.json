@@ -1,11 +1,6 @@
 {
     "urls": [
-    
-    	{
-            "url": "https://yydsys.top/duo/v.json",
-            "name": "大聪明"
-        },
-        
+
            {
             "url": "https://agit.ai/Yoursmile7/TVBox/raw/branch/master/XC.json",
             "name": "🦀南风"
@@ -26,6 +21,12 @@
             "url": "https://agit.ai/cyl518/yl/raw/branch/master/ml.json",
             "name": "胖丫"
         },
+        
+    	{
+            "url": "https://yydsys.top/duo/v.json",
+            "name": "大聪明"
+        },
+        
         {
             "url": "http://肥猫.love/",
             "name": "👿肥猫"
