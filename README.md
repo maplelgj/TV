@@ -6,6 +6,8 @@
  
   `https://jsd.cdn.zzko.cn/gh/maplelgj/TV@main/m.json`   
   
+  `https://ghproxy.net/https://raw.githubusercontent.com/maplelgj/TV/main/m.json`   
+  
   `https://raw.fastgit.org/maplelgj/TV/main/dc.json` 
    
   `https://cdn.staticaly.com/gh/maplelgj/TV/main/dc.json` 
