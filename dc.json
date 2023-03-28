@@ -1,34 +1,33 @@
 {
     "urls": [
 
+        {
+            "url": "https://raw.fastgit.org/maplelgj/TV/main/m.json",
+            "name": "👦大官人"
+        },
+        
            {
             "url": "https://agit.ai/Yoursmile7/TVBox/raw/branch/master/XC.json",
             "name": "🦀南风"
         },
         
-           {
-            "url": "https://raw.fastgit.org/maplelgj/TV/main/m.json",
-            "name": "大官人"
-        },
-        
-        
-                {
+        {
             "url": "https://agit.ai/nbwzlyd/xiaopingguo/raw/branch/master/xiaopingguo/xiaopingguo.json",
             "name": "🍎小苹果"
+        },
+        
+        {
+            "url": "http://饭太硬.ga/tv",
+            "name": "👹饭太硬"
         },
         
         {
             "url": "https://agit.ai/cyl518/yl/raw/branch/master/ml.json",
             "name": "胖丫"
         },
-        
-    	{
-            "url": "https://yydsys.top/duo/v.json",
-            "name": "大聪明"
-        },
-        
+
         {
-            "url": "http://肥猫.love/",
+            "url": "http://我不是.肥猫.love:63/接口禁止贩卖",
             "name": "👿肥猫"
         },
         {
@@ -43,11 +42,13 @@
             "url": "https://tvbox.cainisi.cf",
             "name": "👸菜妮丝xBPQ"
         },
-        {
-            "url": "http://饭太硬.ga/x/o.json",
-            "name": "👹饭太硬"
-        },
 
+        
+    	{
+            "url": "https://yydsys.top/duo/v.json",
+            "name": "大聪明"
+        },
+        
         {
             "url": "http://drpy.site/js1",
             "name": "👼小雅js"
@@ -65,7 +66,7 @@
             "name": "🚆easybox"
         },
         {
-            "url": "https://agit.ai/relax/adcc/raw/branch/master/tvbox.json",
+            "url": "http://pandown.pro/tvbox/tvbox.json",
             "name": "🙏巧技"
         },
         {
@@ -130,10 +131,7 @@
             "url": "https://神器每日推送.tk/pz.json",
             "name": "👺神器"
         },
-        {
-            "url": "https://agit.ai/66666/mao/raw/branch/master/00/000.m3u8",
-            "name": "👦分享者"
-        },
+
         {
             "url": "https://ju.binghe.ga/4.txt",
             "name": "🎱资源采集站"
