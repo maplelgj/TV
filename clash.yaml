@@ -79,19 +79,20 @@ dns:
     
 
 proxies:
-  - {name: 🇺🇸 美国-BWG, server: wg.679888.xyz, port: 443, type: vmess, uuid: 4ea19532-3cb3-494f-f49f-b37636b55968, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /vm, headers: {Host: wg.679888.xyz}}, udp: true}
-  - {name: 🇺🇸 美国-BWG01, server: 103.21.244.254, port: 443, type: vmess, uuid: 4ea19532-3cb3-494f-f49f-b37636b55968, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /vm, headers: {Host: wg.679888.xyz}}, udp: true}
+  - {name: 🇺🇸 美国-BWG01, server: 104.25.249.112, port: 443, type: vmess, uuid: 4ea19532-3cb3-494f-f49f-b37636b55968, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /vm, headers: {Host: wg.679888.xyz}}, udp: true}
   - {name: 🇺🇸 美国-BWG02, server: 172.67.185.39, port: 443, type: vmess, uuid: 4ea19532-3cb3-494f-f49f-b37636b55968, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /vm, headers: {Host: wg.679888.xyz}}, udp: true}
-  - {name: 🇺🇸 美国-BWG03, server: 172.67.222.8, port: 443, type: vmess, uuid: 4ea19532-3cb3-494f-f49f-b37636b55968, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /vm, headers: {Host: wg.679888.xyz}}, udp: true}
+  - {name: 🇺🇸 美国-BWG03, server: 162.159.242.4, port: 443, type: vmess, uuid: 4ea19532-3cb3-494f-f49f-b37636b55968, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /vm, headers: {Host: wg.679888.xyz}}, udp: true}
+  - {name: 🇺🇸 美国-BWG, server: wg.679888.xyz, port: 443, type: vmess, uuid: 4ea19532-3cb3-494f-f49f-b37636b55968, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /vm, headers: {Host: wg.679888.xyz}}, udp: true}
+
   - {name: 🇺🇸 美国-Replit01, server: replit01.xixi666.repl.co, port: 443, type: vmess, uuid: cb16fc75-0970-4122-928d-13ef24b6daf9, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /vm, headers: {Host: replit01.xixi666.repl.co}}, udp: true}
   - {name: 🇺🇸 美国-Replit02, server: replit02.xixi666.repl.co, port: 443, type: vmess, uuid: 226e6e0f-b99f-41e2-b695-ee8a0e39537c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /vm, headers: {Host: replit02.xixi666.repl.co}}, udp: true}
   - {name: 🇺🇸 美国-Replit03, server: replit03.xixi666.repl.co, port: 443, type: vmess, uuid: 5b94680c-1336-44eb-a4f4-7d31958f2098, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /vm, headers: {Host: replit03.xixi666.repl.co}}, udp: true}
-  - {name: 🇺🇸 美国-Racknerd01, server: 103.21.244.179, port: 443, type: vmess, uuid: 3c004072-345b-48a7-e8ab-469968022b66, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /vm, headers: {Host: ra.679888.xyz}}, udp: true}
-  - {name: 🇺🇸 美国-Racknerd02, server: 103.21.244.27, port: 443, type: vmess, uuid: 3c004072-345b-48a7-e8ab-469968022b66, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /vm, headers: {Host: ra.679888.xyz}}, udp: true}
-  - {name: 🇺🇸 美国-Racknerd03, server: 173.245.49.130, port: 443, type: vmess, uuid: 3c004072-345b-48a7-e8ab-469968022b66, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /vm, headers: {Host: ra.679888.xyz}}, udp: true}
-  - {name: 🇺🇸 美国-Racknerd04, server: 108.162.192.249, port: 443, type: vmess, uuid: 3c004072-345b-48a7-e8ab-469968022b66, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /vm, headers: {Host: ra.679888.xyz}}, udp: true}
-  - {name: 🇺🇸 美国-Racknerd05, server: 172.67.92.149, port: 443, type: vmess, uuid: 3c004072-345b-48a7-e8ab-469968022b66, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /vm, headers: {Host: ra.679888.xyz}}, udp: true}
+  
+  - {name: 🇺🇸 美国-Racknerd01, server: 108.162.192.249, port: 443, type: vmess, uuid: 3c004072-345b-48a7-e8ab-469968022b66, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /vm, headers: {Host: ra.679888.xyz}}, udp: true}
+  - {name: 🇺🇸 美国-Racknerd02, server: 190.93.244.30, port: 443, type: vmess, uuid: 3c004072-345b-48a7-e8ab-469968022b66, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /vm, headers: {Host: ra.679888.xyz}}, udp: true}
+  - {name: 🇺🇸 美国-Racknerd03, server: 104.17.49.7, port: 443, type: vmess, uuid: 3c004072-345b-48a7-e8ab-469968022b66, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /vm, headers: {Host: ra.679888.xyz}}, udp: true}
   - {name: 🇺🇸 美国-Racknerd, server: ra.679888.xyz, port: 443, type: vmess, uuid: 3c004072-345b-48a7-e8ab-469968022b66, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /vm, headers: {Host: ra.679888.xyz}}, udp: true}
+  
   - {name: 🇩🇪 德国-Drpoax, server: abc.679888.xyz, port: 443, type: vmess, uuid: 5d760eb9-f941-47de-9cdc-da61cefb6d3b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /vm, headers: {Host: abc.679888.xyz}}, udp: true}
   - {name: 🇸🇬 新加坡-Render, server: x-render-4sow.onrender.com, port: 443, type: vmess, uuid: 6610ecbb-704f-4288-95b8-f7aec921faa9, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /vmess, headers: {Host: x-render-4sow.onrender.com}}, udp: true}
   - {name: 🇸🇬 新加坡-Render02, server: 103.21.244.6, port: 443, type: vmess, uuid: 6610ecbb-704f-4288-95b8-f7aec921faa9, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /vmess, headers: {Host: x-render-4sow.onrender.com}}, udp: true}
@@ -113,8 +114,6 @@ proxy-groups:
       - 🇺🇸 美国-Racknerd01
       - 🇺🇸 美国-Racknerd02
       - 🇺🇸 美国-Racknerd03
-      - 🇺🇸 美国-Racknerd04
-      - 🇺🇸 美国-Racknerd05
       - 🇺🇸 美国-Racknerd
       - 🇺🇸 美国-Replit01
       - 🇺🇸 美国-Replit02
@@ -136,8 +135,6 @@ proxy-groups:
       - 🇺🇸 美国-Racknerd01
       - 🇺🇸 美国-Racknerd02
       - 🇺🇸 美国-Racknerd03
-      - 🇺🇸 美国-Racknerd04
-      - 🇺🇸 美国-Racknerd05
       - 🇺🇸 美国-Racknerd
       - 🇺🇸 美国-Replit01
       - 🇺🇸 美国-Replit02
@@ -148,13 +145,12 @@ proxy-groups:
     interval: 300
     strategy: consistent-hashing
     proxies:
-      - 🇺🇸 美国-Racknerd02
+      - 🇺🇸 美国-Racknerd01
       - 🇺🇸 美国-Replit01
-      - 🇺🇸 美国-Racknerd03
+      - 🇺🇸 美国-Racknerd02
       - 🇺🇸 美国-Replit02
-      - 🇺🇸 美国-Racknerd04
+      - 🇺🇸 美国-Racknerd03
       - 🇺🇸 美国-Replit03
-      - 🇺🇸 美国-Racknerd05
   - name: 📺 ChatGPT
     type: fallback
     url: http://www.gstatic.com/generate_204
@@ -163,8 +159,6 @@ proxy-groups:
       - 🇺🇸 美国-Racknerd01
       - 🇺🇸 美国-Racknerd02
       - 🇺🇸 美国-Racknerd03
-      - 🇺🇸 美国-Racknerd04
-      - 🇺🇸 美国-Racknerd05
       - ♻️ 自动选择
       - 🔰 节点选择
   - name: 📲 Telegram
@@ -185,8 +179,6 @@ proxy-groups:
       - 🇺🇸 美国-Racknerd01
       - 🇺🇸 美国-Racknerd02
       - 🇺🇸 美国-Racknerd03
-      - 🇺🇸 美国-Racknerd04
-      - 🇺🇸 美国-Racknerd05
       - ♻️ 自动选择
       - 🔰 节点选择
   - name: 📢 谷歌服务
