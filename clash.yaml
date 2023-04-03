@@ -79,9 +79,6 @@ dns:
     
 
 proxies:
-  - {name: 🇺🇸 美国-BWG01, server: 104.25.249.112, port: 443, type: vmess, uuid: 4ea19532-3cb3-494f-f49f-b37636b55968, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /vm, headers: {Host: wg.679888.xyz}}, udp: true}
-  - {name: 🇺🇸 美国-BWG02, server: 172.67.185.39, port: 443, type: vmess, uuid: 4ea19532-3cb3-494f-f49f-b37636b55968, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /vm, headers: {Host: wg.679888.xyz}}, udp: true}
-  - {name: 🇺🇸 美国-BWG03, server: 162.159.242.4, port: 443, type: vmess, uuid: 4ea19532-3cb3-494f-f49f-b37636b55968, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /vm, headers: {Host: wg.679888.xyz}}, udp: true}
   - {name: 🇺🇸 美国-BWG, server: wg.679888.xyz, port: 443, type: vmess, uuid: 4ea19532-3cb3-494f-f49f-b37636b55968, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /vm, headers: {Host: wg.679888.xyz}}, udp: true}
 
   - {name: 🇺🇸 美国-Replit01, server: replit01.xixi666.repl.co, port: 443, type: vmess, uuid: cb16fc75-0970-4122-928d-13ef24b6daf9, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /vm, headers: {Host: replit01.xixi666.repl.co}}, udp: true}
@@ -92,7 +89,6 @@ proxies:
   
   - {name: 🇩🇪 德国-Drpoax, server: abc.679888.xyz, port: 443, type: vmess, uuid: 5d760eb9-f941-47de-9cdc-da61cefb6d3b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /vm, headers: {Host: abc.679888.xyz}}, udp: true}
   - {name: 🇸🇬 新加坡-Render, server: x-render-4sow.onrender.com, port: 443, type: vmess, uuid: 6610ecbb-704f-4288-95b8-f7aec921faa9, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /vmess, headers: {Host: x-render-4sow.onrender.com}}, udp: true}
-  - {name: 🇸🇬 新加坡-Render02, server: 103.21.244.6, port: 443, type: vmess, uuid: 6610ecbb-704f-4288-95b8-f7aec921faa9, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /vmess, headers: {Host: x-render-4sow.onrender.com}}, udp: true}
 
 proxy-groups:
 # type:
@@ -185,6 +181,7 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
+      - 🇺🇸 美国-BWG
       - 🇺🇸 美国-Racknerd
       - ♻️ 自动选择
       - 🔰 节点选择
@@ -193,6 +190,7 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
+      - 🇺🇸 美国-BWG
       - 🇺🇸 美国-Racknerd
       - ♻️ 自动选择
       - 🔰 节点选择
