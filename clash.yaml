@@ -149,8 +149,8 @@ proxy-groups:
       - 🇺🇸 美国-Racknerd
       - 🇺🇸 美国-Racknerd01
       - 🇺🇸 美国-Racknerd02  
-      - ♻️ 自动选择
       - 🔰 节点选择
+      - ♻️ 自动选择
   - name: 📲 Telegram
     type: fallback
     url: http://www.gstatic.com/generate_204
@@ -159,8 +159,8 @@ proxy-groups:
       - 🇺🇸 美国-Replit01
       - 🇺🇸 美国-Replit02
       - 🇺🇸 美国-Replit03
-      - ♻️ 自动选择
       - 🔰 节点选择
+      - ♻️ 自动选择
   - name: 📹 Youtube
     type: fallback
     url: http://www.gstatic.com/generate_204
@@ -169,8 +169,8 @@ proxy-groups:
       - 🇺🇸 美国-Racknerd
       - 🇺🇸 美国-Racknerd01
       - 🇺🇸 美国-Racknerd02
-      - ♻️ 自动选择
       - 🔰 节点选择
+      - ♻️ 自动选择
   - name: 📢 谷歌服务
     type: fallback
     url: http://www.gstatic.com/generate_204
@@ -178,20 +178,20 @@ proxy-groups:
     proxies:
       - 🇺🇸 美国-BWG
       - 🇺🇸 美国-Racknerd
-      - ♻️ 自动选择
       - 🔰 节点选择
+      - ♻️ 自动选择
   - name: 🍎 苹果服务
     type: select
     proxies:
       - DIRECT
-      - ♻️ 自动选择
       - 🔰 节点选择
+      - ♻️ 自动选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - DIRECT
-      - ♻️ 自动选择
       - 🔰 节点选择
+      - ♻️ 自动选择
   - name: 🎥 国外媒体
     type: fallback
     url: http://www.gstatic.com/generate_204
@@ -199,8 +199,8 @@ proxy-groups:
     proxies:
       - 🇺🇸 美国-BWG
       - 🇺🇸 美国-Racknerd
-      - ♻️ 自动选择
       - 🔰 节点选择
+      - ♻️ 自动选择
   - name: 🚀 国外流量
     type: fallback
     url: http://www.gstatic.com/generate_204
@@ -208,14 +208,14 @@ proxy-groups:
     proxies:
       - 🇺🇸 美国-BWG
       - 🇺🇸 美国-Racknerd
-      - ♻️ 自动选择
       - 🔰 节点选择
+      - ♻️ 自动选择
   - name: 🎯 国内流量
     type: select
     proxies:
       - DIRECT
-      - ♻️ 自动选择
       - 🔰 节点选择
+      - ♻️ 自动选择
   - name: 🆎 AdBlock
     type: select
     proxies:
@@ -225,8 +225,9 @@ proxy-groups:
     type: select
     proxies:
       - DIRECT
-      - ♻️ 自动选择
       - 🔰 节点选择
+      - ♻️ 自动选择
+
 
  
  
