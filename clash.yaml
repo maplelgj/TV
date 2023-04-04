@@ -105,12 +105,12 @@ proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
+      - 🇺🇸 美国-BWG
       - 🇺🇸 美国-BWG01
       - 🇺🇸 美国-BWG02
-      - 🇺🇸 美国-BWG
+      - 🇺🇸 美国-Racknerd
       - 🇺🇸 美国-Racknerd01
       - 🇺🇸 美国-Racknerd02
-      - 🇺🇸 美国-Racknerd
       - 🇺🇸 美国-Replit01
       - 🇺🇸 美国-Replit02
       - 🇺🇸 美国-Replit03
@@ -123,18 +123,21 @@ proxy-groups:
     interval: 300
     tolerance: 50
     proxies:
+      - 🇺🇸 美国-BWG
       - 🇺🇸 美国-BWG01
+      - 🇺🇸 美国-BWG02
+      - 🇺🇸 美国-Racknerd
       - 🇺🇸 美国-Racknerd01
       - 🇺🇸 美国-Replit01
       - 🇺🇸 美国-Replit02
       - 🇺🇸 美国-Replit03
+      - 🇸🇬 新加坡-Render
   - name: ⚖️ 负载均衡
     type: load-balance
     url: http://www.gstatic.com/generate_204
     interval: 300
     strategy: consistent-hashing
     proxies:
-      - 🇺🇸 美国-Racknerd01
       - 🇺🇸 美国-Replit01
       - 🇺🇸 美国-Replit02
       - 🇺🇸 美国-Replit03
@@ -143,6 +146,7 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
+      - 🇺🇸 美国-Racknerd
       - 🇺🇸 美国-Racknerd01
       - 🇺🇸 美国-Racknerd02  
       - ♻️ 自动选择
@@ -162,6 +166,7 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
+      - 🇺🇸 美国-Racknerd
       - 🇺🇸 美国-Racknerd01
       - 🇺🇸 美国-Racknerd02
       - ♻️ 自动选择
@@ -171,8 +176,8 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 🇺🇸 美国-BWG01
-      - 🇺🇸 美国-Racknerd01
+      - 🇺🇸 美国-BWG
+      - 🇺🇸 美国-Racknerd
       - ♻️ 自动选择
       - 🔰 节点选择
   - name: 🍎 苹果服务
@@ -192,8 +197,8 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 🇺🇸 美国-BWG01
-      - 🇺🇸 美国-Racknerd01
+      - 🇺🇸 美国-BWG
+      - 🇺🇸 美国-Racknerd
       - ♻️ 自动选择
       - 🔰 节点选择
   - name: 🚀 国外流量
@@ -201,8 +206,8 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 🇺🇸 美国-BWG01
-      - 🇺🇸 美国-Racknerd01
+      - 🇺🇸 美国-BWG
+      - 🇺🇸 美国-Racknerd
       - ♻️ 自动选择
       - 🔰 节点选择
   - name: 🎯 国内流量
