@@ -120,7 +120,7 @@ proxy-groups:
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.google.com/generate_204
-    interval: 300
+    interval: 6000
     tolerance: 50
     proxies:
       - 🇺🇸 美国-BWG
@@ -135,7 +135,7 @@ proxy-groups:
   - name: ⚖️ 负载均衡
     type: load-balance
     url: http://www.gstatic.com/generate_204
-    interval: 300
+    interval: 6000
     strategy: consistent-hashing
     proxies:
       - 🇺🇸 美国-Replit01
@@ -144,7 +144,7 @@ proxy-groups:
   - name: 📺 ChatGPT
     type: fallback
     url: http://www.gstatic.com/generate_204
-    interval: 300
+    interval: 6000
     proxies:
       - 🇺🇸 美国-Racknerd
       - 🇺🇸 美国-Racknerd01
@@ -154,7 +154,7 @@ proxy-groups:
   - name: 📲 Telegram
     type: fallback
     url: http://www.gstatic.com/generate_204
-    interval: 300
+    interval: 6000
     proxies:
       - 🇺🇸 美国-Replit01
       - 🇺🇸 美国-Replit02
@@ -164,7 +164,7 @@ proxy-groups:
   - name: 📹 Youtube
     type: fallback
     url: http://www.gstatic.com/generate_204
-    interval: 300
+    interval: 6000
     proxies:
       - 🇺🇸 美国-Racknerd
       - 🇺🇸 美国-Racknerd01
@@ -174,7 +174,7 @@ proxy-groups:
   - name: 📢 谷歌服务
     type: fallback
     url: http://www.gstatic.com/generate_204
-    interval: 300
+    interval: 6000
     proxies:
       - 🇺🇸 美国-BWG
       - 🇺🇸 美国-Racknerd
@@ -195,7 +195,7 @@ proxy-groups:
   - name: 🎥 国外媒体
     type: fallback
     url: http://www.gstatic.com/generate_204
-    interval: 300
+    interval: 6000
     proxies:
       - 🇺🇸 美国-BWG
       - 🇺🇸 美国-Racknerd
@@ -204,7 +204,7 @@ proxy-groups:
   - name: 🚀 国外流量
     type: fallback
     url: http://www.gstatic.com/generate_204
-    interval: 300
+    interval: 6000
     proxies:
       - 🇺🇸 美国-BWG
       - 🇺🇸 美国-Racknerd
