@@ -89,7 +89,6 @@ proxies:
 
   - {name: 🇺🇸 美国-Replit01, server: replit01.xixi666.repl.co, port: 443, type: vmess, uuid: cb16fc75-0970-4122-928d-13ef24b6daf9, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /vm, headers: {Host: replit01.xixi666.repl.co}}, udp: true}
   - {name: 🇺🇸 美国-Replit02, server: replit02.xixi666.repl.co, port: 443, type: vmess, uuid: 226e6e0f-b99f-41e2-b695-ee8a0e39537c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /vm, headers: {Host: replit02.xixi666.repl.co}}, udp: true}
-  - {name: 🇺🇸 美国-Replit03, server: replit03.xixi666.repl.co, port: 443, type: vmess, uuid: 5b94680c-1336-44eb-a4f4-7d31958f2098, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /vm, headers: {Host: replit03.xixi666.repl.co}}, udp: true}
   
   
   - {name: 🇩🇪 德国-Drpoax, server: abc.679888.xyz, port: 443, type: vmess, uuid: 5d760eb9-f941-47de-9cdc-da61cefb6d3b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /vm, headers: {Host: abc.679888.xyz}}, udp: true}
@@ -113,7 +112,6 @@ proxy-groups:
       - 🇺🇸 美国-Racknerd02
       - 🇺🇸 美国-Replit01
       - 🇺🇸 美国-Replit02
-      - 🇺🇸 美国-Replit03
       - 🇸🇬 新加坡-Render
       - 🇩🇪 德国-Drpoax
       - DIRECT
@@ -130,7 +128,6 @@ proxy-groups:
       - 🇺🇸 美国-Racknerd01
       - 🇺🇸 美国-Replit01
       - 🇺🇸 美国-Replit02
-      - 🇺🇸 美国-Replit03
       - 🇸🇬 新加坡-Render
   - name: ⚖️ 负载均衡
     type: load-balance
@@ -140,7 +137,6 @@ proxy-groups:
     proxies:
       - 🇺🇸 美国-Replit01
       - 🇺🇸 美国-Replit02
-      - 🇺🇸 美国-Replit03
   - name: 📺 ChatGPT
     type: fallback
     url: http://www.gstatic.com/generate_204
@@ -158,7 +154,6 @@ proxy-groups:
     proxies:
       - 🇺🇸 美国-Replit01
       - 🇺🇸 美国-Replit02
-      - 🇺🇸 美国-Replit03
       - 🔰 节点选择
       - ♻️ 自动选择
   - name: 📹 Youtube
