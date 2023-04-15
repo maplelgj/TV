@@ -12,8 +12,8 @@ dns:
   enable: true
   ipv6: false
   enhanced-mode: fake-ip
-  #default-nameserver:
-    #- 223.5.5.5
+  default-nameserver:
+    - 223.5.5.5
   nameserver:
     - https://dns.alidns.com/dns-query
     - https://dns.pub/dns-query
@@ -24,7 +24,7 @@ dns:
   fallback:
     - https://dns.google/dns-query
     - 8.8.4.4 
-    - https://dns.twnic.tw/dns-query
+    #- https://dns.twnic.tw/dns-query
   fallback-filter:
     geoip: true
     geoip-code: CN
