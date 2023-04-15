@@ -9,25 +9,22 @@ log-level: info
 external-controller: 127.0.0.1:9090
 
 dns:
-  enable: false
+  enable: true
   ipv6: false
   enhanced-mode: fake-ip
   #default-nameserver:
-    #- 180.76.76.76
-    #- 114.114.114.114
+    #- 223.5.5.5
   nameserver:
-    - 180.76.76.76
-    - 114.114.114.114
-    - 223.5.5.5
-    - 119.29.29.29
     - https://dns.alidns.com/dns-query
     - https://dns.pub/dns-query
+    - https://dns.rubyfish.cn/dns-query
+    #- 180.76.76.76
+    #- 114.114.114.114
+    #- 119.29.29.29
   fallback:
-    - 8.8.8.8 
-    - 8.8.4.4 
-    - 1.1.1.1
-    - https://dns.twnic.tw/dns-query
     - https://dns.google/dns-query
+    - 8.8.4.4 
+    - https://dns.twnic.tw/dns-query
   fallback-filter:
     geoip: true
     geoip-code: CN
