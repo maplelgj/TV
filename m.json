@@ -25,19 +25,20 @@
 {"key":"csp_555","name":"5️⃣️555┃直连","type":3,"api":"csp_Ys555","m3u8ads": "hd.youyhn.com","searchable":1,"quickSearch":1,"filterable":1,"ext":"https://www.555dyy1.com"},
 {"key":"csp_Lgyy","name":"🌀蓝光┃直连","type":3,"api":"csp_Lgyy","searchable":1,"quickSearch":1,"filterable":1,"ext":"https://www.lgyy.vip"},
 
-
-
+{"key":"dr_兔小贝","name":"📚儿童┃启蒙","type":3,"api":"https://gitcode.net/qq_32394351/dr_py/-/raw/master/libs/drpy.min.js","ext":"https://gitcode.net/qq_32394351/dr_py/-/raw/master/js/兔小贝.js","searchable": 0,"quickSearch": 0,"filterable": 0},
+{"key":"少儿教育","name":"📚少儿┃教育","type":3,"api":"csp_Bili","searchable":0,"quickSearch":0,"filterable":1,"ext":"http://饭太硬.ga/x/json/少儿教育.json"},
+{"key":"小学课堂","name":"📚小学┃课堂","type":3,"api":"csp_Bili","searchable":0,"quickSearch":0,"filterable":1,"ext":"http://饭太硬.ga/x/json/小学课堂.json"},
+{"key":"初中课堂","name":"📚初中┃课堂","type":3,"api":"csp_Bili","searchable":0,"quickSearch":0,"filterable":1,"ext":"http://饭太硬.ga/x/json/初中课堂.json"},
+{"key":"高中教育","name":"📚高中┃课堂","type":3,"api":"csp_Bili","searchable":0,"quickSearch":0,"filterable":1,"ext":"http://饭太硬.ga/x/json/高中课堂.json"},
 	
 {"key":"dr_JRKAN直播","name":"⚽JRKAN┃直播","type":3,"api":"https://cdn.staticaly.com/gh/maplelgj/TV666/master/lib/drpy.min.js","searchable":0,"quickSearch":0,"filterable":0,"ext":"https://cdn.staticaly.com/gh/maplelgj/TV/main/box/js/JRKAN直播.js"},
-	
-{"key":"drpy_js_310直播","name":"⚽310┃看球","type":3,"api":"https://cdn.staticaly.com/gh/maplelgj/TV666/master/lib/drpy2.min.js","ext":"https://cdn.staticaly.com/gh/maplelgj/TV/main/box/js/310直播.js"},
-
+//{"key":"drpy_js_310直播","name":"⚽310┃看球","type":3,"api":"https://cdn.staticaly.com/gh/maplelgj/TV666/master/lib/drpy2.min.js","ext":"https://cdn.staticaly.com/gh/maplelgj/TV/main/box/js/310直播.js"},
 {"key":"dr_88看球","name":"⚽88┃看球","type":3,"api":"https://cdn.staticaly.com/gh/maplelgj/TV666/master/lib/drpy2.min.js","searchable":0,"quickSearch":0,"filterable":0,"ext":"https://cdn.staticaly.com/gh/maplelgj/TV/main/box/js/88看球.js"},
 
 	
 	
-{"key":"YiSo","name":"😹易搜┃4K","type":3,"api":"csp_YiSo","playerType":1,"searchable":1,"quickSearch":1,"filterable":0,"changeable":0,"ext":"http://ali.饭太硬.ml/alitoken"},
-{"key":"PanSou","name":"🦊盘搜┃4K","type":3,"api":"csp_PanSou","playerType":1,"searchable":1,"quickSearch":1,"filterable":0,"changeable":0,"ext":"http://ali.饭太硬.ml/alitoken"},
+//{"key":"YiSo","name":"😹易搜┃4K","type":3,"api":"csp_YiSo","playerType":1,"searchable":1,"quickSearch":1,"filterable":0,"changeable":0,"ext":"http://ali.饭太硬.ml/alitoken"},
+//{"key":"PanSou","name":"🦊盘搜┃4K","type":3,"api":"csp_PanSou","playerType":1,"searchable":1,"quickSearch":1,"filterable":0,"changeable":0,"ext":"http://ali.饭太硬.ml/alitoken"},
 {"key":"UpYun","name":"😻Up搜┃4K","type":3,"api":"csp_UpYun","playerType":1,"searchable":1,"quickSearch":1,"filterable":0,"changeable":0,"ext":"http://ali.饭太硬.ml/alitoken"}
 
 ],
