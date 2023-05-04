@@ -3,7 +3,7 @@
 //"spider":"https://cdn.staticaly.com/gh/maplelgj/TV/main/jar/Yoursmile.jar",
 //"spider":"https://cdn.staticaly.com/gh/maplelgj/TV/main/jar/2212.jar",
 //"spider":"https://cdn.staticaly.com/gh/maplelgj/TV/main/jar/spider2207.jar",
-"lives":[{"group":"redirect","channels":[{"name":"redirect","urls":["proxy://do=live&type=txt&ext=./TV/live.txt"]}]}],
+"lives":[{"name":"live","type":0,"url":"http://ftyyy.tk/live.txt","playerType":1,"epg":"http://epg.112114.xyz/?ch={name}&date={date}","logo": "https://epg.112114.xyz/logo/{name}.png"},
 "wallpaper":"http://maoyingshi.cc/api.php",
 
 "sites":[
