@@ -77,11 +77,11 @@ dns:
 
 proxies:
   - {name: 🇺🇸 美国-BWG, server: wg.679888.xyz, port: 443, type: vmess, uuid: da319d01-2ff6-4e62-b147-a3369bae3edc, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /22ef3/, headers: {Host: wg.679888.xyz}}, udp: true}
-  - {name: 🇺🇸 美国-BWG01, server: 162.159.142.238, port: 443, type: vmess, uuid: da319d01-2ff6-4e62-b147-a3369bae3edc, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /22ef3/, headers: {Host: wg.679888.xyz}}, udp: true}
-  - {name: 🇺🇸 美国-BWG02, server: 190.93.245.45, port: 443, type: vmess, uuid: da319d01-2ff6-4e62-b147-a3369bae3edc, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /22ef3/, headers: {Host: wg.679888.xyz}}, udp: true}
+  - {name: 🇺🇸 美国-BWG01, server: 103.21.244.18, port: 443, type: vmess, uuid: da319d01-2ff6-4e62-b147-a3369bae3edc, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /22ef3/, headers: {Host: wg.679888.xyz}}, udp: true}
+  - {name: 🇺🇸 美国-BWG02, server: 172.67.70.81, port: 443, type: vmess, uuid: da319d01-2ff6-4e62-b147-a3369bae3edc, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /22ef3/, headers: {Host: wg.679888.xyz}}, udp: true}
 
   - {name: 🇺🇸 美国-Racknerd, server: ra.679888.xyz, port: 443, type: vmess, uuid: 98c731fc-3ced-4537-bb55-ec27f531a4b6, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /cef3646850fee/, headers: {Host: ra.679888.xyz}}, udp: true}
-  - {name: 🇺🇸 美国-Racknerd01, server: 104.16.214.162, port: 443, type: vmess, uuid: 98c731fc-3ced-4537-bb55-ec27f531a4b6, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /cef3646850fee/, headers: {Host: ra.679888.xyz}}, udp: true}
+  - {name: 🇺🇸 美国-Racknerd01, server: 103.21.244.18, port: 443, type: vmess, uuid: 98c731fc-3ced-4537-bb55-ec27f531a4b6, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /cef3646850fee/, headers: {Host: ra.679888.xyz}}, udp: true}
   - {name: 🇺🇸 美国-Racknerd02, server: 172.67.204.50, port: 443, type: vmess, uuid: 98c731fc-3ced-4537-bb55-ec27f531a4b6, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /cef3646850fee/, headers: {Host: ra.679888.xyz}}, udp: true}
 
   - {name: 🇺🇸 美国-Replit01, server: replit01.xixi666.repl.co, port: 443, type: vmess, uuid: cb16fc75-0970-4122-928d-13ef24b6daf9, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /vm, headers: {Host: replit01.xixi666.repl.co}}, udp: true}
@@ -198,6 +198,8 @@ proxy-groups:
     proxies:
       - 🇺🇸 美国-BWG01
       - 🇺🇸 美国-Racknerd01
+      - 🇺🇸 美国-BWG
+      - 🇺🇸 美国-Racknerd
       - 🔰 节点选择
       - ♻️ 自动选择
   - name: 🚀 国外流量
@@ -207,6 +209,8 @@ proxy-groups:
     proxies:
       - 🇺🇸 美国-BWG01
       - 🇺🇸 美国-Racknerd01
+      - 🇺🇸 美国-BWG
+      - 🇺🇸 美国-Racknerd
       - 🔰 节点选择
       - ♻️ 自动选择
   - name: 🎯 国内流量
