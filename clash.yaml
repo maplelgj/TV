@@ -177,6 +177,7 @@ proxy-groups:
     interval: 6000
     proxies:
       - 🇺🇸 美国-BWG01
+      - 🇺🇸 美国-BWG
       - 🔰 节点选择
       - ♻️ 自动选择
   - name: 🍎 苹果服务
@@ -196,8 +197,8 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 6000
     proxies:
-      - 🇺🇸 美国-BWG01
       - 🇺🇸 美国-Racknerd01
+      - 🇺🇸 美国-BWG01
       - 🇺🇸 美国-BWG
       - 🇺🇸 美国-Racknerd
       - 🔰 节点选择
@@ -207,8 +208,8 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 6000
     proxies:
-      - 🇺🇸 美国-BWG01
       - 🇺🇸 美国-Racknerd01
+      - 🇺🇸 美国-BWG01
       - 🇺🇸 美国-BWG
       - 🇺🇸 美国-Racknerd
       - 🔰 节点选择
