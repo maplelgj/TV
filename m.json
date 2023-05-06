@@ -28,10 +28,9 @@
 {"key":"高中教育","name":"📚高中┃课堂","type":3,"api":"csp_Bili","searchable":0,"quickSearch":0,"filterable":1,"ext":"http://饭太硬.ga/x/json/高中课堂.json"},
 	
 {"key":"dr_JRKAN直播","name":"⚽JRKAN┃直播","type":3,"api":"https://cdn.staticaly.com/gh/maplelgj/TV666/master/lib/drpy.min.js","searchable":0,"quickSearch":0,"filterable":0,"ext":"https://cdn.staticaly.com/gh/maplelgj/TV/main/box/js/JRKAN直播.js"},
-{"key":"csp_xp_qiumi","name":"⚽ Jrs┃球迷","type": 3,"api": "csp_XPath","searchable": 0,"quickSearch": 0,"filterable": 0,"ext": "http://饭太硬.ga/x/xp/dj看球.json"},
-{"key":"csp_XYQBiu_310直播","name":"⚽310┃看球","type":3,"api":"csp_XYQBiu","searchable":0,"quickSearch":0,"filterable":0,"ext":"http://饭太硬.ga/x/XYQ/310直播.json"},
-{"key":"88js","name":"⚽ 88┃看球","type":3,"api":"https://agit.ai/fantaiying/fty/raw/branch/master/JS/lib/drpy.min.js","ext":"https://agit.ai/fantaiying/fty/raw/branch/master/JS/js/88看球.js","searchable": 0,"quickSearch": 0,"filterable": 0},
-//{"key":"drpy_js_310直播","name":"⚽310┃看球","type":3,"api":"https://cdn.staticaly.com/gh/maplelgj/TV666/master/lib/drpy2.min.js","ext":"https://cdn.staticaly.com/gh/maplelgj/TV/main/box/js/310直播.js"},
+{"key":"csp_xp_qiumi","name":"⚽ Jrs┃球迷饭","type": 3,"api": "csp_XPath","searchable": 0,"quickSearch": 0,"filterable": 0,"ext": "http://饭太硬.ga/x/xp/dj看球.json"},
+{"key":"csp_XYQBiu_310直播","name":"⚽310┃看球饭","type":3,"api":"csp_XYQBiu","searchable":0,"quickSearch":0,"filterable":0,"ext":"http://饭太硬.ga/x/XYQ/310直播.json"},
+{"key":"88js","name":"⚽ 88┃看球饭","type":3,"api":"https://agit.ai/fantaiying/fty/raw/branch/master/JS/lib/drpy.min.js","ext":"https://agit.ai/fantaiying/fty/raw/branch/master/JS/js/88看球.js","searchable": 0,"quickSearch": 0,"filterable": 0},
 {"key":"dr_88看球","name":"⚽88┃看球","type":3,"api":"https://cdn.staticaly.com/gh/maplelgj/TV666/master/lib/drpy2.min.js","searchable":0,"quickSearch":0,"filterable":0,"ext":"https://cdn.staticaly.com/gh/maplelgj/TV/main/box/js/88看球.js"},
 	
 {"key":"UpYun","name":"😻Up搜┃4K","type":3,"api":"csp_UpYun","playerType":1,"searchable":1,"quickSearch":1,"filterable":0,"changeable":0,"ext":"http://ali.饭太硬.ml/alitoken"}
