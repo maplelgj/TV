@@ -178,6 +178,7 @@ proxy-groups:
     proxies:
       - 🇺🇸 美国-BWG01
       - 🇺🇸 美国-BWG
+      - 🇺🇸 美国-Racknerd
       - 🔰 节点选择
       - ♻️ 自动选择
   - name: 🍎 苹果服务
