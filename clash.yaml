@@ -97,12 +97,12 @@ proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
-      - 🇺🇸 美国-BWG
       - 🇺🇸 美国-BWG01
-      - 🇺🇸 美国-Racknerd
+      - 🇺🇸 美国-BWG
       - 🇺🇸 美国-Racknerd01
-      - 🇺🇸 美国-Replit
+      - 🇺🇸 美国-Racknerd
       - 🇩🇪 德国-CodeSandBox
+      - 🇺🇸 美国-Replit
       - 🇩🇪 德国-doprax
       - DIRECT
   - name: ♻️ 自动选择
