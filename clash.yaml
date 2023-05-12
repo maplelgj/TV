@@ -115,8 +115,8 @@ proxy-groups:
       - 🇺🇸 美国-BWG
       - 🇺🇸 美国-Racknerd01
       - 🇺🇸 美国-Racknerd
-      - 🇺🇸 美国-Replit
       - 🇩🇪 德国-CodeSandBox
+      - 🇺🇸 美国-Replit
       - 🇩🇪 德国-doprax
   - name: ⚖️ 负载均衡
     type: load-balance
