@@ -15,15 +15,13 @@ dns:
   default-nameserver:
     - 223.5.5.5
   nameserver:
+    - 180.76.76.76
+    - 114.114.114.114
+    - 119.29.29.29
     - https://dns.alidns.com/dns-query
-    - https://dns.pub/dns-query
-    - https://dns.rubyfish.cn/dns-query
-    #- 180.76.76.76
-    #- 114.114.114.114
-    #- 119.29.29.29
   fallback:
-    - https://dns.google/dns-query
     - 8.8.4.4 
+    - https://dns.google/dns-query
     #- https://dns.twnic.tw/dns-query
   fallback-filter:
     geoip: true
