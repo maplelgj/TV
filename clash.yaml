@@ -20,7 +20,7 @@ dns:
     - 119.29.29.29
     - https://dns.alidns.com/dns-query
   fallback:
-    - 8.8.4.4 
+    - 8.8.8.8
     - https://dns.google/dns-query
     #- https://dns.twnic.tw/dns-query
   fallback-filter:
