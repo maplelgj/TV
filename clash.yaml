@@ -82,7 +82,6 @@ proxies:
   - {name: 🇺🇸 美国-Racknerd, server: ra.679888.xyz, port: 443, type: vmess, uuid: 6a194094-de36-438c-93ed-de1ccc282144, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /aqxlvws, headers: {Host: ra.679888.xyz}}, udp: true}
   - {name: 🇺🇸 美国-Racknerd01, server: 103.21.244.18, port: 443, type: vmess, uuid: 6a194094-de36-438c-93ed-de1ccc282144, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /aqxlvws, headers: {Host: ra.679888.xyz}}, udp: true}
 
-  - {name: 🇺🇸 美国-Replit01, server: replit01.xixi666.repl.co, port: 443, type: vmess, uuid: cb16fc75-0970-4122-928d-13ef24b6daf9, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /vmabcd, headers: {Host: replit01.xixi666.repl.co}}, udp: true}
   - {name: 🇺🇸 美国-Replit02, server: replit02.xixi666.repl.co, port: 443, type: vmess, uuid: 226e6e0f-b99f-41e2-b695-ee8a0e39537c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /vmabcd, headers: {Host: replit02.xixi666.repl.co}}, udp: true}
   
   - {name: 🇩🇪 德国-CodeSandBox, server: 8x69c3-8080.csb.app, port: 443, type: vmess, uuid: 42bedd62-b62d-4681-a6b2-c9f3669a8454, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /vmabcd, headers: {Host: 8x69c3-8080.csb.app}}, udp: true}
@@ -102,7 +101,6 @@ proxy-groups:
       - 🇺🇸 美国-BWG01
       - 🇺🇸 美国-Racknerd
       - 🇺🇸 美国-Racknerd01
-      - 🇺🇸 美国-Replit01
       - 🇺🇸 美国-Replit02
       - 🇩🇪 德国-CodeSandBox
       - 🇩🇪 德国-doprax
@@ -117,7 +115,6 @@ proxy-groups:
       - 🇺🇸 美国-BWG01
       - 🇺🇸 美国-Racknerd
       - 🇺🇸 美国-Racknerd01
-      - 🇺🇸 美国-Replit01
       - 🇺🇸 美国-Replit02
       - 🇩🇪 德国-CodeSandBox
       - 🇩🇪 德国-doprax
@@ -131,7 +128,6 @@ proxy-groups:
       - 🇺🇸 美国-BWG01
       - 🇺🇸 美国-Racknerd
       - 🇺🇸 美国-Racknerd01
-      - 🇺🇸 美国-Replit01
       - 🇺🇸 美国-Replit02
   - name: 📺 ChatGPT
     type: fallback
