@@ -362,7 +362,7 @@ rules:
  - RULE-SET,GlobalMedia,🎥 国外媒体
  - RULE-SET,ProxyGFWlist,🚀 国外流量
  - RULE-SET,OneDrive,🚀 国外流量
- - RULE-SET,GFW,🎥 国外媒体
+ - RULE-SET,GFW,🚀 国外流量
  - RULE-SET,BanEasyListChina,🆎 AdBlock
  - RULE-SET,AdvertisingLite,🆎 AdBlock
  - RULE-SET,Hijacking,🆎 AdBlock
