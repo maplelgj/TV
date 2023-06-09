@@ -9,6 +9,8 @@
   `https://raw.fastgit.org/maplelgj/TV/main/dc.json` 
    
   `https://cdn.staticaly.com/gh/maplelgj/TV/main/dc.json` 
+  
+  ` https://ghproxy.net/https://raw.githubusercontent.com/maplelgj/box/main/dc.txt` 
 
  
  #
