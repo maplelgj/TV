@@ -82,12 +82,12 @@ proxies:
   - {name: 🇺🇸 美国-Racknerd02, server: 190.93.245.193, port: 443, type: vmess, uuid: 1074988f-51da-41df-9db9-36bf3d6f3d94, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /xpyrvws?ed=2048, headers: {Host: ra.679888.xyz}}, udp: true}
   - {name: 🇺🇸 美国-Racknerd, server: ra.679888.xyz, port: 8443, type: vmess, uuid: 1074988f-51da-41df-9db9-36bf3d6f3d94, alterId: 0, cipher: auto, tls: true,  network: ws, ws-opts: {path: /xpyrvws?ed=2048, headers: {Host: ra.679888.xyz}}, udp: true}
   
-  - {name: 🇺🇸 美国-Replit, server: replit02.xixi666.repl.co, port: 443, type: vmess, uuid: 226e6e0f-b99f-41e2-b695-ee8a0e39537c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /vmabcd, headers: {Host: replit02.xixi666.repl.co}}, udp: true}
+   #- {name: 🇺🇸 美国-Replit, server: replit02.xixi666.repl.co, port: 443, type: vmess, uuid: 226e6e0f-b99f-41e2-b695-ee8a0e39537c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /vmabcd, headers: {Host: replit02.xixi666.repl.co}}, udp: true}
   
-  - {name: 🇩🇪 德国-CodeSandBox, server: 8x69c3-8080.csb.app, port: 443, type: vmess, uuid: 42bedd62-b62d-4681-a6b2-c9f3669a8454, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /vmabcd, headers: {Host: 8x69c3-8080.csb.app}}, udp: true}
-  - {name: 🇩🇪 德国-CodeSandBox01, server: code.679888.xyz, port: 443, type: vmess, uuid: 42bedd62-b62d-4681-a6b2-c9f3669a8454, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /vmabcd, headers: {Host: code.679888.xyz}}, udp: true}
+   #- {name: 🇩🇪 德国-CodeSandBox, server: 8x69c3-8080.csb.app, port: 443, type: vmess, uuid: 42bedd62-b62d-4681-a6b2-c9f3669a8454, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /vmabcd, headers: {Host: 8x69c3-8080.csb.app}}, udp: true}
+   #- {name: 🇩🇪 德国-CodeSandBox01, server: code.679888.xyz, port: 443, type: vmess, uuid: 42bedd62-b62d-4681-a6b2-c9f3669a8454, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /vmabcd, headers: {Host: code.679888.xyz}}, udp: true}
 
-  - {name: 🇩🇪 德国-doprax, server: abc.679888.xyz, port: 443, type: vmess, uuid: 2230f60b-3559-42d9-bdcd-0f3f623c2748, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /vmabcd, headers: {Host: abc.679888.xyz}}, udp: true}
+   #- {name: 🇩🇪 德国-doprax, server: abc.679888.xyz, port: 443, type: vmess, uuid: 2230f60b-3559-42d9-bdcd-0f3f623c2748, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /vmabcd, headers: {Host: abc.679888.xyz}}, udp: true}
 
 proxy-groups:
 # type:
@@ -105,10 +105,10 @@ proxy-groups:
       - 🇺🇸 美国-Racknerd01
       - 🇺🇸 美国-Racknerd02
       - 🇺🇸 美国-Racknerd
-      - 🇩🇪 德国-CodeSandBox01
-      - 🇩🇪 德国-CodeSandBox
-      - 🇺🇸 美国-Replit
-      - 🇩🇪 德国-doprax
+       #- 🇩🇪 德国-CodeSandBox01
+       #- 🇩🇪 德国-CodeSandBox
+       #- 🇺🇸 美国-Replit
+       #- 🇩🇪 德国-doprax
       - DIRECT
   - name: ♻️ 自动选择
     type: url-test
@@ -122,10 +122,10 @@ proxy-groups:
       - 🇺🇸 美国-Racknerd01
       - 🇺🇸 美国-Racknerd02
       - 🇺🇸 美国-Racknerd
-      - 🇩🇪 德国-CodeSandBox01
-      - 🇩🇪 德国-CodeSandBox
-      - 🇺🇸 美国-Replit
-      - 🇩🇪 德国-doprax
+       #- 🇩🇪 德国-CodeSandBox01
+       #- 🇩🇪 德国-CodeSandBox
+       #- 🇺🇸 美国-Replit
+      # - 🇩🇪 德国-doprax
   - name: ⚖️ 负载均衡
     type: load-balance
     url: http://www.gstatic.com/generate_204
@@ -154,8 +154,8 @@ proxy-groups:
       - 🇺🇸 美国-Racknerd01
       - 🇺🇸 美国-Racknerd02
       - 🇺🇸 美国-Racknerd
-      - 🇩🇪 德国-CodeSandBox01
-      - 🇩🇪 德国-CodeSandBox
+       #- 🇩🇪 德国-CodeSandBox01
+       #- 🇩🇪 德国-CodeSandBox
       - 🔰 节点选择
       - ♻️ 自动选择
   - name: 📹 Youtube
