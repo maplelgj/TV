@@ -80,6 +80,7 @@ proxies:
 
   - {name: 🇺🇸 美国-Racknerd01, server: 104.16.234.1, port: 443, type: vmess, uuid: 1074988f-51da-41df-9db9-36bf3d6f3d94, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /xpyrvws?ed=2048, headers: {Host: ra.679888.xyz}}, udp: true}
   - {name: 🇺🇸 美国-Racknerd02, server: 190.93.245.193, port: 443, type: vmess, uuid: 1074988f-51da-41df-9db9-36bf3d6f3d94, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /xpyrvws?ed=2048, headers: {Host: ra.679888.xyz}}, udp: true}
+  - {name: 🇺🇸 美国-Racknerd03, server: 190.93.244.184, port: 443, type: vmess, uuid: 1074988f-51da-41df-9db9-36bf3d6f3d94, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /xpyrvws?ed=2048, headers: {Host: ra.679888.xyz}}, udp: true}
   - {name: 🇺🇸 美国-Racknerd, server: ra.679888.xyz, port: 8443, type: vmess, uuid: 1074988f-51da-41df-9db9-36bf3d6f3d94, alterId: 0, cipher: auto, tls: true,  network: ws, ws-opts: {path: /xpyrvws?ed=2048, headers: {Host: ra.679888.xyz}}, udp: true}
   
    #- {name: 🇺🇸 美国-Replit, server: replit02.xixi666.repl.co, port: 443, type: vmess, uuid: 226e6e0f-b99f-41e2-b695-ee8a0e39537c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /vmabcd, headers: {Host: replit02.xixi666.repl.co}}, udp: true}
@@ -104,6 +105,7 @@ proxy-groups:
       - 🇺🇸 美国-BWG
       - 🇺🇸 美国-Racknerd01
       - 🇺🇸 美国-Racknerd02
+      - 🇺🇸 美国-Racknerd03
       - 🇺🇸 美国-Racknerd
        #- 🇩🇪 德国-CodeSandBox01
        #- 🇩🇪 德国-CodeSandBox
@@ -143,6 +145,7 @@ proxy-groups:
     proxies:
       - 🇺🇸 美国-Racknerd01
       - 🇺🇸 美国-Racknerd02
+      - 🇺🇸 美国-Racknerd03
       - 🇺🇸 美国-Racknerd
       - 🔰 节点选择
       - ♻️ 自动选择
@@ -153,6 +156,7 @@ proxy-groups:
     proxies:
       - 🇺🇸 美国-Racknerd01
       - 🇺🇸 美国-Racknerd02
+      - 🇺🇸 美国-Racknerd03
       - 🇺🇸 美国-Racknerd
        #- 🇩🇪 德国-CodeSandBox01
        #- 🇩🇪 德国-CodeSandBox
@@ -165,6 +169,7 @@ proxy-groups:
     proxies:
       - 🇺🇸 美国-Racknerd01
       - 🇺🇸 美国-Racknerd02
+      - 🇺🇸 美国-Racknerd03
       - 🇺🇸 美国-Racknerd
       - 🔰 节点选择
       - ♻️ 自动选择
