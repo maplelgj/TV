@@ -80,7 +80,7 @@ proxies:
   - {name: 🇺🇸 美国-BWG, server: bwg.679888.xyz, port: 8443, type: vmess, uuid: b8b384d0-007a-4355-affe-75aaf63db6b6, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /ixnbvws?ed=2048, headers: {Host: bwg.679888.xyz}}, udp: true}
 
   - {name: 🇺🇸 美国-Racknerd01, server: 104.16.234.1, port: 443, type: vmess, uuid: 1074988f-51da-41df-9db9-36bf3d6f3d94, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /xpyrvws?ed=2048, headers: {Host: ra.679888.xyz}}, udp: true}
-  - {name: 🇺🇸 美国-Racknerd02, server: 190.93.245.193, port: 443, type: vmess, uuid: 1074988f-51da-41df-9db9-36bf3d6f3d94, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /xpyrvws?ed=2048, headers: {Host: ra.679888.xyz}}, udp: true}
+  - {name: 🇺🇸 美国-Racknerd02, server: 162.159.136.174, port: 443, type: vmess, uuid: 1074988f-51da-41df-9db9-36bf3d6f3d94, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /xpyrvws?ed=2048, headers: {Host: ra.679888.xyz}}, udp: true}
   - {name: 🇺🇸 美国-Racknerd03, server: 190.93.244.184, port: 443, type: vmess, uuid: 1074988f-51da-41df-9db9-36bf3d6f3d94, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /xpyrvws?ed=2048, headers: {Host: ra.679888.xyz}}, udp: true}
   - {name: 🇺🇸 美国-Racknerd, server: ra.679888.xyz, port: 8443, type: vmess, uuid: 1074988f-51da-41df-9db9-36bf3d6f3d94, alterId: 0, cipher: auto, tls: true,  network: ws, ws-opts: {path: /xpyrvws?ed=2048, headers: {Host: ra.679888.xyz}}, udp: true}
   
