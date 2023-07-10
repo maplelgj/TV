@@ -27,6 +27,8 @@
  `https://raw.iqiq.io/maplelgj/TV/main/clash.yaml`  
  
  `https://raw.fastgit.org/maplelgj/TV/main/clash.yaml` 
+
+ `https://raw.fastgit.ixmu.net/maplelgj/TV/main/clash.yaml` 
  
  `https://cdn.staticaly.com/gh/maplelgj/TV/main/clash.yaml`  
  
