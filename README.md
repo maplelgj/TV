@@ -1,4 +1,3 @@
- `https://raw.iqiq.io/maplelgj/TV/main/m.json`  
  
  `https://cdn.staticaly.com/gh/maplelgj/TV/main/m.json`  
  
@@ -18,13 +17,10 @@
  
  `https://cdn.staticaly.com/gh/maplelgj/TV/main/VV`  
    
- `https://raw.fastgit.org/freefq/free/master/v2` 
   
   
  #
  `https://raw.iqiq.io/maplelgj/TV/main/clash.ini`  
-
- `https://raw.iqiq.io/maplelgj/TV/main/clash.yaml`  
  
  `https://raw.fastgit.org/maplelgj/TV/main/clash.yaml` 
 
