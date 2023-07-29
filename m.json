@@ -1,6 +1,8 @@
 {
 //"spider":"https://ghproxy.com/https://raw.githubusercontent.com/maplelgj/TV666/master/jar/fan.txt",
-"spider":"./jar/fan.txt;md5;91b04592e14b3cc30f34c1324a59e8ad",
+//"spider":"./jar/fan.txt;md5;91b04592e14b3cc30f34c1324a59e8ad",
+"spider":"https://cdn.staticaly.com/gh/maplelgj/TV666/master/jar/fan.txt",
+
 "wallpaper":"http://饭太硬.top/深色壁纸/api.php",
 
 "sites":[
