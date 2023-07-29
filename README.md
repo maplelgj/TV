@@ -1,7 +1,7 @@
 
  `https://pastebin.com/raw/3u4TkfKj `  
  
- `https://raw.kgithub.com/maplelgj/TV/main/m.json`  
+ `https://cdn.staticaly.com/gh/maplelgj/TV/main/m.json`  
   
  `https://ghproxy.com/https://raw.githubusercontent.com/maplelgj/TV/main/m.json`   
 
