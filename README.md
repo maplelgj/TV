@@ -7,6 +7,8 @@
   
  `https://ghproxy.net/https://raw.githubusercontent.com/maplelgj/TV/main/m.json`   
 
+ `https://github.moeyy.xyz/https://raw.githubusercontent.com/maplelgj/TV/main/m.json `
+
   
   
   `https://raw.fastgit.org/maplelgj/TV/main/dc.json` 
