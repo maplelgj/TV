@@ -13,7 +13,7 @@
 
   `https://raw.fastgit.ixmu.net/maplelgj/TV/main/dc.json` 
   
-  ` https://ghproxy.net/https://raw.githubusercontent.com/maplelgj/box/main/dc.txt` 
+  ` https://ghproxy.net/https://raw.githubusercontent.com/maplelgj/TV/main/dc.json` 
 
  
  #
