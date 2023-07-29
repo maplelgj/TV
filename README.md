@@ -2,20 +2,12 @@
  `https://pastebin.com/raw/3u4TkfKj `  
  
  `https://raw.kgithub.com/maplelgj/TV/main/m.json`  
-
- `https://raw.fastgit.ixmu.net/maplelgj/TV/main/m.json`  
   
  `https://ghproxy.net/https://raw.githubusercontent.com/maplelgj/TV/main/m.json`   
 
  `https://github.moeyy.xyz/https://raw.githubusercontent.com/maplelgj/TV/main/m.json `
 
   
-  
-  `https://raw.fastgit.org/maplelgj/TV/main/dc.json` 
-   
-  `https://cdn.staticaly.com/gh/maplelgj/TV/main/dc.json` 
-
-  `https://raw.fastgit.ixmu.net/maplelgj/TV/main/dc.json` 
   
   ` https://ghproxy.net/https://raw.githubusercontent.com/maplelgj/TV/main/dc.json` 
 
@@ -25,22 +17,14 @@
 
 `https://raw.kgithub.com/maplelgj/TV/main/VV `
  
- `https://cdn.staticaly.com/gh/maplelgj/TV/main/VV`  
 
-  `https://raw.fastgit.ixmu.net/maplelgj/TV/main/VV`  
-   
-  
-  
  #
- `https://raw.iqiq.io/maplelgj/TV/main/clash.ini`  
  
  `https://ghproxy.net/https://raw.githubusercontent.com/maplelgj/TV/main/clash.yaml` 
 
  `https://raw.kgithub.com/maplelgj/TV/main/clash.yaml` 
 
- `https://raw.fastgit.ixmu.net/maplelgj/TV/main/clash.yaml` 
  
- `https://cdn.staticaly.com/gh/maplelgj/TV/main/clash.yaml`  
  
 
 
