@@ -255,105 +255,105 @@ rule-providers:
     type: http
     behavior: classical
     path: ./rule/China.yaml
-    url: https://raw.fastgit.ixmu.net/blackmatrix7/ios_rule_script/master/rule/Clash/China/China_Classical.yaml
+    url: https://ghproxy.net/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/China/China_Classical.yaml
     interval: 86400
 
   BanEasyListChina:
     type: http
     behavior: classical
     path: ./rule/BanEasyListChina.yaml
-    url: https://raw.fastgit.ixmu.net/ACL4SSR/ACL4SSR/master/Clash/Providers/BanEasyListChina.yaml
+    url: https://ghproxy.net/https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/BanEasyListChina.yaml
     interval: 86400
     
   Hijacking:
     type: http
     behavior: classical
     path: ./rule/Hijacking.yaml
-    url: https://raw.fastgit.ixmu.net/blackmatrix7/ios_rule_script/master/rule/Clash/Hijacking/Hijacking.yaml
+    url: https://ghproxy.net/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Hijacking/Hijacking.yaml
     interval: 86400
     
   Privacy:
     type: http
     behavior: classical
     path: ./rule/Privacy.yaml
-    url: https://fastly.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/Privacy/Privacy_Classical.yaml
+    url: https://ghproxy.net/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script@master/rule/Clash/Privacy/Privacy_Classical.yaml
     interval: 86400
     
   AdvertisingLite:
     type: http
     behavior: classical
     path: ./rule/AdvertisingLite.yaml
-    url: https://fastly.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/AdvertisingLite/AdvertisingLite_Classical.yaml
+    url: https://ghproxy.net/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script@master/rule/Clash/AdvertisingLite/AdvertisingLite_Classical.yaml
     interval: 86400
     
   Apple:
     type: http
     behavior: classical
     path: ./rule/Apple.yaml
-    url: https://raw.fastgit.ixmu.net/blackmatrix7/ios_rule_script/master/rule/Clash/Apple/Apple.yaml
+    url: https://ghproxy.net/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Apple/Apple.yaml
     interval: 86400
     
   YouTube:
     type: http
     behavior: classical
     path: ./rule/YouTube.yaml
-    url: https://fastly.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/YouTube/YouTube.yaml
+    url: https://ghproxy.net/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script@master/rule/Clash/YouTube/YouTube.yaml
     interval: 86400
     
   Google:
     type: http
     behavior: classical
     path: ./rule/Google.yaml
-    url: https://raw.fastgit.ixmu.net/blackmatrix7/ios_rule_script/master/rule/Clash/Google/Google.yaml
+    url: https://ghproxy.net/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Google/Google.yaml
     interval: 86400
     
   OneDrive:
     type: http
     behavior: classical
     path: ./rule/OneDrive.yaml
-    url: https://raw.fastgit.ixmu.net/blackmatrix7/ios_rule_script/master/rule/Clash/OneDrive/OneDrive.yaml
+    url: https://ghproxy.net/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/OneDrive/OneDrive.yaml
     interval: 86400
   
   Microsoft:
     type: http
     behavior: classical
     path: ./rule/Microsoft.yaml
-    url: https://raw.fastgit.ixmu.net/maplelgj/ios_rule_script/master/rule/Clash/Microsoft/Microsoft.yaml
+    url: https://ghproxy.net/https://raw.githubusercontent.com/maplelgj/ios_rule_script/master/rule/Clash/Microsoft/Microsoft.yaml
     interval: 86400
     
   Telegram:
     type: http
     behavior: classical
     path: ./rule/Telegram.yaml
-    url: https://raw.fastgit.org/blackmatrix7/ios_rule_script/master/rule/Clash/Telegram/Telegram.yaml
+    url: https://ghproxy.net/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Telegram/Telegram.yaml
     interval: 86400
     
   GlobalMedia:
     type: http
     behavior: classical
     path: ./rule/GlobalMedia.yaml
-    url: https://raw.fastgit.org/blackmatrix7/ios_rule_script/master/rule/Clash/GlobalMedia/GlobalMedia_Classical.yaml
+    url: https://ghproxy.net/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/GlobalMedia/GlobalMedia_Classical.yaml
     interval: 86400
     
   ProxyGFWlist:
     type: http
     behavior: classical
     path: ./rule/ProxyGFWlist.yaml
-    url: https://raw.fastgit.org/ACL4SSR/ACL4SSR/master/Clash/Providers/ProxyGFWlist.yaml
+    url: https://ghproxy.net/https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/ProxyGFWlist.yaml
     interval: 86400
     
   GFW:
     type: http
     behavior: classical
     path: ./rule/GFW.yaml
-    url: https://raw.fastgit.org/maplelgj/TV/main/clash/GFW.yaml
+    url: https://ghproxy.net/https://raw.githubusercontent.com/maplelgj/TV/main/clash/GFW.yaml
     interval: 86400
     
   ChatGPT:
     type: http
     behavior: classical
     path: ./rule/ChatGPT.yaml
-    url: https://raw.fastgit.org/maplelgj/TV/main/clash/ChatGPT.yaml
+    url: https://ghproxy.net/https://raw.githubusercontent.com/maplelgj/TV/main/clash/ChatGPT.yaml
     interval: 86400
     
 rules:
