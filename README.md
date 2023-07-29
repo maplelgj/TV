@@ -3,7 +3,7 @@
  
  `https://raw.kgithub.com/maplelgj/TV/main/m.json`  
   
- `https://ghproxy.net/https://raw.githubusercontent.com/maplelgj/TV/main/m.json`   
+ `https://ghproxy.com/https://raw.githubusercontent.com/maplelgj/TV/main/m.json`   
 
  `https://github.moeyy.xyz/https://raw.githubusercontent.com/maplelgj/TV/main/m.json `
 
