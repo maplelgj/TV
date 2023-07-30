@@ -24,7 +24,7 @@
  
  `https://ghproxy.net/https://raw.githubusercontent.com/maplelgj/TV/main/clash.yaml` 
 
- `https://pastebin.com/raw/dggXgUEc` 
+ `https://jsdelivr.b-cdn.net/gh/maplelgj/TV@main/tv.yaml` 
 
  
 
