@@ -1,0 +1,343 @@
+mixed-port: 7890
+#port: 7890
+#socks-port: 7891
+#redir-port: 7892
+allow-lan: true
+mode: rule
+ipv6: false
+log-level: info
+external-controller: 127.0.0.1:9090
+
+dns:
+  enable: true
+  ipv6: false
+  enhanced-mode: fake-ip
+  default-nameserver:
+    - 223.5.5.5
+  nameserver:
+    - 180.76.76.76
+    - 114.114.114.114
+    - 119.29.29.29
+    - https://dns.alidns.com/dns-query
+  fallback:
+    - 8.8.8.8
+    - https://dns.google/dns-query
+    #- https://dns.twnic.tw/dns-query
+  fallback-filter:
+    geoip: true
+    geoip-code: CN
+    ipcidr:
+      - 0.0.0.0/8
+      - 10.0.0.0/8
+      - 100.64.0.0/10
+      - 127.0.0.0/8
+      - 169.254.0.0/16
+      - 172.16.0.0/12
+      - 192.0.0.0/24
+      - 192.0.2.0/24
+      - 192.88.99.0/24
+      - 192.168.0.0/16
+      - 198.18.0.0/15
+      - 198.51.100.0/24
+      - 203.0.113.0/24
+      - 224.0.0.0/4
+      - 240.0.0.0/4
+      - 255.255.255.255/32
+    domain:
+      - +.google.com
+      - +.facebook.com
+      - +.twitter.com
+      - +.youtube.com
+      - +.xn--ngstr-lra8j.com
+      - +.google.cn
+      - +.googleapis.cn
+      - +.googleapis.com
+      - +.gvt1.com
+      - msftconnecttest.com
+      - msftncsi.com
+
+proxies:
+  - {name: 🇺🇸 美国-BWG01, server: 190.93.244.125, port: 443, type: vmess, uuid: b8b384d0-007a-4355-affe-75aaf63db6b6, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /ixnbvws?ed=2048, headers: {Host: bwg.679888.xyz}}, udp: true}
+  - {name: 🇺🇸 美国-BWG02, server: 190.93.245.78, port: 443, type: vmess, uuid: b8b384d0-007a-4355-affe-75aaf63db6b6, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /ixnbvws?ed=2048, headers: {Host: bwg.679888.xyz}}, udp: true}
+  - {name: 🇺🇸 美国-BWG03, server: 104.18.233.100, port: 443, type: vmess, uuid: b8b384d0-007a-4355-affe-75aaf63db6b6, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /ixnbvws?ed=2048, headers: {Host: bwg.679888.xyz}}, udp: true}
+  - {name: 🇺🇸 美国-BWG, server: bwg.679888.xyz, port: 8443, type: vmess, uuid: b8b384d0-007a-4355-affe-75aaf63db6b6, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /ixnbvws?ed=2048, headers: {Host: bwg.679888.xyz}}, udp: true}
+
+  - {name: 🇺🇸 美国-Racknerd01, server: 104.16.234.1, port: 443, type: vmess, uuid: 1074988f-51da-41df-9db9-36bf3d6f3d94, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /xpyrvws?ed=2048, headers: {Host: ra.679888.xyz}}, udp: true}
+  - {name: 🇺🇸 美国-Racknerd02, server: 190.93.245.78, port: 443, type: vmess, uuid: 1074988f-51da-41df-9db9-36bf3d6f3d94, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /xpyrvws?ed=2048, headers: {Host: ra.679888.xyz}}, udp: true}
+  - {name: 🇺🇸 美国-Racknerd03, server: 190.93.244.184, port: 443, type: vmess, uuid: 1074988f-51da-41df-9db9-36bf3d6f3d94, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /xpyrvws?ed=2048, headers: {Host: ra.679888.xyz}}, udp: true}
+  - {name: 🇺🇸 美国-Racknerd, server: ra.679888.xyz, port: 2083, type: vmess, uuid: 1074988f-51da-41df-9db9-36bf3d6f3d94, alterId: 0, cipher: auto, tls: true,  network: ws, ws-opts: {path: /xpyrvws?ed=2048, headers: {Host: ra.679888.xyz}}, udp: true}
+
+proxy-groups:
+# type:
+# select 手动选择，该组在节点列表上，手动选择列表或者 proxy-group 
+# url-test 延迟最低节点，测试该组所有节点的延迟
+# fallback 定期测试列表中服务器的可用性，按顺序切换使用第一个可用的服务器
+# load-balance 负载均衡，由该组2个以上的节点提供链接
+
+  - name: 🔰 节点选择
+    type: select
+    proxies:
+      - 🇺🇸 美国-BWG01
+      - 🇺🇸 美国-BWG02
+      - 🇺🇸 美国-BWG03
+      - 🇺🇸 美国-BWG
+      - 🇺🇸 美国-Racknerd01
+      - 🇺🇸 美国-Racknerd02
+      - 🇺🇸 美国-Racknerd03
+      - 🇺🇸 美国-Racknerd
+
+      - DIRECT
+  - name: ♻️ 自动选择
+    type: url-test
+    url: http://www.google.com/generate_204
+    interval: 6000
+    tolerance: 50
+    proxies:
+      - 🇺🇸 美国-BWG01
+      - 🇺🇸 美国-BWG02
+      - 🇺🇸 美国-BWG03
+      - 🇺🇸 美国-BWG
+      - 🇺🇸 美国-Racknerd01
+      - 🇺🇸 美国-Racknerd02
+      - 🇺🇸 美国-Racknerd
+
+  - name: 📺 ChatGPT
+    type: fallback
+    url: http://www.gstatic.com/generate_204
+    interval: 6000
+    proxies:
+      - 🇺🇸 美国-Racknerd01
+      - 🇺🇸 美国-Racknerd02
+      - 🇺🇸 美国-Racknerd03
+      - 🇺🇸 美国-Racknerd
+      - 🔰 节点选择
+      - ♻️ 自动选择
+  - name: 📲 Telegram
+    type: fallback
+    url: http://www.gstatic.com/generate_204
+    interval: 6000
+    proxies:
+      - 🇺🇸 美国-Racknerd01
+      - 🇺🇸 美国-Racknerd02
+      - 🇺🇸 美国-Racknerd03
+      - 🇺🇸 美国-Racknerd
+       #- 🇩🇪 德国-CodeSandBox01
+       #- 🇩🇪 德国-CodeSandBox
+      - 🔰 节点选择
+      - ♻️ 自动选择
+  - name: 📹 Youtube
+    type: fallback
+    url: http://www.gstatic.com/generate_204
+    interval: 6000
+    proxies:
+      - 🇺🇸 美国-Racknerd01
+      - 🇺🇸 美国-Racknerd02
+      - 🇺🇸 美国-Racknerd03
+      - 🇺🇸 美国-Racknerd
+      - 🔰 节点选择
+      - ♻️ 自动选择
+  - name: 📢 谷歌服务
+    type: fallback
+    url: http://www.gstatic.com/generate_204
+    interval: 6000
+    proxies:
+      - 🇺🇸 美国-BWG01
+      - 🇺🇸 美国-BWG02
+      - 🇺🇸 美国-BWG03
+      - 🇺🇸 美国-BWG
+      - 🇺🇸 美国-Racknerd01
+      - 🇺🇸 美国-Racknerd02
+      - 🇺🇸 美国-Racknerd
+      - 🔰 节点选择
+      - ♻️ 自动选择
+  - name: 🍎 苹果服务
+    type: select
+    proxies:
+      - DIRECT
+      - 🔰 节点选择
+      - ♻️ 自动选择
+  - name: Ⓜ️ 微软服务
+    type: select
+    proxies:
+      - DIRECT
+      - 🔰 节点选择
+      - ♻️ 自动选择
+  - name: 🎥 国外媒体
+    type: fallback
+    url: http://www.gstatic.com/generate_204
+    interval: 6000
+    proxies:
+      - 🇺🇸 美国-Racknerd01
+      - 🇺🇸 美国-Racknerd02
+      - 🇺🇸 美国-Racknerd
+      - 🇺🇸 美国-BWG01
+      - 🇺🇸 美国-BWG02
+      - 🇺🇸 美国-BWG
+      - 🔰 节点选择
+      - ♻️ 自动选择
+  - name: 🚀 国外流量
+    type: fallback
+    url: http://www.gstatic.com/generate_204
+    interval: 6000
+    proxies:
+      - 🇺🇸 美国-Racknerd01
+      - 🇺🇸 美国-Racknerd02
+      - 🇺🇸 美国-Racknerd
+      - 🇺🇸 美国-BWG01
+      - 🇺🇸 美国-BWG02
+      - 🇺🇸 美国-BWG
+      - 🔰 节点选择
+      - ♻️ 自动选择
+  - name: 🎯 国内流量
+    type: select
+    proxies:
+      - DIRECT
+      - 🔰 节点选择
+      - ♻️ 自动选择
+  - name: 🆎 AdBlock
+    type: select
+    proxies:
+      - REJECT
+      - DIRECT
+  - name: 🐟 漏网之鱼
+    type: select
+    proxies:
+      - DIRECT
+      - 🔰 节点选择
+      - ♻️ 自动选择
+
+
+ 
+ 
+# 规则地址
+rule-providers:
+  China:
+    type: http
+    behavior: classical
+    path: ./rule/China.yaml
+    url: https://ghproxy.net/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/China/China_Classical.yaml
+    interval: 86400
+
+  BanEasyListChina:
+    type: http
+    behavior: classical
+    path: ./rule/BanEasyListChina.yaml
+    url: https://ghproxy.net/https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/BanEasyListChina.yaml
+    interval: 86400
+    
+  Hijacking:
+    type: http
+    behavior: classical
+    path: ./rule/Hijacking.yaml
+    url: https://ghproxy.net/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Hijacking/Hijacking.yaml
+    interval: 86400
+    
+  Privacy:
+    type: http
+    behavior: classical
+    path: ./rule/Privacy.yaml
+    url: https://ghproxy.net/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Privacy/Privacy_Classical.yaml
+    interval: 86400
+    
+  AdvertisingLite:
+    type: http
+    behavior: classical
+    path: ./rule/AdvertisingLite.yaml
+    url: https://ghproxy.net/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/AdvertisingLite/AdvertisingLite_Classical.yaml
+    interval: 86400
+    
+  Apple:
+    type: http
+    behavior: classical
+    path: ./rule/Apple.yaml
+    url: https://ghproxy.net/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Apple/Apple.yaml
+    interval: 86400
+    
+  YouTube:
+    type: http
+    behavior: classical
+    path: ./rule/YouTube.yaml
+    url: https://ghproxy.net/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/YouTube/YouTube.yaml
+    interval: 86400
+    
+  Google:
+    type: http
+    behavior: classical
+    path: ./rule/Google.yaml
+    url: https://ghproxy.net/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Google/Google.yaml
+    interval: 86400
+    
+  OneDrive:
+    type: http
+    behavior: classical
+    path: ./rule/OneDrive.yaml
+    url: https://ghproxy.net/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/OneDrive/OneDrive.yaml
+    interval: 86400
+  
+  Microsoft:
+    type: http
+    behavior: classical
+    path: ./rule/Microsoft.yaml
+    url: https://ghproxy.net/https://raw.githubusercontent.com/maplelgj/ios_rule_script/master/rule/Clash/Microsoft/Microsoft.yaml
+    interval: 86400
+    
+  Telegram:
+    type: http
+    behavior: classical
+    path: ./rule/Telegram.yaml
+    url: https://ghproxy.net/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Telegram/Telegram.yaml
+    interval: 86400
+    
+  GlobalMedia:
+    type: http
+    behavior: classical
+    path: ./rule/GlobalMedia.yaml
+    url: https://ghproxy.net/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/GlobalMedia/GlobalMedia_Classical.yaml
+    interval: 86400
+    
+  ProxyGFWlist:
+    type: http
+    behavior: classical
+    path: ./rule/ProxyGFWlist.yaml
+    url: https://ghproxy.net/https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/ProxyGFWlist.yaml
+    interval: 86400
+    
+  GFW:
+    type: http
+    behavior: classical
+    path: ./rule/GFW.yaml
+    url: https://ghproxy.net/https://raw.githubusercontent.com/maplelgj/TV/main/clash/GFW.yaml
+    interval: 86400
+    
+  ChatGPT:
+    type: http
+    behavior: classical
+    path: ./rule/ChatGPT.yaml
+    url: https://ghproxy.net/https://raw.githubusercontent.com/maplelgj/TV/main/clash/ChatGPT.yaml
+    interval: 86400
+    
+rules:
+# 内容：可以自行添加其它自己想要的规则
+ #- DOMAIN-SUFFIX,dandanzan.com,🚀 国外流量
+ 
+# 下面的规则是通过上面的rule-provider来确定的
+ - RULE-SET,China,🎯 国内流量
+ - RULE-SET,Apple,🍎 苹果服务
+ - RULE-SET,Telegram,📲 Telegram
+ - RULE-SET,ChatGPT,📺 ChatGPT
+ - RULE-SET,YouTube,📹 Youtube
+ - RULE-SET,Google,📢 谷歌服务
+ - RULE-SET,Microsoft,Ⓜ️ 微软服务
+ - RULE-SET,GlobalMedia,🎥 国外媒体
+ - RULE-SET,ProxyGFWlist,🚀 国外流量
+ - RULE-SET,OneDrive,🚀 国外流量
+ - RULE-SET,GFW,🚀 国外流量
+ - RULE-SET,BanEasyListChina,🆎 AdBlock
+ - RULE-SET,AdvertisingLite,🆎 AdBlock
+ - RULE-SET,Hijacking,🆎 AdBlock
+ - RULE-SET,Privacy,🆎 AdBlock
+ - GEOIP,CN,🎯 国内流量
+ - MATCH,🐟 漏网之鱼
+ 
+
+    
