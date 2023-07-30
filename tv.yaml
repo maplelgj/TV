@@ -55,7 +55,6 @@ dns:
       - +.gvt1.com
       - msftconnecttest.com
       - msftncsi.com
-
 proxies:
   - {name: 🇺🇸 美国-BWG01, server: 190.93.244.125, port: 443, type: vmess, uuid: b8b384d0-007a-4355-affe-75aaf63db6b6, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /ixnbvws?ed=2048, headers: {Host: bwg.679888.xyz}}, udp: true}
   - {name: 🇺🇸 美国-BWG02, server: 190.93.245.78, port: 443, type: vmess, uuid: b8b384d0-007a-4355-affe-75aaf63db6b6, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /ixnbvws?ed=2048, headers: {Host: bwg.679888.xyz}}, udp: true}
