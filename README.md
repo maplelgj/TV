@@ -24,7 +24,9 @@
  
  `https://ghproxy.net/https://raw.githubusercontent.com/maplelgj/TV/main/clash.yaml` 
 
- `https://raw.kgithub.com/maplelgj/TV/main/clash.yaml` 
+ `https://pastebin.com/raw/dggXgUEc` 
+
+ 
 
  
  
