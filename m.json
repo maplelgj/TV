@@ -68,14 +68,6 @@
     "logo":"https://epg.112114.xyz/logo/{name}.png"
 	},
 	{
-    "name":"小三M3U",
-    "type":0,
-    "url":"https://ghproxy.com/https://raw.githubusercontent.com/mengzehe/m3u/main/live.m3u",
-    "ua":"okhttp/3.12.13",
-    "epg":"http://epg.112114.xyz/?ch={name}&date={date}",
-    "logo":"https://epg.112114.xyz/logo/{name}.png"
-	},
-	{
     "name":"自用晴天直播",
     "type":0,
     "url":"https://ghproxy.com/https://raw.githubusercontent.com/mengzehe/tvbox/main/自用直播晴天源.txt",
@@ -153,16 +145,8 @@
     "ua":"okhttp/3.12.13",
     "epg":"http://epg.112114.xyz/?ch={name}&date={date}",
     "logo":"https://epg.112114.xyz/logo/{name}.png"
-	},
-	{
-    "name":"武哥直播",
-    "type":0,
-    "url":"https://qu.ax/sEYA.png",
-    "playerType":1,
-    "ua":"okhttp/3.12.13",
-    "epg":"http://epg.112114.xyz/?ch={name}&date={date}",
-    "logo":"https://epg.112114.xyz/logo/{name}.png"
 	}
+
 ],
 	
 "flags":["youku","优酷","优 酷","优酷视频", "qq","腾讯","腾 讯","腾讯视频", "iqiyi", "qiyi","奇艺","爱奇艺","爱 奇 艺", "m1905", "xigua", "letv","leshi","乐视","乐 视", "sohu","搜狐","搜 狐","搜狐视频", "tudou", "pptv", "mgtv","芒果","imgo","芒果TV","芒 果 T V", "bilibili","哔 哩","哔 哩 哔 哩"],
