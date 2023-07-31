@@ -16,13 +16,17 @@
  `https://ghproxy.net/https://raw.githubusercontent.com/maplelgj/TV/main/dc.json` 
 
  `https://ghproxy.com/https://raw.githubusercontent.com/maplelgj/TV/main/dc.json` 
+
+### 直播源地址
+ 
+ `https://ghproxy.net/https://raw.githubusercontent.com/maplelgj/TVBox/main/自用直播晴天源.txt `
  
 ### V2RAY订阅地址
  
  `https://ghproxy.net/https://raw.githubusercontent.com/maplelgj/TV/main/VV`  
 
  
- ### CLASH订阅地址
+### CLASH订阅地址
  
  `https://ghproxy.net/https://raw.githubusercontent.com/maplelgj/TV/main/clash.yaml` 
 
