@@ -58,23 +58,6 @@
 
 "lives":
 [
-
-	{
-    "name":"自用晴天直播",
-    "type":0,
-    "url":"https://ghproxy.com/https://raw.githubusercontent.com/mengzehe/tvbox/main/自用直播晴天源.txt",
-    "ua":"okhttp/3.12.13",
-    "epg":"http://epg.112114.xyz/?ch={name}&date={date}",
-    "logo":"https://epg.112114.xyz/logo/{name}.png"
-	},
-	{
-    "name":"饭太硬直播",
-    "type":0,
-    "url":"http://ftyyy.tk/live.txt",
-    "ua":"okhttp/3.12.13",
-    "epg":"http://epg.112114.xyz/?ch={name}&date={date}",
-    "logo":"https://epg.112114.xyz/logo/{name}.png"
-	},
 	{
     "name":"高天流云直播",
     "type":0,
