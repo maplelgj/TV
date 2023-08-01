@@ -11,7 +11,7 @@
 {"key":"探探"，"name":"💮探探┃App"，"type":3，"api":"csp_YT"，"searchable":1，"quickSearch":1，"filterable":1}，
 {"key": "csp_77"，"name": "👒七七┃App"，"type": 3，"api": "csp_Kunyu77"，"searchable": 1，"quickSearch": 1，"filterable": 1}，
 {"key":"迪迪"，"name":"😎迪迪┃App"，"api":"csp_AppYsV2"，"type":3，"filterable":1，"quickSearch":1，"searchable":1，"ext":"https://api123.adys.app/xgapp.php/v3/"}，
-//{"key":"csp_YQKAPP"，"name":"🎉一起看┃App"，"type":3，"api":"csp_YQKAPP"，"playerType":2，"searchable":1，"quickSearch":1，"changeable":1，"ext":"https://api-aws.11ty.top"}，
+{"key":"csp_YQKAPP"，"name":"🎉一起看┃App"，"type":3，"api":"csp_YQKAPP"，"playerType":2，"searchable":1，"quickSearch":1，"changeable":1，"ext":"https://api-aws.11ty.top"}，
 {"key":"陌陌"，"name":"🍄陌陌┃直连"，"type":3，"api":"csp_MmYs"，"searchable":1，"quickSearch":1，"changeable":0}，
 {"key":"csp_Cokemv"，"name":"📕可乐┃直连"，"type":3，"api":"csp_Cokemv"，"playerType":1，"searchable":1，"quickSearch":1，"filterable":1}，
 {"key":"csp_Lib"，"name": "🌟利奥┃直连"，"type": 3，"api": "csp_Libvio"，"searchable": 1，"quickSearch": 1，"filterable": 1，"ext":"https://tv.libvio.cc/"}，
