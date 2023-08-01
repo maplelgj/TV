@@ -3,7 +3,7 @@
 "wallpaper":"http://饭太硬.top/深色壁纸/api.php",
 
 "sites":[
-{"key":"csp_kuaikan"，"name":"👀快看┃App"，"type":3，"api":"csp_Kuaikan"，"m3u8ads": "hd.youyhn.com"，"searchable":1，"quickSearch":1，"filterable":1}，
+{"key":"csp_kuaikan","name":"👀快看┃App"，"type":3，"api":"csp_Kuaikan"，"m3u8ads": "hd.youyhn.com"，"searchable":1，"quickSearch":1，"filterable":1}，
 {"key":"csp_AppMr"，"name":"👻明明┃App"，"type":3，"api":"csp_AppMr"，"m3u8ads": "hd.youyhn.com"，"searchable":1，"quickSearch":1，"filterable":1}，
 {"key":"探探"，"name":"💮探探┃App"，"type":3，"api":"csp_YT"，"searchable":1，"quickSearch":1，"filterable":1}，
 {"key": "csp_77"，"name": "👒七七┃App"，"type": 3，"api": "csp_Kunyu77"，"searchable": 1，"quickSearch": 1，"filterable": 1}，
@@ -24,11 +24,11 @@
 {"key":"dr_JRKAN直播"，"name":"⚽JRKAN┃直播"，"type":3，"api":"https://ghproxy.net/https://raw.githubusercontent.com/maplelgj/TV666/master/lib/drpy.min.js"，"searchable":0，"quickSearch":0，"filterable":0，"ext":"https://ghproxy.net/https://raw.githubusercontent.com/maplelgj/TV666/master/js/JRKAN直播.js"}，
 {"key":"dr_JRKAN直播"，"name":"⚽JRS看直播"，"type":3，"api":"https://ghproxy.net/https://raw.githubusercontent.com/maplelgj/TV666/master/lib/drpy.min.js","searchable":0，"quickSearch":0，"filterable":0，"ext":"https://ghproxy.net/https://raw.githubusercontent.com/maplelgj/TV666/master/js/JRS看直播.js"}，
 {"key":"csp_xp_qiumi"，"name":"⚽ Jrs┃球迷饭"，"type": 3，"api": "csp_XPath"，"searchable": 0，"quickSearch": 0，"filterable": 0，"ext": "http://饭太硬.ga/x/xp/dj看球.json"}，
-{"key":"dr_兔小贝"，"name":"📚儿童┃启蒙"，"type":3，"api":"https://gitcode.net/qq_32394351/dr_py/-/raw/master/libs/drpy.min.js"，"ext":"https://gitcode.net/qq_32394351/dr_py/-/raw/master/js/兔小贝.js"，"searchable": 0，"quickSearch": 0，"filterable": 0}，
-{"key":"少儿教育"，"name":"📚少儿┃教育"，"type":3，"api":"csp_Bili"，"searchable":0，"quickSearch":0，"filterable":1，"ext":"http://饭太硬.ga/x/json/少儿教育.json"}，
-{"key":"小学课堂"，"name":"📚小学┃课堂"，"type":3，"api":"csp_Bili"，"searchable":0，"quickSearch":0，"filterable":1，"ext":"http://饭太硬.ga/x/json/小学课堂.json"}，
-{"key":"初中课堂"，"name":"📚初中┃课堂"，"type":3，"api":"csp_Bili"，"searchable":0，"quickSearch":0，"filterable":1，"ext":"http://饭太硬.ga/x/json/初中课堂.json"}，
-{"key":"高中教育"，"name":"📚高中┃课堂"，"type":3，"api":"csp_Bili"，"searchable":0，"quickSearch":0，"filterable":1，"ext":"http://饭太硬.ga/x/json/高中课堂.json"}	
+{"key":"dr_兔小贝","name":"📚儿童┃启蒙","type":3,"api":"http://xhww.fun:63/js/drpy1.min.js","ext":"https://agit.ai/fantaiying/dr_py/raw/branch/main/js/%E5%85%94%E5%B0%8F%E8%B4%9D.js","searchable": 0,"quickSearch": 0,"changeable":0},
+{"key":"少儿教育","name":"📚少儿┃教育","type":3,"api":"csp_Bili","searchable":0,"quickSearch":0,"changeable":0,"ext":"http://饭太硬.top/x/json/少儿教育.json"},
+{"key":"小学课堂","name":"📚小学┃课堂","type":3,"api":"csp_Bili","searchable":0,"quickSearch":0,"changeable":0,"ext":"http://饭太硬.top/x/json/小学课堂.json"},
+{"key":"初中课堂","name":"📚初中┃课堂","type":3,"api":"csp_Bili","searchable":0,"quickSearch":0,"changeable":0,"ext":"http://饭太硬.top/x/json/初中课堂.json"},
+{"key":"高中教育","name":"📚高中┃课堂","type":3,"api":"csp_Bili","searchable":0,"quickSearch":0,"changeable":0,"ext":"http://饭太硬.top/x/json/高中课堂.json"}
 ],
 "parses":[
 {"name":"聚合1","type":3,"url":"Demo"},
