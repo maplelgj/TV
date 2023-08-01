@@ -1,6 +1,6 @@
 {
 "spider":"https://ghproxy.com/https://raw.githubusercontent.com/maplelgj/TV666/master/jar/fan.txt",
-"wallpaper":"http://饭太硬.top/深色壁纸/api.php"，
+"wallpaper":"http://饭太硬.top/深色壁纸/api.php",
 
 "sites":[
 {"key":"csp_kuaikan"，"name":"👀快看┃App"，"type":3，"api":"csp_Kuaikan"，"m3u8ads": "hd.youyhn.com"，"searchable":1，"quickSearch":1，"filterable":1}，
