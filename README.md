@@ -19,12 +19,12 @@
  
 ### V2RAY订阅地址
  
- `https://ghproxy.com/https://raw.githubusercontent.com/maplelgj/TV/main/VV`  
+ `https://ghproxy.net/https://raw.githubusercontent.com/maplelgj/TV/main/VV`  
 
  
 ### CLASH订阅地址
  
- `https://ghproxy.com/https://raw.githubusercontent.com/maplelgj/TV/main/clash.yaml` 
+ `https://ghproxy.net/https://raw.githubusercontent.com/maplelgj/TV/main/clash.yaml` 
 
  `https://jsdelivr.b-cdn.net/gh/maplelgj/TV@main/tv.yaml` 
 
